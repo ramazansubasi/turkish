@@ -1,24 +1,24 @@
 <?php
 // Version: 2.0; PersonalMessage
 
-$txt['pm_inbox'] = 'Personal Messages - Inbox';
-$txt['send_message'] = 'Send message';
-$txt['pm_add'] = 'Add';
-$txt['make_bcc'] = 'Add BCC';
-$txt['pm_to'] = 'To';
-$txt['pm_bcc'] = 'Bcc';
+$txt['pm_inbox'] = 'Kişisel İletilerim';
+$txt['send_message'] = 'İleti Gönder';
+$txt['pm_add'] = 'Ekle';
+$txt['make_bcc'] = 'Alıcı Ekle';
+$txt['pm_to'] = 'Kime';
+$txt['pm_bcc'] = 'Bilgi';
 $txt['pm_contact_list'] = 'Contact List';
-$txt['inbox'] = 'Inbox';
-$txt['conversation'] = 'Conversation';
-$txt['messages'] = 'Messages';
-$txt['sent_items'] = 'Sent Items';
-$txt['new_message'] = 'New Message';
-$txt['delete_message'] = 'Delete Messages';
+$txt['inbox'] = 'Gelen Kutusu';
+$txt['conversation'] = 'Sohbet ';
+$txt['messages'] = 'İletiler';
+$txt['sent_items'] = 'Giden Kutusu';
+$txt['new_message'] = 'Yeni İleti';
+$txt['delete_message'] = 'İletileri Sil';
 // Don't translate "PMBOX" in this string.
-$txt['delete_all'] = 'Delete all messages in your PMBOX';
-$txt['delete_all_confirm'] = 'Are you sure you want to delete all messages?';
-$txt['recipient'] = 'Recipient';
-$txt['pm_multiple'] = '(multiple recipients: \'name1, name2\')';
+$txt['delete_all'] = 'PMBOX\'ndaki tüm iletileri sil';
+$txt['delete_all_confirm'] = 'Tüm iletilerinizi silmek istediğinize emin misiniz?';
+$txt['recipient'] = 'Alıcı';
+$txt['pm_multiple'] = '(Çoklu alıcı: \'üye1, üye2\')';
 
 $txt['delete_selected_confirm'] = 'Are you sure you want to delete all selected personal messages?';
 
@@ -28,13 +28,13 @@ $txt['pm_display_mode_all'] = 'All at once';
 $txt['pm_display_mode_one'] = 'One at a time';
 $txt['pm_display_mode_linked'] = 'As a conversation';
 
-$txt['sent_to'] = 'Sent to';
-$txt['reply_to_all'] = 'Reply to All';
-$txt['delete_conversation'] = 'Delete Conversation';
+$txt['sent_to'] = 'Alıcı';
+$txt['reply_to_all'] = 'Hepsini Yanıtla';
+$txt['delete_conversation'] = 'Sohbeti Sil';
 
-$txt['pm_capacity'] = 'Capacity';
-$txt['pm_currently_using'] = '%1$s messages, %2$s%% full.';
-$txt['pm_sent'] = 'Your message has been sent successfully.';
+$txt['pm_capacity'] = 'Kapasite';
+$txt['pm_currently_using'] = '%1$s ileti, %2$s%% dolu.';
+$txt['pm_sent'] = 'Mesajınız başarılı bir şekilde gönderilmiştir.';
 
 $txt['pm_receive_from'] = 'Receive personal messages from:';
 $txt['pm_receive_from_everyone'] = 'All members';
@@ -43,17 +43,17 @@ $txt['pm_receive_from_admins'] = 'Administrators only';
 $txt['pm_receive_from_buddies'] = 'Contacts and Administrators only';
 $txt['pm_remove_inbox_label'] = 'Remove the inbox label when applying another label';
 
-$txt['pm_error_user_not_found'] = 'Unable to find member \'%1$s\'.';
-$txt['pm_error_ignored_by_user'] = 'User \'%1$s\' has blocked your personal message.';
-$txt['pm_error_data_limit_reached'] = 'PM could not be sent to \'%1$s\' as their inbox is full!';
-$txt['pm_error_user_cannot_read'] = 'User \'%1$s\' can not receive personal messages.';
-$txt['pm_successfully_sent'] = 'PM successfully sent to \'%1$s\'.';
-$txt['pm_send_report'] = 'Send report';
-$txt['pm_undisclosed_recipients'] = 'Undisclosed recipients';
+$txt['pm_error_user_not_found'] = '\'%1$s\' adlı üye bulunamadı.';
+$txt['pm_error_ignored_by_user'] = 'Kullanıcı \'%1$s\' sizi engellemiştir.';
+$txt['pm_error_data_limit_reached'] = '\'%1$s\' adlı üyeye gelen kutusu dolu olduğu için kişisel ileti gönderilemedi!';
+$txt['pm_error_user_cannot_read'] = '\'%1$s\' adlı üye kişisel ileti alamaz.';
+$txt['pm_successfully_sent'] = 'Kişisel iletiniz \'%1$s\' adlı üyeye başarıyla gönderildi!';
+$txt['pm_send_report'] = 'Rapor gönder';
+$txt['pm_undisclosed_recipients'] = 'Gizli alıcılar';
 $txt['pm_too_many_recipients'] = array(1 => 'You may not send personal messages to more than %1$s recipient at once.', 'n' => 'You may not send personal messages to more than %1$s recipients at once.');
 
-$txt['pm_read'] = 'Read';
-$txt['pm_replied'] = 'Replied To';
+$txt['pm_read'] = 'Oku';
+$txt['pm_replied'] = 'Cevap Verilmiş';
 
 // Drafts.
 $txt['pm_menu_drafts'] = 'Draft messages';
@@ -70,133 +70,133 @@ $txt['remove_all_drafts_confirm'] = 'Are you sure you want to remove all of your
 $txt['no_recipients'] = '(no recipients)';
 
 // Message Pruning.
-$txt['pm_prune'] = 'Prune Messages';
-$txt['pm_prune_desc1'] = 'Delete all personal messages older than';
-$txt['pm_prune_desc2'] = 'days.';
-$txt['pm_prune_warning'] = 'Are you sure you wish to prune your personal messages?';
+$txt['pm_prune'] = 'İletileri Temizle';
+$txt['pm_prune_desc1'] = 'Şu tarihten eski tüm kişisel iletilerimi sil:';
+$txt['pm_prune_desc2'] = 'gün.';
+$txt['pm_prune_warning'] = 'Kişisel iletilerinizi temizlemek istediğinize emin misiniz?';
 
 // Actions Drop Down.
-$txt['pm_actions_title'] = 'Further Actions';
-$txt['pm_actions_delete_selected'] = 'Delete Selected';
-$txt['pm_actions_filter_by_label'] = 'Filter By Label';
-$txt['pm_actions_go'] = 'Go';
+$txt['pm_actions_title'] = 'İleri Seçenekler';
+$txt['pm_actions_delete_selected'] = 'Seçilileri Sil';
+$txt['pm_actions_filter_by_label'] = 'Etikete Göre Filtrele';
+$txt['pm_actions_go'] = 'Başla';
 
 // Manage Labels Screen.
-$txt['pm_manage_labels'] = 'Manage Labels';
-$txt['pm_labels_delete'] = 'Are you sure you wish to delete the selected labels?';
-$txt['pm_labels_desc'] = 'From here you can add, edit and delete the labels used in your personal message center.';
-$txt['pm_label_add_new'] = 'Add New Label';
-$txt['pm_label_name'] = 'Label Name';
-$txt['pm_labels_no_exist'] = 'You currently have no labels setup!';
+$txt['pm_manage_labels'] = 'Etiketleri Yönet';
+$txt['pm_labels_delete'] = 'Seçili etiketleri silmek istediğinizden emin misiniz?';
+$txt['pm_labels_desc'] = 'Burada özel mesajlarınızda kullanılabilecek etiketleri düzenleyebilir, silebilir veya yenilerini ekleyebilirsiniz.';
+$txt['pm_label_add_new'] = 'Yeni Etiket Ekle';
+$txt['pm_label_name'] = 'Etiket Adı';
+$txt['pm_labels_no_exist'] = 'Şu anda yapılandırılmış etiketiniz bulunmamakta!';
 
 // Labeling Drop Down. ("Label Selected" means "Apply a label to the selection", in case it's unclear.)
-$txt['pm_current_label'] = 'Label';
-$txt['pm_sel_label_title'] = 'Label Selected...';
-$txt['pm_msg_label_title'] = 'Label Message...';
-$txt['pm_msg_label_apply'] = 'Add Label';
-$txt['pm_msg_label_remove'] = 'Remove Label';
-$txt['pm_msg_label_inbox'] = 'Inbox';
+$txt['pm_current_label'] = 'Etiket';
+$txt['pm_sel_label_title'] = 'Seçilileri Etiketle';
+$txt['pm_msg_label_title'] = 'Etiket Mesajı';
+$txt['pm_msg_label_apply'] = 'Etiketi Ekle';
+$txt['pm_msg_label_remove'] = 'Etiket Sil';
+$txt['pm_msg_label_inbox'] = 'Gelen Kutusu';
 
 // Sidebar Headings.
-$txt['pm_labels'] = 'Labels';
-$txt['pm_messages'] = 'Messages';
-$txt['pm_actions'] = 'Actions';
-$txt['pm_preferences'] = 'Preferences';
+$txt['pm_labels'] = 'Etiketler';
+$txt['pm_messages'] = 'İletiler';
+$txt['pm_actions'] = 'Eylemler';
+$txt['pm_preferences'] = 'Seçenekler';
 
 $txt['pm_is_replied_to'] = 'You have responded to this message.';
 $txt['pm_is_replied_to_sent'] = array(1 => 'This message was replied to.', 'n' => '%s responses to this message were sent.');
 
 // Reporting messages.
-$txt['pm_report_to_admin'] = 'Report to Admin';
-$txt['pm_report_title'] = 'Report Personal Message';
-$txt['pm_report_desc'] = 'From this page you can report the personal message you received to the admin team of the forum. Please be sure to include a description of why you are reporting the message, as this will be sent along with the contents of the original message.';
-$txt['pm_report_admins'] = 'Administrator to send report to';
-$txt['pm_report_all_admins'] = 'Send to all forum administrators';
-$txt['pm_report_reason'] = 'Reason why you are reporting this message';
-$txt['pm_report_message'] = 'Report Message';
+$txt['pm_report_to_admin'] = 'Yöneticiye Rapor Et';
+$txt['pm_report_title'] = 'Kişisel İletiyi Rapor Et';
+$txt['pm_report_desc'] = 'Bu sayfadan, aldığınız kişisel iletileri forum yönetimine rapor edebilirsiniz. Lütfen iletiyi neden rapor ettiğinizi de yazınız ve unutmayın bu iletinin tüm içeriği rapor edildikten sonra forum yöneticileri tarafından okunulabilecektir.';
+$txt['pm_report_admins'] = 'İletilerin rapor edileceği yönetici';
+$txt['pm_report_all_admins'] = 'Tüm forum yöneticilerine gönder';
+$txt['pm_report_reason'] = 'İletiyi rapor etme nedeniniz';
+$txt['pm_report_message'] = 'İletiyi Rapor Et';
 
 // Important - The following strings should use numeric entities.
-$txt['pm_report_pm_subject'] = '[REPORT] ';
+$txt['pm_report_pm_subject'] = '[RAPOR ET] ';
 // In the below string, do not translate "{REPORTER}" or "{SENDER}".
-$txt['pm_report_pm_user_sent'] = '{REPORTER} has reported the below personal message, sent by {SENDER}, for the following reason:';
-$txt['pm_report_pm_other_recipients'] = 'Other recipients of the message include:';
-$txt['pm_report_pm_hidden'] = array(1 => '%1$s hidden recipient', 'n' => '%1$s hidden recipients');
-$txt['pm_report_pm_unedited_below'] = 'Below are the original contents of the personal message which was reported:';
-$txt['pm_report_pm_sent'] = 'Sent:';
+$txt['pm_report_pm_user_sent'] = '{REPORTER}, {SENDER} adlı kullanıcının kendisine göndermiş olduğu bu iletiyi aşağıdaki nedenle size rapor etti:';
+$txt['pm_report_pm_other_recipients'] = 'Bu iletinin diğer alıcıları:';
+$txt['pm_report_pm_hidden'] = '%1$d gizli alıcı';
+$txt['pm_report_pm_unedited_below'] = 'Rapor edilen iletinin orjinal içeriği:';
+$txt['pm_report_pm_sent'] = 'Gönderildi:';
 
-$txt['pm_report_done'] = 'Thank you for submitting this report. You should hear back from the admin team shortly.';
-$txt['pm_report_return'] = 'Return to the inbox';
+$txt['pm_report_done'] = 'Bu raporu gönderdiğiniz için teşekkürler. En kısa sürede forum yönetiminden konu ile ilgili bilgi alacaksınız.';
+$txt['pm_report_return'] = 'Gelen kutusuna geri dön';
 
-$txt['pm_search_title'] = 'Search Personal Messages';
-$txt['pm_search_bar_title'] = 'Search Messages';
-$txt['pm_search_go'] = 'Search';
+$txt['pm_search_title'] = 'Kişisel İletileri Ara';
+$txt['pm_search_bar_title'] = 'İletileri Ara';
+$txt['pm_search_go'] = 'Ara';
 
-$txt['pm_search_post_age'] = 'Message age';
-$txt['pm_search_show_complete'] = 'Show full message in results.';
-$txt['pm_search_subject_only'] = 'Search by subject and author only.';
-$txt['pm_search_between'] = 'between';
-$txt['pm_search_between_and'] = 'and';
-$txt['pm_search_between_days'] = 'days';
-$txt['pm_search_choose_label'] = 'Choose labels to search by, or search all';
+$txt['pm_search_post_age'] = 'İleti Yaşı';
+$txt['pm_search_show_complete'] = 'Sonuçlarda iletinin tümünü göster.';
+$txt['pm_search_subject_only'] = 'Sadece yazar ve konuya göre ara.';
+$txt['pm_search_between'] = '';
+$txt['pm_search_between_and'] = 've';
+$txt['pm_search_between_days'] = 'gün arasında';
+$txt['pm_search_choose_label'] = 'Aranılacak etiketleri seçin yada tüm iletilerde arama yapın';
 
-$txt['pm_search_results'] = 'Search Results';
-$txt['pm_search_none_found'] = 'No messages found.';
+$txt['pm_search_results'] = 'Arama Sonuçları';
+$txt['pm_search_none_found'] = 'Hiç İleti Bulunamadı';
 
 $txt['pm_visual_verification_label'] = 'Verification';
 $txt['pm_visual_verification_desc'] = 'Please enter the code in the image above to send this pm.';
 
-$txt['pm_settings'] = 'Change Settings';
-$txt['pm_change_view'] = 'Change View';
+$txt['pm_settings'] = 'Ayarları Değiştir';
+$txt['pm_change_view'] = 'Görünümü Değiştir';
 
-$txt['pm_manage_rules'] = 'Manage Rules';
-$txt['pm_manage_rules_desc'] = 'Message rules allow you to automatically sort incoming messages depending on a set of criteria you define. Below are all the rules you currently have setup. To edit a rule simply click the rule name.';
-$txt['pm_rules_none'] = 'You have not yet setup any message rules.';
-$txt['pm_rule_title'] = 'Rule';
-$txt['pm_add_rule'] = 'Add New Rule';
-$txt['pm_apply_rules'] = 'Apply Rules Now';
-$txt['pm_js_apply_rules_confirm'] = 'Are you sure you wish to apply the current rules to all personal messages?';
-$txt['pm_edit_rule'] = 'Edit Rule';
-$txt['pm_rule_save'] = 'Save Rule';
-$txt['pm_delete_selected_rule'] = 'Delete Selected Rules';
-$txt['pm_js_delete_rule_confirm'] = 'Are you sure you wish to delete the selected rules?';
-$txt['pm_rule_name'] = 'Name';
-$txt['pm_rule_name_desc'] = 'Name to remember this rule by';
+$txt['pm_manage_rules'] = 'Kuralları Yönet';
+$txt['pm_manage_rules_desc'] = 'İleti kuralları, gelen iletileri sizin belirleyeceğiniz kriterlere göre kategorize etmenize olanak tanır. Aşağıda yapılandırmış olduğunuz tüm kurallar görüntülenebilmektedir. Bir kuralı düzenlemek için üstüne tıklamanız yeterli olacaktır.';
+$txt['pm_rules_none'] = 'Yapılandırılmış herhangi bir kural bulunmamaktadır.';
+$txt['pm_rule_title'] = 'Kural';
+$txt['pm_add_rule'] = 'Yeni Kural Ekle';
+$txt['pm_apply_rules'] = 'Kuralları Şimdi Uygula';
+$txt['pm_js_apply_rules_confirm'] = 'Kuralları tüm kişisel iletilere uygulamak istediğinize emin misiniz?';
+$txt['pm_edit_rule'] = 'Kuralı Düzenle';
+$txt['pm_rule_save'] = 'Kuralı Kaydet';
+$txt['pm_delete_selected_rule'] = 'Seçili Kuralları Sil';
+$txt['pm_js_delete_rule_confirm'] = 'Seçili kuralları silmek istediğinize emin misiniz?';
+$txt['pm_rule_name'] = 'Ad';
+$txt['pm_rule_name_desc'] = 'Bu kuralı hatırlamanızı sağlayacak ad.';
 $txt['pm_rule_name_default'] = '[NAME]';
-$txt['pm_rule_description'] = 'Description';
-$txt['pm_rule_not_defined'] = 'Add some criteria to begin building this rule description.';
-$txt['pm_rule_js_disabled'] = '<span class="alert"><strong>Note:</strong> You appear to have JavaScript disabled. We highly recommend you enable JavaScript to use this feature.</span>';
-$txt['pm_rule_criteria'] = 'Criteria';
-$txt['pm_rule_criteria_add'] = 'Add Criteria';
-$txt['pm_rule_criteria_pick'] = 'Choose Criteria';
-$txt['pm_rule_mid'] = 'Sender Name';
-$txt['pm_rule_gid'] = 'Sender\'s Group';
-$txt['pm_rule_sub'] = 'Message Subject Contains';
-$txt['pm_rule_msg'] = 'Message Body Contains';
-$txt['pm_rule_bud'] = 'Sender is a Contact';
-$txt['pm_rule_sel_group'] = 'Select Group';
-$txt['pm_rule_logic'] = 'When Checking Criteria';
-$txt['pm_rule_logic_and'] = 'All criteria must be met';
-$txt['pm_rule_logic_or'] = 'Any criteria can be met';
-$txt['pm_rule_actions'] = 'Actions';
-$txt['pm_rule_sel_action'] = 'Select an Action';
-$txt['pm_rule_add_action'] = 'Add Action';
-$txt['pm_rule_label'] = 'Label message with';
-$txt['pm_rule_sel_label'] = 'Select Label';
-$txt['pm_rule_delete'] = 'Delete Message';
-$txt['pm_rule_no_name'] = 'You forgot to enter a name for the rule.';
-$txt['pm_rule_no_criteria'] = 'A rule must have at least one criteria and one action set.';
-$txt['pm_rule_too_complex'] = 'The rule you are creating is too long for Wedge to store. Try breaking it up into smaller rules.';
+$txt['pm_rule_description'] = 'Açıklama';
+$txt['pm_rule_not_defined'] = 'Kural açıklamasını oluşturmaya başlamak için bir kriter ekleyiniz.';
+$txt['pm_rule_js_disabled'] = '<span class="alert"><strong>Not:</strong> Javascripti kapattığınız tespit edildi. Bu özelliği kullanabilmeniz için Javascript\'i aktif hale getirmeniz önerilir.</span>';
+$txt['pm_rule_criteria'] = 'Kriter';
+$txt['pm_rule_criteria_add'] = 'Kriter Ekle';
+$txt['pm_rule_criteria_pick'] = 'Kriter Seç';
+$txt['pm_rule_mid'] = 'Gönderenin Adı';
+$txt['pm_rule_gid'] = 'Gönderenin Grubu';
+$txt['pm_rule_sub'] = 'İleti Başlığının İçeriği';
+$txt['pm_rule_msg'] = 'İletinin Kendisinin İçeriği';
+$txt['pm_rule_bud'] = 'Gönderen Arkadaştır';
+$txt['pm_rule_sel_group'] = 'Grup Seç';
+$txt['pm_rule_logic'] = 'Kriter kontrol edilirken';
+$txt['pm_rule_logic_and'] = 'Tüm kriterler sağlanmalıdır';
+$txt['pm_rule_logic_or'] = 'Bazı kriterler sağlanmalıdır';
+$txt['pm_rule_actions'] = 'Eylemler';
+$txt['pm_rule_sel_action'] = 'Eylem Seç';
+$txt['pm_rule_add_action'] = 'Eylem Ekle';
+$txt['pm_rule_label'] = 'Etiket Ekle';
+$txt['pm_rule_sel_label'] = 'Etiket Seç';
+$txt['pm_rule_delete'] = 'İletiyi Sil';
+$txt['pm_rule_no_name'] = 'Kural için bir ad girmeyi unuttunuz.';
+$txt['pm_rule_no_criteria'] = 'Bir kural en az bir kriter ve eyleme sahip olmalıdır.';
+$txt['pm_rule_too_complex'] = 'Oluşturmuş olduğunuz kural SMF\'in saklayabileceğinden büyüktür. Lütfen daha küçük kurallar olarak tekrar yazmayı deneyiniz.';
 
-$txt['pm_readable_and'] = '<strong>and</strong>';
-$txt['pm_readable_or'] = '<strong>or</strong>';
-$txt['pm_readable_start'] = 'If ';
+$txt['pm_readable_and'] = '<strong>ve<//strong>';
+$txt['pm_readable_or'] = '<strong>veya<//strong>';
+$txt['pm_readable_start'] = 'Eğer ';
 $txt['pm_readable_end'] = '.';
-$txt['pm_readable_member'] = 'message is from &quot;{MEMBER}&quot;';
-$txt['pm_readable_group'] = 'sender is from the &quot;{GROUP}&quot; group';
-$txt['pm_readable_subject'] = 'message subject contains &quot;{SUBJECT}&quot;';
-$txt['pm_readable_body'] = 'message body contains &quot;{BODY}&quot;';
-$txt['pm_readable_buddy'] = 'sender is a contact';
-$txt['pm_readable_label'] = 'apply label &quot;{LABEL}&quot;';
-$txt['pm_readable_delete'] = 'delete the message';
-$txt['pm_readable_then'] = '<strong>then</strong>';
+$txt['pm_readable_member'] = 'ileti &quot;{MEMBER}&quot; adlı üyeden ise';
+$txt['pm_readable_group'] = 'gönderen &quot;{GROUP}&quot; adlı gruptan ise';
+$txt['pm_readable_subject'] = 'ileti başlığı &quot;{SUBJECT}&quot; kelimelerini içeriyorsa';
+$txt['pm_readable_body'] = 'iletinin kendisi &quot;{BODY}&quot; kelimelerini içeriyorsa';
+$txt['pm_readable_buddy'] = 'gönderen arkadaşsa';
+$txt['pm_readable_label'] = '&quot;{LABEL}&quot; etiketini uygula';
+$txt['pm_readable_delete'] = 'iletiyi kaldır';
+$txt['pm_readable_then'] = '<strong>sonra</strong>';
 $txt['pm_not_found'] = 'Sorry, the requested message could not be found.';
