@@ -1,68 +1,68 @@
 <?php
 // Version: 2.0; Stats
 
-$txt['stats_center'] = 'Statistics Center';
-$txt['general_stats'] = 'General Statistics';
+$txt['stats_center'] = 'İstatistik Merkezi';
+$txt['general_stats'] = 'Genel İstatistikler';
 
 // This is where we list all possible filter permutations for statistics. An empty line means a separator.
 $txt['charts'] = array(
 	'posts,topics,registers,most_on' => 'Everything|Except page hits',
 	'topics,registers,most_on' => 'Everything|Except hits and posts',
 	'',
-	'posts,hits' => 'New Posts &amp; Page Hits',
-	'posts,topics' => 'New Posts &amp; Topics',
+	'posts,hits' => 'Yeni İleti &amp; Görüntüleme',
+	'posts,topics' => 'Yeni İleti &amp; Konular',
 	'',
-	'topics' => 'New Topics',
-	'posts' => 'New Posts',
-	'registers' => 'New Members',
-	'most_on' => 'Most Online',
-	'hits' => 'Page Hits',
+	'topics' => 'Yeni Konular',
+	'posts' => 'Yeni İletiler',
+	'registers' => 'Yeni Üyeler',
+	'most_on' => 'En Çok Çevrimiçi',
+	'hits' => 'Sayfa Gösterimi',
 );
 
-$txt['group_monthly'] = 'Monthly stats';
-$txt['group_daily'] = 'Daily stats';
-$txt['lifetime'] = 'Everything';
-$txt['last_month'] = 'Last 31 days';
-$txt['last_year'] = 'Last 12 months';
-$txt['stat_sum'] = 'Sum:';
-$txt['stat_average'] = 'Average:';
+$txt['group_monthly'] = 'Aylık istatistikler';
+$txt['group_daily'] = 'Günlük istatistikler';
+$txt['lifetime'] = 'Her Şey';
+$txt['last_month'] = 'Son 31 gün';
+$txt['last_year'] = 'Son 12 ay';
+$txt['stat_sum'] = 'Toplam:';
+$txt['stat_average'] = 'Ortalama:';
 
 $txt['date_format'] = '%B %@, %Y';
 $txt['date_format_this_year'] = '%B %@';
 
-$txt['top_posters'] = 'Top 10 Posters';
-$txt['top_boards'] = 'Top 10 Boards';
-$txt['forum_history'] = 'Forum History (using forum time offset)';
-$txt['stats_date'] = 'Date (yyyy/mm/dd)';
-$txt['top_topics_replies'] = 'Top 10 Topics (by Replies)';
-$txt['top_topics_views'] = 'Top 10 Topics (by Views)';
-$txt['top_liked'] = 'Top Liked Posts';
-$txt['top_liked_posters'] = 'Top Liked Posters';
-$txt['top_starters'] = 'Top Topic Starters';
-$txt['most_time_online'] = 'Most Time Online';
-$txt['stats_more_detailed'] = 'more detailed &raquo;';
+$txt['top_posters'] = 'En Aktif 10 Üye';
+$txt['top_boards'] = 'En Aktif 10 Bölüm';
+$txt['forum_history'] = 'Forum Tarihi';
+$txt['stats_date'] = 'Tarih (yyyy/aa/gg)';
+$txt['top_topics_replies'] = 'En Aktif 10 Konu (Yanıtlara göre)';
+$txt['top_topics_views'] = 'En Aktif 10 Konu (Gösterime göre)';
+$txt['top_liked'] = 'En çok beğenilen iletiler';
+$txt['top_liked_posters'] = 'En çok beğenilen üyeler';
+$txt['top_starters'] = 'En Çok Konu Açanlar';
+$txt['most_time_online'] = 'En Çok Çevrimiçi Olanlar';
+$txt['stats_more_detailed'] = 'daha ayrıntılı &raquo;';
 
 $txt['average_registers'] = 'Average registrations per day';
-$txt['average_posts'] = 'Average posts per day';
-$txt['average_topics'] = 'Average topics per day';
+$txt['average_posts'] = 'Günlük ortalama ileti sayısı';
+$txt['average_topics'] = 'Günlük ortalama konu sayısı';
 $txt['average_most_on'] = 'Average online per day';
-$txt['users_online'] = 'Users Online';
-$txt['gender_ratio'] = 'Male to Female Ratio';
-$txt['users_online_today'] = 'Online Today';
-$txt['num_hits'] = 'Total page views';
-$txt['average_hits'] = 'Average page views per day';
+$txt['users_online'] = 'Çevrimiçi Kullanıcılar';
+$txt['gender_ratio'] = 'Erkek Bayan oranı';
+$txt['users_online_today'] = 'Bugün Çeviriçi Olanlar';
+$txt['num_hits'] = 'Toplam sayfa gösterimi';
+$txt['average_hits'] = 'Ortalama günlük sayfa gösterimi';
 
-$txt['ssi_comment'] = 'comment';
-$txt['ssi_comments'] = 'comments';
-$txt['ssi_write_comment'] = 'Write Comment';
+$txt['ssi_comment'] = 'yorum';
+$txt['ssi_comments'] = 'yorum';
+$txt['ssi_write_comment'] = 'Yorum Yaz';
 $txt['ssi_no_guests'] = 'You cannot specify a board that doesn\'t allow guests. Please check the board ID before trying again.';
 $txt['xml_feed_desc'] = 'Live information from {forum_name}';
 
-$txt['total_registers'] = 'Total Members';
-$txt['total_posts'] = 'Total Posts';
-$txt['total_topics'] = 'Total Topics';
-$txt['total_boards'] = 'Total Boards';
-$txt['total_cats'] = 'Total Categories';
+$txt['total_registers'] = 'Toplam Üye';
+$txt['total_posts'] = 'Toplam İleti';
+$txt['total_topics'] = 'Toplam Konu';
+$txt['total_boards'] = 'Toplam Bölüm';
+$txt['total_cats'] = 'Toplam Kategori';
 
 $txt['totalTimeLogged_d_short'] = 'd ';
 $txt['totalTimeLogged_h_short'] = 'h ';
