@@ -1,29 +1,29 @@
 <?php
 // Version: 2.0; ManageBoards
 
-$txt['boards_and_cats'] = 'Manage Boards and Categories';
+$txt['boards_and_cats'] = 'Kategori ve Bölüm Yönetimi';
 $txt['order'] = 'Order';
-$txt['full_name'] = 'Full name';
-$txt['name_on_display'] = 'This is the name that will be displayed.';
-$txt['boards_and_cats_desc'] = 'Edit your categories and boards here. List multiple moderators as <em>&quot;username&quot;, &quot;username&quot;</em>. (These must be usernames, not display names!)<br>To create a new board, click the Add Board button. To create a sub-board, select "Sub-board of..." from the Order drop down menu when creating the board, and select its parent board.';
-$txt['parent_members_only'] = 'Regular Members';
-$txt['parent_guests_only'] = 'Guests';
+$txt['full_name'] = 'Tam isim';
+$txt['name_on_display'] = 'Görüntülenecek Bölümün İsmi.';
+$txt['boards_and_cats_desc'] = 'Kategorileri ve bölümleri buradan düzenleyebilirsiniz. Birden çok moderatörleri listelemek için <em>&quot;kullanıcı-adı&quot;, &quot;kullanıcı-adı&quot;</em> şeklini kullanın. (bunlar rumuz değil, kullanıcı-adı olmalı!)<br> Yeni bir bölüm eklemek için Bölüm Ekle düğmesine tıklayın. Yeni bölümü alt bölüm yapmak için Düzen menüsünden "Alt Bölüm..." seçeneğini seçin. Sürükle bırak yöntemi ile sıralamayı değiştirebilirsiniz';
+$txt['parent_members_only'] = 'Normal Üyeler';
+$txt['parent_guests_only'] = 'Ziyaretçiler';
 $txt['catConfirm'] = 'Do you really want to delete this category?';
 $txt['boardConfirm'] = 'Do you really want to delete this board?';
 
 $txt['catEdit'] = 'Edit Category';
-$txt['collapse_enable'] = 'Collapsible';
-$txt['collapse_desc'] = 'Allow users to collapse this category';
+$txt['collapse_enable'] = 'Açılıp - Kapatılabilir';
+$txt['collapse_desc'] = 'Üyelerin bu kategoriyi açıp kapatabilmelerine izin ver';
 $txt['catModify'] = '(modify)';
 
-$txt['mboards_order_after'] = 'After ';
+$txt['mboards_order_after'] = 'Sonra ';
 $txt['mboards_order_inside'] = 'Inside ';
-$txt['mboards_order_first'] = 'In first place';
+$txt['mboards_order_first'] = 'İlk Sırada';
 
-$txt['mboards_new_board'] = 'Add Board';
-$txt['mboards_new_cat_name'] = 'New Category';
-$txt['mboards_add_cat_button'] = 'Add Category';
-$txt['mboards_new_board_name'] = 'New Board';
+$txt['mboards_new_board'] = 'Bölüm Ekle';
+$txt['mboards_new_cat_name'] = 'Yeni Kategori';
+$txt['mboards_add_cat_button'] = 'Kategori Ekle';
+$txt['mboards_new_board_name'] = 'Yeni Bölüm';
 
 $txt['mboards_name'] = 'Name';
 $txt['mboards_modify'] = 'modify';
