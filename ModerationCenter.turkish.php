@@ -1,50 +1,50 @@
 <?php
 // Version: 2.0; ModerationCenter
 
-$txt['moderation_center'] = 'Moderation Center';
-$txt['mc_main'] = 'Main';
-$txt['mc_posts'] = 'Posts';
-$txt['mc_groups'] = 'Membergroups';
+$txt['moderation_center'] = 'Moderasyon Merkezi';
+$txt['mc_main'] = 'Genel';
+$txt['mc_posts'] = 'İletiler';
+$txt['mc_groups'] = 'Üye Grupları';
 
-$txt['mc_view_groups'] = 'View Membergroups';
+$txt['mc_view_groups'] = 'Üye Gruplarını Görüntüle';
 
-$txt['mc_description'] = 'This is your &quot;Moderation Center&quot;. From here you can perform all the moderation actions assigned to yourself by the Administrator. This home page contains a summary of all the latest happenings in your community. You can personalize the layout by clicking <a href="<URL>?action=moderate;area=settings">here</a>.';
-$txt['mc_group_requests'] = 'Membergroup Requests';
-$txt['mc_unapproved_posts'] = 'Unapproved Posts';
-$txt['mc_warned_users'] = 'Recent Warned Members';
+$txt['mc_description'] = 'Burası forumun "Moderasyon Merkezi" dir. Bu bölümü aracılığıyla, forum yöneticisinin size vermiş olduğu tüm moderasyon görevlerini gerçekleştirebilirsiniz. Moderasyon ana sayfası, forum\'da olup bitenlerin özetini içermektedir. Bu görünümü <a href="<URL>?action=moderate;area=settings">buraya</a> tıklayarak kişiselleştirebilirsiniz. .';
+$txt['mc_group_requests'] = 'Grup Talepleri';
+$txt['mc_unapproved_posts'] = 'Onaylanmamış İletiler';
+$txt['mc_warned_users'] = 'En Son İzlemeye Alınmış Üyeler';
 $txt['mc_scratch_board'] = 'Moderator Scratch Board';
-$txt['mc_recent_reports'] = 'Recent Topic Reports';
-$txt['mc_notes'] = 'Moderator Notes';
+$txt['mc_recent_reports'] = 'Rapor Edilmiş İletiler ';
+$txt['mc_notes'] = 'Moderatör Notları';
 
-$txt['mc_recent_reports_none'] = 'There are no outstanding reports';
-$txt['mc_warned_users_none'] = 'There are not currently any users with active warnings.';
-$txt['mc_group_requests_none'] = 'There are no open requests for group membership.';
+$txt['mc_recent_reports_none'] = 'Yeni rapor bulunmamaktadır';
+$txt['mc_warned_users_none'] = 'Herhangi bir izleme bulunmamaktadır.';
+$txt['mc_group_requests_none'] = 'Herhangi bir grup üyeliği talebi bulunmamaktadır.';
 
-$txt['mc_seen'] = '%1$s last seen %2$s';
-$txt['mc_seen_never'] = '%1$s never seen';
-$txt['mc_groupr_by'] = 'by';
+$txt['mc_seen'] = '%1$s son görüldü %2$s ';
+$txt['mc_seen_never'] = '%1$s asla görülmedi';
+$txt['mc_groupr_by'] = '';
 
-$txt['mc_reported_posts_desc'] = 'Here you can review all the post reports raised by members of the community.';
-$txt['mc_reportedp_active'] = 'Active Reports';
-$txt['mc_reportedp_closed'] = 'Old Reports';
-$txt['mc_reportedp_by'] = 'by';
-$txt['mc_reportedp_reported_by'] = 'Reported By';
-$txt['mc_reportedp_last_reported'] = 'Last Reported';
-$txt['mc_reportedp_none_found'] = 'No Reports Found';
+$txt['mc_reported_posts_desc'] = 'Bu bölümde topluluk tarafından gönderilmiş tüm ileti raporlarını görüntüleyebilirsiniz.';
+$txt['mc_reportedp_active'] = 'Aktif Raporlar';
+$txt['mc_reportedp_closed'] = 'Eski Raporlar';
+$txt['mc_reportedp_by'] = '-';
+$txt['mc_reportedp_reported_by'] = 'Rapor Eden';
+$txt['mc_reportedp_last_reported'] = 'Son Rapor';
+$txt['mc_reportedp_none_found'] = 'Hiç Rapor Bulunamadı';
 $txt['mc_reportedp_count'] = array(
-	1 => '1 report',
-	'n' => '%1$s reports',
+	1 => '1 Rapor',
+	'n' => '%1$s Rapor',
 );
 
-$txt['mc_reportedp_details'] = 'Details';
-$txt['mc_reportedp_close'] = 'Close';
-$txt['mc_reportedp_open'] = 'Open';
-$txt['mc_reportedp_ignore'] = 'Ignore';
-$txt['mc_reportedp_unignore'] = 'Un-Ignore';
+$txt['mc_reportedp_details'] = 'Detay';
+$txt['mc_reportedp_close'] = 'Kapat';
+$txt['mc_reportedp_open'] = 'Açık';
+$txt['mc_reportedp_ignore'] = 'Yoksay';
+$txt['mc_reportedp_unignore'] = 'Geri al';
 $txt['mc_reportedp_ignore_confirm'] = 'Are you sure you wish to ignore further reports about this message?<br><br>This will turn off further reports for all moderators of the forum.';
-$txt['mc_reportedp_close_selected'] = 'Close Selected';
+$txt['mc_reportedp_close_selected'] = 'Seçileni Kapat';
 
-$txt['mc_groupr_group'] = 'Membergroups';
+$txt['mc_groupr_group'] = 'Üye Grupları';
 $txt['mc_groupr_member'] = 'Member';
 $txt['mc_groupr_reason'] = 'Reason';
 $txt['mc_groupr_none_found'] = 'There are currently no outstanding membergroup requests.';
@@ -64,28 +64,28 @@ $txt['mc_unapproved_replies'] = 'Replies';
 $txt['mc_unapproved_topics'] = 'Topics';
 $txt['mc_unapproved_by'] = 'by';
 $txt['mc_unapproved_sure'] = 'Are you sure you want to do this?';
-$txt['mc_viewmodreport'] = 'Moderation Report for %1$s by %2$s';
+$txt['mc_viewmodreport'] = 'Rapor edilen ileti %1$s ileti sahibi %2$s';
 $txt['mc_modreport_summary'] = array(
-	1 => 'There has been 1 report concerning this post.',
-	'n' => 'There have been %1$s reports concerning this post.',
+	1 => 'Bu ilet için 1 rapor gönderilmiştir.',
+	'n' => 'Bu ilet için %1$s gönderilmiştir.',
 );
-$txt['mc_modreport_lastreport'] = 'The last report was %1$s.';
-$txt['mc_modreport_whoreported_title'] = 'Members who have reported this post';
-$txt['mc_modreport_whoreported_data'] = 'Reported by %1$s on %2$s. They left the following message:';
+$txt['mc_modreport_lastreport'] = 'İlgili son rapor: %1$s.';
+$txt['mc_modreport_whoreported_title'] = 'Bu iletileri rapor eden üyeler';
+$txt['mc_modreport_whoreported_data'] = '%2$s. tarihinde  %1$s  tarafından rapor edilmiş. Rapor sebebi:';
 $txt['mc_modreport_modactions'] = 'Actions taken by other moderators';
-$txt['mc_modreport_mod_comments'] = 'Moderator Comments';
-$txt['mc_modreport_no_mod_comment'] = 'There are not currently any moderator comments.';
-$txt['mc_modreport_add_mod_comment'] = 'Add Comment';
+$txt['mc_modreport_mod_comments'] = 'Moderatör Yorumu';
+$txt['mc_modreport_no_mod_comment'] = 'Şu anda herhangi bir moderatör yorumu bulunmamaktadır.';
+$txt['mc_modreport_add_mod_comment'] = 'Yorum Ekle';
 
-$txt['mc_warned_users_title'] = 'Warned Members';
+$txt['mc_warned_users_title'] = 'Uyarı Alan Üyeler';
 $txt['mc_warned_users_desc'] = 'Here you can keep a track of all members who have been assigned an infraction by the moderation team.';
 $txt['mc_warned_users_post'] = 'View by Post';
-$txt['mc_warning_log'] = 'Infraction Log';
-$txt['mc_warnings_none'] = 'No infractions have been issued previously.';
-$txt['mc_warning_by'] = 'Issued by';
-$txt['mc_warning_to'] = 'Issued to';
-$txt['mc_warning_on'] = 'Issued on';
-$txt['mc_warning_status'] = 'Status';
+$txt['mc_warning_log'] = 'Yasaklama Kayıtları';
+$txt['mc_warnings_none'] = 'Herhangi bir kayıt yok.';
+$txt['mc_warning_by'] = 'Uyarı Veren';
+$txt['mc_warning_to'] = 'Uyarı Alan';
+$txt['mc_warning_on'] = 'Uyarı Tarihi';
+$txt['mc_warning_status'] = 'Durum';
 $txt['mc_warned_users_points'] = 'Points';
 $txt['mc_warning_log_desc'] = 'This shows you all infractions that have been issued.';
 $txt['mc_warned_users_last_login'] = 'Last Login';
@@ -95,14 +95,14 @@ $txt['mc_warned_users_delete_post'] = 'Are you sure you want to delete this post
 $txt['mc_warned_users_posted'] = 'Posted';
 $txt['mc_warned_users_member'] = 'Member';
 
-$txt['mc_prefs_title'] = 'Moderation Preferences';
-$txt['mc_prefs_desc'] = 'This section allows you to set some personal preferences for moderation related activities such as email notifications.';
-$txt['mc_prefs_notify_report'] = 'Notify of topic reports';
-$txt['mc_prefs_notify_report_never'] = 'Never';
-$txt['mc_prefs_notify_report_moderator'] = 'Only if it\'s a board I moderate';
-$txt['mc_prefs_notify_report_always'] = 'Always';
-$txt['mc_prefs_notify_approval'] = 'Notify of items awaiting approval';
+$txt['mc_prefs_title'] = 'Moderasyon Seçenekleri';
+$txt['mc_prefs_desc'] = 'Bu bölüm kullanarak moderasyon ile ilgili kişisel bazı temel ayarları değiştirebilrisiniz.';
+$txt['mc_prefs_notify_report'] = 'Yeni raporlarla ilgili bilgilendirme';
+$txt['mc_prefs_notify_report_never'] = 'Kapalı';
+$txt['mc_prefs_notify_report_moderator'] = 'Moderatörü olduğum bir bölüm ise';
+$txt['mc_prefs_notify_report_always'] = 'Açık';
+$txt['mc_prefs_notify_approval'] = 'Onay bekleyen öğelerle ilgili bilgilendir';
 
 // Use entities in the below string.
-$txt['mc_click_add_note'] = 'Add a new note';
-$txt['mc_add_note'] = 'Add';
+$txt['mc_click_add_note'] = 'Yeni not ekle';
+$txt['mc_add_note'] = 'Ekle';
