@@ -1,7 +1,7 @@
 <?php
 // Version: 2.0; Help
 
-$txt['close_window'] = 'Close window';
+$txt['close_window'] = 'Pencereyi Kapat';
 
 $txt['cannot_change_voter_visibility'] = '
 	Members may change what they vote for depending on who might be able to see
@@ -15,47 +15,47 @@ $txt['admins_see_votes'] = '
 	see who voted what anyway.';
 
 $txt['help_manage_boards'] = '
-	In this menu you can create/reorder/remove boards, and the categories
-	above them. For example, if you had a wide-ranging
-	site that offered information on "Sports", "Cars" and "Music", these
-	would be the top-level Categories you\'d create. Under each of these
-	categories you\'d likely want to create hierarchical "sub-categories",
-	or "Boards" for topics within each. It\'s a simple hierarchy, with this structure:<br>
-	<ul class="list">
+	<b>Bölümeri düzenle</b><br />
+	Bu menüde oda ve kategori ekleme/düzenleme/kaldırma işlemlerini 
+	yapabilirsiniz. Örneğin, &quot;Spor&quot;,&quot;Araba&quot; ve &quot;Müzik&quot; ile ilgili
+        oldukça geniş yelpazeli bir siteniz var ise bunlar sizin ekleyeceğiniz en üst Kategoriler olur.
+	Tüm bu kategorilerin içinde isteğiniz yönünde hiyerarşik &quot;alt-kategoriler&quot;,
+	veya &quot;Odalar&quot; oluşturabilirsiniz. Hiyerarşik düzen şu şekildedir: <br />
+
+	<ul>
 		<li>
-			<strong>Sports</strong>
-			&nbsp;- A "category"
+			<b>Spor</b>
+			&nbsp;- Bir &quot;kategori&quot;
 		</li>
-		<ul class="list">
+		<ul>
 			<li>
-				<strong>Baseball</strong>
-				&nbsp;- A board under the category of "Sports"
+				<b>Futbol</b>
+				&nbsp;- Bu &quot;Spor&quot; kategorisininin altında bir kategoridir.
 			</li>
-			<ul class="list">
+			<ul>
 				<li>
-					<strong>Stats</strong>
-					&nbsp;- A sub-board under the board of "Baseball"
+					<b>İstatistikler</b>
+					&nbsp;- Bu ise &quot;Futbol&quot; alt bölümüne ait bir alt bölümdür
 				</li>
 			</ul>
-			<li><strong>Football</strong>
-			&nbsp;- A board under the category of "Sports"</li>
+			<li><b>Yüzme</b>
+			&nbsp;- Bu &quot;Spor&quot; kategorisinin altında bir kategoridir</li>
 		</ul>
 	</ul>
-	Categories allow you to break down the board into broad topics ("Cars",
-	"Sports"), and the "Boards" under them contain the actual topics into which
-	members can post. A user interested in Pintos
-	would post a message under "Cars-&gt;Pinto". Categories allow people to
-	quickly find what their interests are: instead of a "Store" you have
-	"Hardware" and "Clothing" stores you can go to. This simplifies your
-	search for "pipe joint compound" because you can go to the Hardware
-	Store "category" instead of the Clothing Store (where you\'re unlikely
-	to find pipe joint compound).<br>
-	As noted above, a Board is a key topic underneath a broad category.
-	If you want to discuss "Pintos" you\'d go to the "Auto" category and
-	jump into the "Pinto" board to post your thoughts in that board.<br>
-	Administrative functions for this menu item are to create new boards
-	under each category, to reorder them (put "Pinto" behind "Chevy"), or
-	to delete the board entirely.';
+	Kategoriler size forumu çeşitli başlıklar altında ayırmanızı sağlar (&quot;Araba,
+	Spor&quot;), ve bu kategorilerin içindeki &quot;Odalar&quot; kısmında üyelerin ileti
+	gönderebileceği konular bulunur. Galatasaray hakkındaki konuları görmek isteyen üye
+	&quot;Spor->Futbol->GALATASARAY&quot; dizinindeki konulara kolaylıkla ulaşabilir. 
+	Kategoriler üyelere istedikleri konuyu kolaylıkla bulmalarını sağlar. Sadece &quot;Alışveriş&quot; yerine
+	&quot;Bilgisayar&quot; ve &quot;Giyim&quot; bölümlerinde ilginize göre kolaylıkla ulaşabilirsiniz.
+	Bu sayede girmek istemediğiniz yerlere girmeye mecbur kalmazsınız; çünkü Bilgisayar Malzemesi ararken
+	bu &quot;kategori&quot yerine Giyim Mağazası kısmına girmek zorunda değilsiniz.<br />
+	Yukarıda belirtildiği gibi bu odalar geniş kapsamlı kategorilerin altındaki birer konu gibidirler.
+	Eğer &quot;Galatasaray&quot; hakkında konuşmak istiyorsanız, &quot;Spor->Futbol&quot; kategorilerinin
+	içinde yer alan &quot;Galatasaray&quot; odasına girip düşünceleriniz paylaşabilirsiniz.<br />
+	Bu menüdeki yönetici işlemleri her kategori altında yeni bir oda oluşturma, onların 
+	sıralamalarını değiştirme (&quot;Galatasaray&quot\'ı; &quot;Sakaryaspor&quot;\'un üstüne yerleştirme)
+	veya tamamen bu konuları silme.';
 
 $txt['help_need_deny_perm'] = '
 	Normally, controlling access to boards is simple enough - users who
@@ -73,19 +73,19 @@ $txt['help_need_deny_perm'] = '
 	members of, with the exception of administrators.';
 
 $txt['help_edit_news'] = '
-	<ul class="list">
+<ul class="list">
 		<li>
-			<strong>News</strong><br>
-			This section allows you to set the text for news items displayed on the Board Index page.
-			Add any item you want (e.g., "Don\'t miss the conference this Tuesday"). Each news item is displayed randomly.
+			<strong>Haberler</strong><br />
+			Bu bölüm Ana Sayfanızda görüntülenecek metinleri ayarlamanızı sağlar.
+			İstediğiniz her maddeyi ekleyebilirsiniz. (örn: &quot;Bu Salı günündeki konferansı kaçırmayın&quot;) Tüm haber maddeleri rastgele olarak gösterilir ve ayrı kutulara yerleştirilmelidir.
 		</li>
 		<li>
-			<strong>Newsletters</strong><br>
-			This section allows you to send out newsletters to the members of the forum via personal message or email. First select the groups that you want to receive the newsletter, and those you don\'t want to receive the newsletter. If you wish, you can add additional members and email addresses that will receive the newsletter. Finally, input the message you want to send and select whether you want it to be sent to members as a personal message or as an email.
+			<strong>Haber Bültenleri</strong><br />
+			Bu bölüm forum üyelerinize özel ileti veya e-posta olarak haber bültenleri göndermenizi sağlar. İlk olarak haber bültenlerini almasını istediğiniz grupları ve haber bültenlerini almasını istemediğiniz üye gruplarını seçin. Dilerseniz, haber bültenlerini alacak üyeleri ve email adreslerini de ekleyebilirsiniz. Son olarak, göndermek istediğiniz iletiyi girin ve özel ileti olarak mı yoksa e-posta olarak mı göndermek istediğinizi seçin.
 		</li>
 		<li>
-			<strong>Settings</strong><br>
-			This section contains a few settings that relate to news and newsletters, including selecting what groups can edit forum news or send newsletters.
+			<strong>Ayarlar</strong><br />
+			Bu bölüm, hangi grupların forum haberlerini düzenleyebileceği veya haber bülteni gönderebileceği de dahil, haberler ve haber bültenleri hakkında birkaç ayar içerir. Ayrıca forumdan haber bülteni almak isteyip istemediğinizi ve alacağınız her haber bülteni gönderisinde kaç karakterlik yazı gösterilmesini istediğinizi yine buradan belirleyebilirsiniz.
 		</li>
 	</ul>';
 
@@ -140,23 +140,22 @@ $txt['help_featuresettings'] = '
 	There are several features in this section that can be changed to your preference.';
 
 $txt['help_time_format'] = '
-	You have the power to adjust how the time and date look for yourself. There are a lot of weird little letters, but it\'s quite simple.
-	The conventions follow PHP\'s <span class="bbc_tt">strftime</span> function and are described as below (more details at <a href="http://www.php.net/manual/function.strftime.php" target="_blank" class="new_win">php.net</a>).<br>
+	Forumun zaman biçiminide istediğiniz gibi ayarlayabilirsiniz. Ufak PHP kodlarının anlamları aşağıda belirtilmiştir. (daha fazla detay için <a href="http://www.php.net/manual/function.strftime.php" target="_blank" class="new_win">php.net</a>).<br>
 	<br>
-	The format string recognizes the following characters, among others:
+	Bu karakterler zaman biçimlendirilmesinde kullanılmaktadır:
 	<div style="padding: 5px 0 5px 30px">
-		<span class="bbc_tt">%a</span> - weekday name (abbreviated)<br>
-		<span class="bbc_tt">%A</span> - weekday name (full)<br>
-		<span class="bbc_tt">%b</span> - month name (abbreviated)<br>
-		<span class="bbc_tt">%B</span> - month name (full)<br>
-		<span class="bbc_tt">%d</span> - day of the month (01 to 31)<br>
-		<span class="bbc_tt" style="color: #999">%D</span> - short date, same as %m/%d/%y<br>
-		<span class="bbc_tt">%e</span> - day of the month (1 to 31)<br>
+		<span class="bbc_tt">%a</span> - Belirlenmiş hafta ismi<br>
+		<span class="bbc_tt">%A</span> - Tüm hafta ismi<br>
+		<span class="bbc_tt">%b</span> - Belirlenmiş ay ismi<br>
+		<span class="bbc_tt">%B</span> - Tüm ay ismi<br>
+		<span class="bbc_tt">%d</span> - ayın günleri (01 den 31 e kadar) <br>
+		<span class="bbc_tt" style="color: #999">%D</span> - ile %m/%d/%y aynıdır<br>
+		<span class="bbc_tt">%e</span> - ayın günü (1 den 31 e kadar) <br>
 		<span class="bbc_tt">%@</span> - day of the month and suffix (1st to 31st)<br>
-		<span class="bbc_tt">%H</span> - hour using a 24-hour clock (range 00 to 23)<br>
-		<span class="bbc_tt">%I</span> - hour using a 12-hour clock (range 01 to 12)<br>
-		<span class="bbc_tt">%m</span> - month as a number (01 to 12)<br>
-		<span class="bbc_tt">%M</span> - minute as a number (00 to 59)<br>
+		<span class="bbc_tt">%H</span> - 24 saat sistemi (00 ile 23 arası)<br>
+		<span class="bbc_tt">%I</span> - 12 saat sistemi (01 ile 12 arası) <br>
+		<span class="bbc_tt">%m</span> - sayı olarak ay (01 den 12 ye kadar)<br>
+		<span class="bbc_tt">%M</span> - sayı olarak dakika (00 den 59)<br>
 		<span class="bbc_tt">%p</span> - adds either "AM" or "PM", according to the given time<br>
 		<span class="bbc_tt" style="color: #999">%R</span> - hour and minutes, same as %H:%M<br>
 		<span class="bbc_tt">%S</span> - second as a number (00 to 59)<br>
@@ -172,25 +171,28 @@ $txt['help_live_news'] = '
 	You should check here every now and then for updates, new releases, and important information from Wedge.';
 
 $txt['help_registrations'] = '
-	This section contains all the functions that could be necessary to manage new registrations on the forum. It contains up to three
-	sections which are visible depending on your forum settings. These are:<br><br>
+Bu bölüm forumunuza kayıt yaptırmak isteyenler için olan seçekleri düzenleyebileceğiniz yerdir.
+	Burada 4 seçenek bulunmaktadır. Bunlar:<br><br>
 	<ul class="list">
 		<li>
-			<strong>Register new member</strong><br>
-			From this screen you can choose to register accounts for new members on their behalf. This can be useful in forums where registration is closed
-			to new members, or in cases where the admin wishes to create a test account. If the option to require activation of the account
-			is selected the member will be emailed a activation link which must be clicked before they can use the account. Similarly you can
-			select to email the user\'s new password to the stated email address.<br><br>
+			<strong>Yeni Üye Kaydetme</strong><br />
+			Bu ekrandan yeni üye kayıdı yapılmaktadır. Bu ekran genelde sınırlandırılmış kullanıcı hizmeti veren forumlarda adminler 
+			tarafından kullanıcı açılması için yapılmıştır veya test kullanıcıları oluşturmak için kullanılmaktadır. Kullanıcıları aktivasyonla
+			üye yapacak olursanız mail adresine gelen linkin tıklanması gerekir, isteyen adminler şifreleri maillere otomatik yollayabilirler.<br /><br />
 		</li>
 		<li>
-			<strong>Edit Registration Agreement</strong><br>
-			This allows you to set the text for the registration agreement displayed when members sign up for your forum.
-			You can add or remove anything from the default registration agreement, which is included in Wedge.<br><br>
+			<strong>Üyelik Sözleşmesini Düzenle</strong><br />
+			Bu bölümde kayıt sırasında gösterilecek üyelik sözleşmesini düzenleyebilirsiniz. SMF ile birlikte gelen
+			varsayılan anlaşmayı komple değiştirebilir veya üzerinde oynamalar yapabilirsiniz.<br /><br />
 		</li>
 		<li>
-			<strong>Settings</strong><br>
-			This section will only be visible if you have permission to administrate the forum. From this screen you can decide on the registration method
-			is use on your forum, as well as other registration related settings.
+			<strong>Ayrılmış İsimleri Düzenle</strong><br />
+                        Bu arayüzü kullanarak üyeler tarafından seçilmesine izin olmayacak kullanıcı adlarını belirleyebilirsiniz.<br /><br />
+		</li>
+		<li>
+			<strong>Seçenekler</strong><br />
+			Bu bölüm sadece forum\' yönetmeye izniniz varsa görüntülenebilir olacaktır. Bu bölümden forum\'unuzda kullanılacak
+			üye kayıt şeklini, ve diğer kayıtla alakalı seçenekleri değiştirebilirsiniz.
 		</li>
 	</ul>';
 $txt['help_login_type'] = 'This setting enables you to configure whether users have to use their username, their email address or either to log into the forum. It is important to note that when using usernames, the password is generally encrypted in the browser before sending, while it is never done if an email address is supplied instead.';
@@ -217,18 +219,18 @@ $txt['help_serversettings'] = '
 	render the forum inaccessible';
 $txt['help_manage_files'] = '
 	<ul class="list">
-		<li>
-			<strong>Browse Files</strong><br>
-			Browse through all the attachments, avatars and thumbnails stored by Wedge.<br><br>
+	<li>
+			<b>Dosyalara Gözat</b><br />
+			Tüm dosyalara göz atabilmenize olanak tanır.
 		</li><li>
-			<strong>Attachment Settings</strong><br>
-			Configure where attachments are stored and set restrictions on the types of attachments.<br><br>
+			<b>Eklenti Ayarları</b><br />
+			Eklentilerin bulundukları yerleri belirler.<br /><br />
 		</li><li>
-			<strong>Avatar Settings</strong><br>
-			Configure where avatars are stored and manage resizing of avatars.<br><br>
+			<b>Avatar Ayarları</b><br />
+			Avatarların bulundukları yerleri belirler.<br /><br />
 		</li><li>
-			<strong>File Maintenance</strong><br>
-			Check and repair any error in the attachment directory and delete selected attachments.<br><br>
+			<b>Dosya Bakımı</b><br />
+			Bozukluklar düzeltilebilir ve eklentiler ile ilgili ek değişiklikler yapılabilir.<br /><br />
 		</li>
 	</ul>';
 
