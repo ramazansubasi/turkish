@@ -3,16 +3,16 @@
 
 $txt['settings_desc'] = 'This page allows you to change the settings of features and basic options in your forum. Click the help icons for more information about a setting.';
 
-$txt['allow_guestAccess'] = 'Allow guests to browse the forum';
-$txt['userLanguage'] = 'Enable user-selectable language support';
-$txt['time_offset'] = 'Overall time offset';
+$txt['allow_guestAccess'] = 'Ziyaretçilerin forumda gezinebilmelerine izin ver';
+$txt['userLanguage'] = 'Kullanıcıların kullandıkları dili seçebilmelerine izin ver';
+$txt['time_offset'] = 'Saat farkı';
 $txt['time_offset_subtext'] = '(added to the member specific option.)';
-$txt['default_timezone'] = 'Server timezone';
+$txt['default_timezone'] = 'Sunucu zaman dilimi';
 $txt['failed_login_threshold'] = 'Failed login threshold';
 $txt['enable_quick_login'] = 'Show a quick login on every page';
 $txt['age_restrictions'] = 'Minimum Age Restrictions';
-$txt['trackStats'] = 'Track daily statistics';
-$txt['hitStats'] = 'Track daily page views (must have stats enabled)';
+$txt['trackStats'] = 'Günlük istatistik tut';
+$txt['hitStats'] = 'Günlük Sayfa gösterim istatistiği tut (istatistikler etkin olmalı)';
 $txt['enableCompressedOutput'] = 'Enable compressed output';
 $txt['enableCompressedData'] = 'Enable compressed JS/CSS';
 $txt['obfuscate_filenames'] = 'Obfuscate JS/CSS filenames';
@@ -58,7 +58,7 @@ $txt['pruneReportLog'] = 'Remove report to moderator log entries older than';
 $txt['pruneScheduledTaskLog'] = 'Remove scheduled task log entries older than';
 $txt['pruneSpiderHitLog'] = 'Remove search engine hit logs older than';
 $txt['cookieTime'] = 'Default login cookies length (in minutes)';
-$txt['localCookies'] = 'Enable local storage of cookies';
+$txt['localCookies'] = 'Yerel çerezlerin depolanmasına izin ver';
 $txt['localCookies_subtext'] = '(SSI won\'t work well with this on.)';
 $txt['globalCookies'] = 'Use subdomain independent cookies';
 $txt['globalCookies_subtext'] = '(turn off local cookies first!)';
@@ -86,9 +86,9 @@ $txt['site_slogan_desc'] = 'Add your own text for a slogan here. Leave empty to 
 $txt['header_logo_url'] = 'Logo image URL';
 $txt['header_logo_url_desc'] = 'Leave blank to show forum name or default logo.';
 $txt['todayMod'] = 'Enable shorthand date display';
-$txt['today_disabled'] = 'Disabled';
-$txt['today_only'] = 'Only Today';
-$txt['yesterday_today'] = 'Today &amp; Yesterday';
+$txt['today_disabled'] = 'Kapalı';
+$txt['today_only'] = 'Sadece Bugün';
+$txt['yesterday_today'] = 'Bugün &amp; Dün';
 $txt['timeLoadPageEnable'] = 'Display time taken to create every page';
 $txt['disableHostnameLookup'] = 'Disable hostname lookups';
 $txt['who_enabled'] = 'Enable who\'s online list';
@@ -117,12 +117,12 @@ $txt['likes_own_posts'] = 'Users can like their own posts';
 
 $txt['boardurl'] = 'Forum URL';
 
-$txt['caching_information'] = '<div class="center" style="font-weight: bold; text-decoration: underline">Important! Read this first before enabling these features.</div><br>
-	Wedge supports caching through the use of accelerators. The currently supported accelerators include:<br>
+$txt['caching_information'] = '<div class="center" style="font-weight: bold; text-decoration: underline">Önemli! Bu özellikleri kullanmadan önce mutlaka burayı okuyunuz.</div><br>
+	Wedge hızlandırıcılar yolu ile önbelleklemeyi desteklemektedir. Kullanabileceğiniz hızlandırıcılar şunlardır:<br>
 	<ul class="list">
 		<li>APC</li>
 		<li>Memcached</li>
-		<li>Zend Platform/Performance Suite (not Zend Optimizer)</li>
+		<li>Zend Platform/Performance Suite (Zend Optimizer Değil!)</li>
 		<li>XCache</li>
 	</ul>
 	Caching will work best if you have PHP compiled with one of the above optimizers, or have a Memcached server available (along with the associated PHP extension.)
@@ -137,31 +137,31 @@ $txt['caching_information'] = '<div class="center" style="font-weight: bold; tex
 	<br><br>
 	%1$s';
 
-$txt['detected_no_caching'] = '<strong class="alert">Wedge was unable to detect a compatible accelerator on your server.</strong>';
-$txt['detected_APC'] = '<strong style="color: green">Wedge has detected that your PHP server has APC installed.</strong>';
-$txt['detected_Zend'] = '<strong style="color: green">Wedge has detected that your PHP server has Zend installed.</strong>';
-$txt['detected_Memcached'] = '<strong style="color: green">Wedge has detected that your PHP server has Memcached installed.</strong>';
-$txt['detected_XCache'] = '<strong style="color: green">Wedge has detected that your PHP server has XCache installed.</strong>';
+$txt['detected_no_caching'] = '<strong class="alert">Wedge sunucunuzda her hangi bir hızlandırıcı tespit edemedi.</strong>';
+$txt['detected_APC'] = '<strong style="color: green">Wedge sisteminizde APC\'nin yüklü olduğunu tespit etti.</strong>';
+$txt['detected_Zend'] = '<strong style="color: green">Wedge sisteminizde Zend\'in yüklü olduğunu tespit etti.</strong>';
+$txt['detected_Memcached'] = '<strong style="color: green">Wedge sisteminizde Memcached\'nin yüklü olduğunu tespit etti.</strong>';
+$txt['detected_XCache'] = '<strong style="color: green">Wedge sunucunuzda XCache\'in yüklü olduğunu tespit etti.</strong>';
 
-$txt['cache_enable'] = 'Caching Level';
-$txt['cache_off'] = 'No caching';
-$txt['cache_level1'] = 'Level 1 Caching (Recommended)';
-$txt['cache_level2'] = 'Level 2 Caching';
-$txt['cache_level3'] = 'Level 3 Caching (Not Recommended)';
+$txt['cache_enable'] = 'Önbellekleme Seviyesi';
+$txt['cache_off'] = 'Kapalı';
+$txt['cache_level1'] = 'Seviye 1';
+$txt['cache_level2'] = 'Seviye 2 (Önerilmez)';
+$txt['cache_level3'] = 'Seviye 3 (Önerilmez)';
 
 $txt['cache_type'] = 'Caching Type';
 $txt['cache_type_file'] = 'File-based caching';
 $txt['cache_memcached'] = 'Memcached server details<dfn>Leave empty to disable Memcached</dfn>';
 
-$txt['loadavg_warning'] = '<span class="error">Please note: the settings below are to be edited with care. Setting any of them too low may render your forum <strong>unusable</strong>! The current load average is <strong>%01.2f</strong></span>';
-$txt['loadavg_enable'] = 'Enable load balancing by load averages';
-$txt['loadavg_auto_opt'] = 'Threshold to disabling automatic database optimization';
-$txt['loadavg_search'] = 'Threshold to disabling search';
-$txt['loadavg_allunread'] = 'Threshold to disabling all unread topics';
-$txt['loadavg_unreadreplies'] = 'Threshold to disabling unread replies';
-$txt['loadavg_show_posts'] = 'Threshold to disabling showing user posts';
-$txt['loadavg_forum'] = 'Threshold to disabling the forum <strong>completely</strong>';
-$txt['loadavg_disabled_conf'] = '<span class="error">Load balancing support is disabled by your host configuration.</span>';
+$txt['loadavg_warning'] = '<span class="error">Lütfen unutmayın: aşağıdaki ayarları düzenlerken dikkatli olun. Bazılarını çok düşük kullanmanız halinde forumunuz <strong>kullanılmaz</strong> hale gelebilir. Şu anki yükleme ortalaması <strong>%01.2f</strong></span>';
+$txt['loadavg_enable'] = 'Yoğunluğa göre yük dengeleme';
+$txt['loadavg_auto_opt'] = 'Otomatik veritabanı optimizasyonunu kapatma eşiği';
+$txt['loadavg_search'] = 'Aramayı kullanıma kapatma eşiği';
+$txt['loadavg_allunread'] = 'Okunmamış konuları göster özelliğini kapatma eşiği';
+$txt['loadavg_unreadreplies'] = 'İletilerime yazılan yeni yanıtlar özelliğini kapatma eşiği';
+$txt['loadavg_show_posts'] = 'Üyelerin ileti sayılarını gösterime kapatma eşiği';
+$txt['loadavg_forum'] = 'Tüm forumu <strong>tamamen</strong> kullanıma kapatma eşiği';
+$txt['loadavg_disabled_conf'] = '<span class="error">Yükleme dengeleme desteği sunucunuzun ayarları tarafından iptal edilmiştir.</span>';
 
 $txt['news_settings_submit'] = 'Save';
 $txt['xmlnews_enable'] = 'Enable Atom feeds';
@@ -182,20 +182,20 @@ $txt['login_username_or_email'] = 'Either their username or their email address'
 $txt['login_username_only'] = 'Their username only';
 $txt['login_email_only'] = 'Their email address only';
 
-$txt['setting_password_strength'] = 'Required strength for user passwords';
-$txt['setting_password_strength_low'] = 'Low - 4 character minimum';
-$txt['setting_password_strength_medium'] = 'Medium - cannot contain username';
-$txt['setting_password_strength_high'] = 'High - mixture of different characters';
+$txt['setting_password_strength'] = 'Kullanıcı şifrelerinin güvenilirliği';
+$txt['setting_password_strength_low'] = 'Düşük - en az 4 karakter';
+$txt['setting_password_strength_medium'] = 'Orta - kullanıcı adını içeremez';
+$txt['setting_password_strength_high'] = 'Yüksek - değişik karakterlerin karışımı olmalıdır';
 
-$txt['antispam_settings'] = 'Anti-Spam Verification';
-$txt['antispam_settings_desc'] = 'This section allows you to setup verification checks to ensure the user is a human (and not a bot), and tweak how and where these apply.';
-$txt['setting_reg_verification'] = 'Require verification on registration page';
-$txt['posts_require_captcha'] = 'Post count under which users must pass verification to make a post';
-$txt['posts_require_captcha_desc'] = '(0 for no limit, moderators are exempt)';
-$txt['search_enable_captcha'] = 'Require verification on all guest searches';
-$txt['setting_guests_require_captcha'] = 'Guests must pass verification when making a post';
-$txt['setting_guests_require_captcha_desc'] = '(Automatically set if you specify a minimum post count below)';
-$txt['guests_report_require_captcha'] = 'Guests must pass verification when reporting a post';
+$txt['antispam_Settings'] = 'Spam Koruması Doğrulaması';
+$txt['antispam_Settings_desc'] = 'Bu bölümü kullanarak kullanıcının bir bot değil insan olduğunu doğrulamanıza olanak tanıyan doğrulama özelliği ile ilgili değişiklikler yapabilirsiniz.';
+$txt['setting_reg_verification'] = 'Kayıt esnasında doğrulamayı zorunlu kıl';
+$txt['posts_require_captcha'] = 'İleti gönderiminde doğrulamayı zorunlu kıl';
+$txt['posts_require_captcha_desc'] = '(0 - limit yok, moderatörler hariç)';
+$txt['search_enable_captcha'] = 'Ziyaretçiler tarafından yapılan aramalarda doğrulamayı zorunlu kıl';
+$txt['setting_guests_require_captcha'] = 'Ziyaretçilerin ileti gönderiminde doğrulamayı zorunlu kıl';
+$txt['setting_guests_require_captcha_desc'] = '(Aşağıda minimum bir ileti sayısı belirlediyseniz, otomatik devreye girer)';
+$txt['guests_report_require_captcha'] = 'Ziyaretçiler bir ileti rapor ederken doğrulamayı geçmek zorundadır';
 
 $txt['configure_captcha'] = 'Configure CAPTCHA images';
 $txt['configure_captcha_desc'] = '<span class="smalltext">A CAPTCHA is a form of anti-bot protection to help guard against automated robots posting nonsense on your forum.</span>';
@@ -203,14 +203,14 @@ $txt['use_captcha_images'] = 'Enable using CAPTCHA images?';
 $txt['use_animated_captcha'] = 'Use the animated CAPTCHA images?';
 $txt['use_animated_captcha_desc'] = 'Animated CAPTCHAs are particularly tricky for bots to beat, but they may be harder for normal users to solve, too.';
 
-$txt['setting_qa_verification_number'] = 'Number of verification questions user must answer';
-$txt['setting_qa_verification_number_desc'] = '(0 to disable; questions are set below)';
-$txt['setup_verification_questions'] = 'Verification Questions';
-$txt['setup_verification_questions_desc'] = '<span class="smalltext">If you want users to answer verification questions in order to stop spam bots you should setup a number of questions in the table below. You should pick relatively simple questions; answers are not case sensitive. You may use BBC in the questions for formatting, to remove a question simply delete the contents of that line.</span>';
-$txt['setup_verification_question'] = 'Question';
-$txt['setup_verification_answer'] = 'Answer';
-$txt['setup_verification_add'] = 'Add a question';
-$txt['setup_verification_add_answer'] = 'Add answer';
+$txt['setting_qa_verification_number'] = 'Kullanıcının yanıtlaması gerekli doğrulama soruları';
+$txt['setting_qa_verification_number_desc'] = '(0 -  kapatır, sorular aşağıdadır)';
+$txt['setup_verification_questions'] = 'Doğrulama Soruları';
+$txt['setup_verification_questions_desc'] = '<span class="smalltext">Eğer kullanıcıların doğrulama amaçlı belli soruları yanıtlamalarını istiyorsanız, aşağıda bu soruları ve yanıtlarını yapılandırmanız gerekmektedir. Basit sorulara seçmeye dikkat edin. Sorularda BBC kullanabilir, soruları kaldırmak için içeriğini silip kaydete basabilirsiniz.</span>';
+$txt['setup_verification_question'] = 'Soru';
+$txt['setup_verification_answer'] = 'Yanıt';
+$txt['setup_verification_add'] = 'Soru Ekle';
+$txt['setup_verification_add_answer'] = 'Cevap Ekle';
 
 $txt['modfilter_norules'] = 'There are no filter rules set up.';
 $txt['modfilter_addrule'] = 'Add a filter rule';
@@ -313,60 +313,60 @@ $txt['modfilter_msg_no_lang'] = 'No custom messages were set up for this rule.';
 $txt['modfilter_msg_popup'] = 'When this rule is activated, the user will be shown the following message. (Where possible, the forum will try to use the language selected by the user.)';
 $txt['modfilter_lang_msg'] = 'While it will be clear to the user that their post has had work done to it, it will not always be clear why that is the case. Here you can add a message for your users to explain why action has been taken. You do not have to fill one in, or indeed fill in any specific language - it will just try to use the most appropriate for the user out of the ones you have provided. You can also use HTML, for example to link to a rules post that you have.';
 
-$txt['allow_editDisplayName'] = 'Allow members to edit their displayed name';
-$txt['allow_hideOnline'] = 'Allow members to hide their online status';
-$txt['titlesEnable'] = 'Enable custom titles';
-$txt['enable_buddylist'] = 'Enable contacts &amp; ignore list';
+$txt['allow_editDisplayName'] = 'Üyelerin görünen isimlerini değiştirmelerine izin ver';
+$txt['allow_hideOnline'] = 'Yönetici olmayanların çevrimiçi durumlarını gizlemelerine izin ver';
+$txt['titlesEnable'] = 'Kişisel başlıklara izin ver';
+$txt['enable_buddylist'] = 'İletişim/Engelleme listelerine izin ver';
 
-$txt['signature_settings'] = 'Signature Settings';
-$txt['signature_settings_desc'] = 'Use the settings on this page to decide what facilities members should have for their signatures.';
-$txt['signature_settings_warning'] = 'Note that settings are not applied to existing signatures by default. Click <a href="%1$s?action=admin;area=memberoptions;sa=sig;apply;%2$s">here</a> to apply rules to all existing signatures.';
-$txt['signature_enable'] = 'Enable signatures';
+$txt['signature_settings'] = 'İmza Ayarları';
+$txt['signature_settings_desc'] = 'Bu sayfayı, üyelerin imzalarının nasıl görüntüleneceğini değiştirmek için kullanabilirsiniz.';
+$txt['signature_settings_warning'] = 'Bu seçenekler eski imzalara uygulanmazlar. Bu kuralları eski imzalara uygulamak için lütfen <a href="%1$s?action=admin;area=memberoptions;sa=sig;apply;%2$s">buraya</a> tıklayın.';
+$txt['signature_enable'] = 'İmzalara izin ver';
 $txt['signature_minposts'] = 'Minimum number of posts for signatures to be visible';
 $txt['signature_zero_no_max'] = '(0 for no max.)';
-$txt['signature_max_length'] = 'Maximum allowed characters';
-$txt['signature_max_lines'] = 'Maximum amount of lines';
-$txt['signature_max_images'] = 'Maximum image count';
+$txt['signature_max_length'] = 'İzin verilen en fazla karakter';
+$txt['signature_max_lines'] = 'İzin verilen en fazla satır';
+$txt['signature_max_images'] = 'İzin verilen resim sayısı';
 $txt['signature_max_images_subtext'] = '(0 for no max - excludes smileys)';
-$txt['signature_allow_smileys'] = 'Allow smileys in signatures';
-$txt['signature_max_smileys'] = 'Maximum smiley count';
-$txt['signature_max_image_width'] = 'Maximum width of signature images (pixels)';
+$txt['signature_allow_smileys'] = 'İmzalarda gülücüklere izin ver';
+$txt['signature_max_smileys'] = 'İzin verilen gülümseme sayısı';
+$txt['signature_max_image_width'] = 'Mİmzalardaki resimlerin maks. genişliği (pixel)';
 $txt['signature_max_image_height'] = 'Maximum height of signature images (pixels)';
-$txt['signature_max_font_size'] = 'Maximum font size allowed in signatures';
+$txt['signature_max_font_size'] = 'İmzalardaki metinlerin maks. font büyüklüğü';
 $txt['signature_max_font_size_subtext'] = '(0 for no max, in pixels)';
-$txt['signature_bbc'] = 'Enabled BBC tags';
+$txt['signature_bbc'] = 'İzin Verilen BBC Etkiketleri';
 
-$txt['custom_profile_title'] = 'Custom Profile Fields';
-$txt['custom_profile_desc'] = 'From this page you can create your own custom profile fields that fit in with your own forum\'s requirements.';
-$txt['custom_profile_active'] = 'Active';
+$txt['custom_profile_title'] = 'Özel Profil Alanları';
+$txt['custom_profile_desc'] = 'Bu sayfadan forumunuzun gereksinimlerine göre özel profil alanları belirleyebilirsiniz.';
+$txt['custom_profile_active'] = 'Aktif';
 $txt['custom_profile_inactive'] = 'Inactive';
-$txt['custom_profile_make_new'] = 'New Field';
-$txt['custom_profile_none'] = 'You have not created any custom profile fields yet!';
-$txt['custom_profile_icon'] = 'Icon';
+$txt['custom_profile_make_new'] = 'Yeni Alan';
+$txt['custom_profile_none'] = 'Henüz herhangi bir profil alanı oluşturmadınız!';
+$txt['custom_profile_icon'] = 'İkon';
 
-$txt['custom_profile_type_text'] = 'Text';
-$txt['custom_profile_type_textarea'] = 'Large Text';
-$txt['custom_profile_type_select'] = 'Select Box';
-$txt['custom_profile_type_radio'] = 'Radio Buttons';
-$txt['custom_profile_type_check'] = 'Checkbox';
+$txt['custom_profile_type_text'] = 'Metin';
+$txt['custom_profile_type_textarea'] = 'Uzun Metin';
+$txt['custom_profile_type_select'] = 'Seçenek Kutusu';
+$txt['custom_profile_type_radio'] = 'Radio';
+$txt['custom_profile_type_check'] = 'İşaret Kutusu';
 
-$txt['custom_add_title'] = 'Add Profile Field';
-$txt['custom_edit_title'] = 'Edit Profile Field';
-$txt['custom_edit_general'] = 'Display Settings';
-$txt['custom_edit_input'] = 'Input Settings';
-$txt['custom_edit_advanced'] = 'Advanced Settings';
-$txt['custom_edit_name'] = 'Name';
-$txt['custom_edit_desc'] = 'Description';
-$txt['custom_edit_profile'] = 'Profile Section';
-$txt['custom_edit_profile_desc'] = 'Section of profile this is edited in.';
-$txt['custom_edit_profile_none'] = 'None';
-$txt['custom_edit_registration'] = 'Show on Registration';
-$txt['custom_edit_registration_disable'] = 'No';
-$txt['custom_edit_registration_allow'] = 'Yes';
-$txt['custom_edit_registration_require'] = 'Yes, and require entry';
+$txt['custom_add_title'] = 'Profil Alanını Ekle';
+$txt['custom_edit_title'] = 'Profil Alanını Düzenle';
+$txt['custom_edit_general'] = 'Görünüm Ayarları';
+$txt['custom_edit_input'] = 'Giriş Ayarları';
+$txt['custom_edit_advanced'] = 'Gelişmiş Ayarlar';
+$txt['custom_edit_name'] = 'İsim';
+$txt['custom_edit_desc'] = 'Tanım';
+$txt['custom_edit_profile'] = 'Profil Bölümü';
+$txt['custom_edit_profile_desc'] = 'Düzenlemesinin yapılacağı Profil bölümü.';
+$txt['custom_edit_profile_none'] = 'Hiçbiri';
+$txt['custom_edit_registration'] = 'Kayıt Esnasında Göster';
+$txt['custom_edit_registration_disable'] = 'Hayır';
+$txt['custom_edit_registration_allow'] = 'Evet';
+$txt['custom_edit_registration_require'] = 'Evet, ve girdi gerektir';
 $txt['custom_edit_mlist'] = 'Show on Memberlist';
-$txt['custom_edit_display'] = 'Show on Topic View';
-$txt['custom_edit_picktype'] = 'Field Type';
+$txt['custom_edit_display'] = 'Konu Görünümünde Göster';
+$txt['custom_edit_picktype'] = 'Alan Türü';
 
 $txt['whos_online_desc'] = 'From this page, you can manage how users can see who is online and who is not.';
 $txt['lastActive'] = 'User online time threshold';
@@ -398,44 +398,44 @@ $txt['custom_edit_templates_desc'] = 'You may also use as templates the followin
 $txt['custom_edit_a_template'] = 'Template to use';
 $txt['custom_edit_templates_select'] = '-- Select a template --';
 
-$txt['custom_edit_max_length'] = 'Maximum Length';
-$txt['custom_edit_max_length_desc'] = '(0 for no limit)';
-$txt['custom_edit_dimension'] = 'Dimensions';
-$txt['custom_edit_dimension_row'] = 'Rows';
-$txt['custom_edit_dimension_col'] = 'Columns';
-$txt['custom_edit_bbc'] = 'Allow BBC';
-$txt['custom_edit_options'] = 'Options';
-$txt['custom_edit_options_desc'] = 'Leave option box blank to remove. Radio button selects default option.';
-$txt['custom_edit_options_more'] = 'More';
-$txt['custom_edit_default'] = 'Default State';
-$txt['custom_edit_active'] = 'Active';
-$txt['custom_edit_active_desc'] = 'If not selected this field will not be shown to anyone.';
-$txt['custom_edit_privacy'] = 'Privacy';
-$txt['custom_edit_privacy_desc'] = 'Who can see and edit this field.';
+$txt['custom_edit_max_length'] = 'Maksimum Genişlik';
+$txt['custom_edit_max_length_desc'] = '(0 - sınırsız)';
+$txt['custom_edit_dimension'] = 'Boyut';
+$txt['custom_edit_dimension_row'] = 'Satır';
+$txt['custom_edit_dimension_col'] = 'Kolon';
+$txt['custom_edit_bbc'] = 'BBC\'ye izin ver';
+$txt['custom_edit_options'] = 'Seçenekler';
+$txt['custom_edit_options_desc'] = 'Kaldırmak için seçenek kutusunu boş bırakın. Radio tuşu varsayılan seçeneği kendi seçer.';
+$txt['custom_edit_options_more'] = 'Daha Fazla';
+$txt['custom_edit_default'] = 'Varsayılan Durum';
+$txt['custom_edit_active'] = 'Aktif';
+$txt['custom_edit_active_desc'] = 'Eğer seçili değilse bu alan kimseye gösterilmeyecek.';
+$txt['custom_edit_privacy'] = 'Gizlilik';
+$txt['custom_edit_privacy_desc'] = 'Bu alanı düzenleyebilecek ve görebilecek kişiler.';
 $txt['custom_edit_see_owner'] = 'The owner (subject to the following groups)';
 $txt['custom_edit_can_search'] = 'Searchable';
 $txt['custom_edit_can_search_desc'] = 'Can this field be searched from the members list.';
-$txt['custom_edit_mask'] = 'Input Mask';
-$txt['custom_edit_mask_desc'] = 'For text fields an input mask can be selected to validate the data.';
-$txt['custom_edit_mask_email'] = 'Valid Email';
-$txt['custom_edit_mask_number'] = 'Numeric';
-$txt['custom_edit_mask_nohtml'] = 'No HTML';
+$txt['custom_edit_mask'] = 'Değer Kontrolü';
+$txt['custom_edit_mask_desc'] = 'Girilecek değeri doğrulamak için kullanılır.';
+$txt['custom_edit_mask_email'] = 'Geçerli E-Posta';
+$txt['custom_edit_mask_number'] = 'Rakamsal';
+$txt['custom_edit_mask_nohtml'] = 'HTML Yok';
 $txt['custom_edit_mask_regex'] = 'Regex (Advanced)';
 $txt['custom_edit_enclose'] = 'Show Enclosed Within Text (Optional)';
 $txt['custom_edit_enclose_desc'] = 'We <strong>strongly</strong> recommend to use an input mask to validate the input supplied by the user.';
 $txt['custom_edit_can_see'] = 'Can see';
 $txt['custom_edit_can_edit'] = 'Can edit';
 
-$txt['custom_edit_placement'] = 'Choose Placement';
-$txt['custom_edit_placement_standard'] = 'Standard (with title)';
-$txt['custom_edit_placement_withicons'] = 'With Icons';
-$txt['custom_edit_placement_abovesignature'] = 'Above Signature';
-$txt['custom_profile_placement'] = 'Placement: %1$s';
+$txt['custom_edit_placement'] = 'Yer seçin';
+$txt['custom_edit_placement_standard'] = 'Standart (başlık ile)';
+$txt['custom_edit_placement_withicons'] = 'Simgeler ile Birlikte';
+$txt['custom_edit_placement_abovesignature'] = 'İmzanın Üzerinde';
+$txt['custom_profile_placement'] = 'Yer: %1$s';
 
-$txt['custom_edit_delete_sure'] = 'Are you sure you wish to delete this field - all related user data will be lost!';
+$txt['custom_edit_delete_sure'] = 'Bu alanı kaldırmak istediğinize emin misiniz - kullanıcıların sahip olduğu tüm veri kaybolacaktır!';
 
-$txt['standard_profile_title'] = 'Standard Profile Fields';
-$txt['standard_profile_field'] = 'Field';
+$txt['standard_profile_title'] = 'Varsayılan Profil Alanları';
+$txt['standard_profile_field'] = 'Alan';
 
 $txt['languages_area_edit_desc'] = 'This area allows you to browse and edit the language data used by Wedge. It is not designed for translations, and if you wish to translate Wedge into a new language, please contact the Wedge Team instead.';
 $txt['languages_lang_name'] = 'Language Name (click to edit the language)';
