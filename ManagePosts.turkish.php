@@ -2,26 +2,26 @@
 // Version: 2.0; ManagePosts
 
 // Post Settings
-$txt['removeNestedQuotes'] = 'Remove nested quotes when quoting';
-$txt['enableEmbeddedFlash'] = 'Allow Flash embedding in posts';
-$txt['enableEmbeddedFlash_warning'] = 'May be a security risk!';
+$txt['removeNestedQuotes'] = 'Alıntı yaparken içiçe olan alıntıları kaldır';
+$txt['enableEmbeddedFlash'] = 'İletilerin içinde Flash\'e izin ver';
+$txt['enableEmbeddedFlash_warning'] = 'Güvenlik riski oluşturabilir!';
 $txt['additional_options_collapsable'] = 'Enable collapsible additional post options';
 
-$txt['max_messageLength'] = 'Maximum allowed post size';
-$txt['max_messageLength_zero'] = '0 for no max.';
-$txt['topicSummaryPosts'] = 'Posts to show on topic summary';
+$txt['max_messageLength'] = 'İletilerde izin verilen en fazla karakter';
+$txt['max_messageLength_zero'] = '0 sınırsız';
+$txt['topicSummaryPosts'] = 'Konu özetinde gösterilecek en fazla ileti';
 
-$txt['max_image_width'] = 'Max width of posted pictures (0 = disable)';
-$txt['max_image_height'] = 'Max height of posted pictures (0 = disable)';
+$txt['max_image_width'] = 'Gönderilen resimlerin maks. genişliği (0 = sınırsız)';
+$txt['max_image_height'] = 'Gönderilen resimlerin maks. yüksekliği (0 = sınırsız)';
 
 $txt['spamWaitTime'] = 'Time required between posts from the same IP';
-$txt['edit_wait_time'] = 'Courtesy edit wait time';
-$txt['edit_disable_time'] = 'Maximum time after posting to allow edit';
-$txt['edit_disable_time_zero'] = '0 to disable';
+$txt['edit_wait_time'] = 'Düzenleme yapılabilmesi için beklenecek süre';
+$txt['edit_disable_time'] = 'İleti gönderildikten sonra düzenleme yapılabilecek maksimum süre';
+$txt['edit_disable_time_zero'] = '0 kapalı';
 $txt['allow_non_mod_edit'] = 'Allow non-moderators to edit moderator edits?';
 
 // Topic Settings
-$txt['enableParticipation'] = 'Enable participation icons';
+$txt['enableParticipation'] = 'Katılım ikonlarına izin ver';
 
 $txt['correctExclamations'] = 'Correct too many exclamations in the subject';
 $txt['correctShouting'] = 'Maximum % of capital letters in the subject';
@@ -39,30 +39,30 @@ $txt['enablePreviousNext'] = 'Enable previous/next topic links';
 $txt['ignoreMoveVsNew'] = 'When moving topics, allow moving to any board by default';
 
 // Bulletin Board Code
-$txt['enableBBC'] = 'Enable bulletin board code (BBC)';
-$txt['enablePostHTML'] = 'Enable <em>basic</em> HTML in posts';
-$txt['autoLinkUrls'] = 'Automatically link posted URLs';
+$txt['enableBBC'] = 'BBC kullanılmasına izin ver';
+$txt['enablePostHTML'] = 'İletilerde <em>basit</em> HTML kodlarına izin ver';
+$txt['autoLinkUrls'] = 'URL\'leri bağlantılara çevir';
 
-$txt['disabledBBC'] = 'Enabled BBC tags';
-$txt['bbcTagsToUse'] = 'Enabled BBC tags';
-$txt['bbcTagsToUse_select'] = 'Select the tags allowed to be used';
-$txt['bbcTagsToUse_select_all'] = 'Select all tags';
+$txt['disabledBBC'] = 'Devre Dışı BBC Etiketleri';
+$txt['bbcTagsToUse'] = 'İzin Verilen BBC Etiketleri';
+$txt['bbcTagsToUse_select'] = 'Kullanılmasına izin verilecek etiketleri seç';
+$txt['bbcTagsToUse_select_all'] = 'Tüm etiketleri seç';
 
 // Post Editor
-$txt['disable_wysiwyg'] = 'Disable WYSIWYG editor';
+$txt['disable_wysiwyg'] = 'WYSIWYG editörü devre dışı bırak';
 $txt['editorSizes'] = 'Font sizes to list in the editor';
 $txt['editorSizes_subtext'] = 'One per line';
 $txt['editorFonts'] = 'Fonts to list in the editor';
 $txt['editorFonts_subtext'] = 'While you can list any font here, and it will be shown in the main editor in the "Font Face" dropdown, it will only work if the font is installed on your users\' computers.';
 
 // Censored Words
-$txt['admin_censored_where'] = 'Put the word to be censored on the left, and what to change it to on the right.';
-$txt['censor_whole_words'] = 'Check only whole words';
-$txt['censor_case'] = 'Ignore case when censoring';
-$txt['allow_no_censored'] = 'Allow users to turn off word censoring';
+$txt['admin_censored_where'] = 'Sansürlenecek kelimeyi sol kutuya, yerine kullanılacak olanı ise sağ kutuya yazınız.';
+$txt['censor_whole_words'] = 'Sadece tüm kelimeleri kontrol et';
+$txt['censor_case'] = 'Büyük/küçük harf farkını yoksay';
+$txt['allow_no_censored'] = 'Kullanıcıların kelime sansürünü kaldırmalarına izin ver';
 
-$txt['censor_test'] = 'Test Censored Words';
-$txt['censor_test_save'] = 'Test';
+$txt['censor_test'] = 'Sansürlenen Kelimeleri Deneyin';
+$txt['censor_test_save'] = 'Dene';
 
 // Draft Settings
 $txt['masterSavePostDrafts'] = 'Enable saving of post drafts';
