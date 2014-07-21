@@ -11,7 +11,7 @@ $txt['minutes_remaining'] = array(
 );
 
 $txt['new_to_wedge'] = 'Wedge Yenilikler';
-$txt['hide_new_to_wedge'] = 'Don\'t show this again';
+$txt['hide_new_to_wedge'] = 'Bir daha gösterme';
 $txt['new_to_wedge_intro'] = 'As you seem to be new to Wedge, there may be some tasks you\'re interesting in performing right now.';
 $txt['new_to_wedge_add_boards'] = 'Want to add a <strong>new area</strong> to your forum?';
 $txt['new_to_wedge_add_boards_answer'] = 'Check out <a href="%1$s">Boards and Categories</a>.';
@@ -38,12 +38,12 @@ $txt['admin_members_list'] = 'Aşağıda foruma kayıtlı tüm üyelerin listesi
 $txt['admin_next'] = 'Sonraki';
 $txt['admin_censored_words'] = 'Sansürlü Kelimeler';
 
-$txt['admin_censored_desc'] = 'Due to the public nature of forums there may be some words that you wish to prohibit being posted by users of your forum. You can enter any words below that you wish to be censored whenever used by a member.<br>Blank a box to remove that word.';
+$txt['admin_censored_desc'] = 'Forumların yapısı gereği belli kelimelerin forumda kullanılmasını engellemek isteyebilirsiniz. Bu amaçla sansürlenmesini istediğiniz kelimeleri aşağıya girebilirsiniz.<br />Silmek için kutulardaki kelimeleri temizlemeniz yeterlidir.';
 $txt['admin_template_edit'] = 'Edit Your Forum Template';
 $txt['admin_plugin_settings'] = 'Eklenti Ayarları';
 $txt['admin_mod_filters'] = 'Moderasyon Filtreleri';
 $txt['admin_server_settings'] = 'Sunucu Ayarları';
-$txt['admin_basic_settings'] = 'This page allows you to change the basic settings for your forum. Be very careful with these settings, as they may render the forum dysfunctional.';
+$txt['admin_basic_settings'] = 'Bu sayfa forumunuzun temel ayarlarını değiştirmenizi sağlar. Bu ayarları yaparken dikkatli olun çünkü yapacağınız yanlış bir ayar forum\'un çalışmamasına neden olabilir.';
 $txt['maintenance'] = 'Bakım Modunu Etkinleştir';
 
 $txt['mbname'] = 'Forum Başlığı';
@@ -142,8 +142,8 @@ $txt['email_address'] = 'Eposta Adresi';
 $txt['ip_address'] = 'IP Adresi';
 $txt['member_id'] = 'ID';
 
-$txt['unknown'] = 'unknown';
-$txt['security_wrong'] = 'Administration login attempt!' . "\n" . 'Referer: %1$s' . "\n" . 'User agent: %2$s' . "\n" . 'IP: %3$s';
+$txt['unknown'] = 'bilinmeyen';
+$txt['security_wrong'] = 'Yönetici giriş girişimi!' . "\n" . 'Yönlendiren: %1$s' . "\n" . 'Tarayıcı: %2$s' . "\n" . 'IP: %3$s;
 
 $txt['email_as_html'] = 'HTML formatında gönder. (bu seçenek sayesinde iletilerde normal HTML kodları kullanabilirsiniz).';
 $txt['email_parsed_html'] = '&lt;br&gt;s ve &amp;nbsp;s etiketlerini bu iletiye ekle';
@@ -156,61 +156,61 @@ $txt['email_done'] = 'done.';
 $txt['ban_title'] = 'Yasaklı Listesi';
 $txt['ban_hard'] = 'Hard Bans';
 $txt['ban_soft'] = 'Soft Bans';
-$txt['ban_add'] = 'Add Ban';
-$txt['ban_edit'] = 'Edit Ban';
-$txt['ban_settings'] = 'Ban Settings';
+$txt['ban_add'] = 'Yasaklama Ekle';
+$txt['ban_edit'] = 'Yasaklamayı düzenle';
+$txt['ban_settings'] = 'Yasaklama Ayarları';
 
-$txt['settings_not_writable'] = 'These settings cannot be changed because Settings.php is read only.';
+$txt['settings_not_writable'] = 'Bu ayarlar Settings.php dosyası yazılabilir olmadığı için kaydedilemedi.';
 
 $txt['maintain_title'] = 'Forum Bakımı';
-$txt['maintain_info'] = 'Optimize tables, check for errors, and prune boards with these tools.';
-$txt['maintain_sub_routine'] = 'Routine';
+$txt['maintain_info'] = 'Veritabanı tablolarını iyileştirebilir, oluşmuş olabilecek hataları kontrol edebilir, ve bölümleri temizleyebilirsiniz.';
+$txt['maintain_sub_routine'] = 'Rutin';
 $txt['maintain_sub_members'] = 'Üyeler';
-$txt['maintain_sub_topics'] = 'Topics';
-$txt['maintain_done'] = 'The maintenance task \'%1$s\' was executed successfully.';
-$txt['maintain_no_errors'] = 'Congratulations, no errors found! Thanks for checking.';
+$txt['maintain_sub_topics'] = 'Konular';
+$txt['maintain_done'] = '\'%1$s\' bakım görevi  başarılı bir şekilde gerçekleştirilmiştir';
+$txt['maintain_no_errors'] = 'Tebrikler, hiç hataya rastlanmadı!  Kontrol için teşekkürler.';
 
 $txt['maintain_tasks'] = 'Zamanlanmış Görevler';
 $txt['maintain_tasks_desc'] = 'Bu bölümü kullanarak WEDGE tarafından zamanlanmış işlemleri yönetebilirsiniz. ';
 
-$txt['scheduled_log'] = 'Task Log';
+$txt['scheduled_log'] = 'Görev Günlüğü';
 $txt['scheduled_log_desc'] = 'Lists logs of the tasks that have be ran.';
-$txt['admin_log'] = 'Administration Log';
-$txt['admin_log_desc'] = 'Lists administrative tasks that have been performed by admins of your forum.';
-$txt['moderation_log'] = 'Moderation Log';
-$txt['moderation_log_desc'] = 'Lists moderation activities that have been performed by moderators on your forum.';
-$txt['spider_log'] = 'Spider Log';
-$txt['spider_log_desc'] = 'Review the entries related to search engine spider activity on your forum.';
-$txt['errlog_desc'] = 'The error log tracks every error encountered by your forum. To delete any errors from the database, mark the checkbox, and click the %1$s button at the bottom of the page.';
-$txt['errlog_no_entries'] = 'There are currently no error log entries.';
+$txt['admin_log'] = 'Yönetim Kaydı';
+$txt['admin_log_desc'] = 'Yöneticileriniz tarafından yapılmış yönetimsel eylemlerin bir kaydını tutar.';
+$txt['moderation_log'] = 'Moderasyon Kaydı';
+$txt['moderation_log_desc'] = 'Moderatörleriniz tarafından yapılmış moderasyon eylemlerinin bir kaydını tutar.';
+$txt['spider_log'] = 'Örümcek Kaydı';
+$txt['spider_log_desc'] = 'Forumunuzdaki arama motoru örümcek aktivitesi girdilerini gözden geçirin.';
+$txt['errlog_desc'] = 'Forumunuzun veritabanında sakladığı hata iletilerinin listesi aşağıdadır. Veritabanından silmek istediğiniz hata iletilerini işaretleyin ve en alttaki %1$s tuşuna basın.';
+$txt['errlog_no_entries'] = 'Şu anda hata kaydı bulunmamaktadır.';
 $txt['intrusion_log_desc'] = 'Wedge includes a minimal firewall, based on <a href="http://bad-behavior.ioerror.us/">Bad Behavior</a> to limit potential problems on your forum. Any requests made to your forum that are stopped by this system are logged here.';
 $txt['intrusion_log_no_entries'] = 'There are currently no intrusion log entries.';
 
 // Repeating the same strings, but for the Log menu, so you can shorten them if you want.
-$txt['log_error'] = 'Error Log';
+$txt['log_error'] = 'Hata Kaydı';
 $txt['log_intrusion'] = 'Intrusion Log';
-$txt['log_ban'] = 'Ban Log';
-$txt['log_scheduled'] = 'Task Log';
-$txt['log_admin'] = 'Admin Log';
-$txt['log_moderation'] = 'Moderation Log';
-$txt['log_spider'] = 'Spider Log';
-$txt['log_settings'] = 'Log Settings';
+$txt['log_ban'] = 'Yasaklama Kaydı';
+$txt['log_scheduled'] = 'Görev Kaydı';
+$txt['log_admin'] = 'Yönetici Kaydı';
+$txt['log_moderation'] = 'Moderasyon Kaydı';
+$txt['log_spider'] = 'Örümcek Kaydı';
+$txt['log_settings'] = 'Kayıt Seçenekleri';
 $txt['log_settings_desc'] = 'Use these tools to configure how logs work, and to remove older entries in the various logs.';
 
-$txt['mailqueue_title'] = 'Email Settings';
-$txt['mailqueue_browse'] = 'Browse Queue';
-$txt['mailqueue_settings'] = 'Settings';
-$txt['mailqueue_templates'] = 'Email Templates';
+$txt['mailqueue_title'] = 'Eposta Ayarları';
+$txt['mailqueue_browse'] = 'Sırayı Görüntüle';
+$txt['mailqueue_settings'] = 'Ayarlar';
+$txt['mailqueue_templates'] = 'Eposta Şablonu';
 
-$txt['db_error_send'] = 'Send emails on database connection error';
-$txt['db_persist'] = 'Use a persistent connection';
-$txt['ssi_db_user'] = 'Database username to use in SSI mode';
-$txt['ssi_db_passwd'] = 'Database password to use in SSI mode';
+$txt['db_error_send'] = 'Veritabanı bağlantı hatalarını e-posta ile gönder.';
+$txt['db_persist'] = 'Sürekli bir bağlantı oluştur';
+$txt['ssi_db_user'] = 'SSI modunda kullanmak için veritabanı kullanıcı adı';
+$txt['ssi_db_passwd'] = 'SSI modunda kullanmak için veritabanı şifresi';
 
-$txt['setting_language'] = 'Default Forum Language';
+$txt['setting_language'] = 'Forum\'un Varsayılan Dili';
 
-$txt['mtitle'] = 'Subject for display';
-$txt['mmessage'] = 'Message for display';
+$txt['mtitle'] = 'Görüntülenecek Başlık';
+$txt['mmessage'] = 'Görüntülenecek İleti';
 
 $txt['dvc_your'] = 'Kullandığınız Sürüm';
 $txt['dvc_current'] = 'Güncel Sürüm';
@@ -219,8 +219,8 @@ $txt['dvc_default'] = 'Varsayılan Tema';
 $txt['dvc_templates'] = 'Güncel Temalar';
 $txt['dvc_languages'] = 'Dil Dosyaları';
 
-$txt['admin_confirm_password'] = '(confirm)';
-$txt['admin_incorrect_password'] = 'Incorrect Password';
+$txt['admin_confirm_password'] = '(onayla)';
+$txt['admin_incorrect_password'] = 'Geçersiz Şifre';
 
 $txt['date_format'] = '(YYYY-AA-GG)';
 $txt['undefined_gender'] = 'Tanımlanmamış';
