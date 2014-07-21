@@ -92,26 +92,25 @@ $txt['help_edit_news'] = '
 $txt['help_view_members'] = '
 	<ul class="list">
 		<li>
-			<strong>View all Members</strong><br>
-			View all members in the board. You are presented with a hyperlinked list of member names. You may click
-			on any of the names to find details of the members (homepage, age, etc.), and as Administrator
-			you are able to modify these parameters. You have complete control over members, including the
-			ability to delete them from the forum.<br><br>
+			<strong>Tüm Üyeleri Göster</strong><br>
+			Bu özellik forum\'da bulunan tüm üyeleri isimleri profil\'lerine köprülenmiş bir şekilde
+			görüntülemenize ve eğer yönetici iseniz bu üyelerin seçeneklerinizi değiştirmenize olanak
+                        tanır (website, yaş, vb.). Yönetici haklarına sahip biri, üyeler üzerinde komple kontrole 
+                        sahiptir, üye hesabını silmek gibi seçeneklerde Yöneticinin yetkileri arasında bulunur.<br /><br />
 		</li>
 		<li>
-			<strong>Awaiting Approval</strong><br>
-			This section is only shown if you have enabled admin approval of all new registrations. Anyone who registers to join your
-			forum will only become a full member once they have been approved by an admin. The section lists all those members who
-			are still awaiting approval, along with their email and IP address. You can choose to either accept or reject (delete)
-			any member on the list by checking the box next to the member and choosing the action from the drop-down box at the bottom
-			of the screen. When rejecting a member you can choose to delete the member either with or without notifying them of your decision.<br><br>
+			<strong>Onay Bekleyen Üyeler</strong><br>
+			Bu bölüm sadece Yönetici onaylı üyelik sistemi seçili ise görüntülenebilir. Bu seçenek seçili ise bir kişi ancak yönetici 
+                        onun üyelik isteğini kabul ettiyse tam bir üye haline gelebilir. Bu bölümde hala yönetici onayı beklemekte olan üyeler,
+                        e-posta ve IP adresleri ile birlikte gösterilirler. Burada kişilerin üyelik isteklerini ister kabul edebilir istersenizde
+			kabul etmeyebilirsiniz. Üyelerin isimlerinin yanındaki kutulara tıklayabilir ve aşağıdaki çoktan seçmeli menüden yapılacak işlemi
+                        seçebilirsiniz. Bir üyenin başvurusunu kabul etmeyecekseniz, bu üyenin bu kararınızdan haberdar edilip edilmeyeceğini belirleyebilirsiniz.<br /><br />
 		</li>
 		<li>
-			<strong>Awaiting Activation</strong><br>
-			This section will only be visible if you have activation of member accounts enabled on the forum. This section will list all
-			members who have still not activated their new accounts. From this screen you can choose to either accept, reject or remind
-			members with outstanding registrations. As above you can also choose to email the member to inform them of the
-			action you have taken.<br><br>
+			<strong>Aktivasyon Bekleyen Üyeler</strong><br>
+			Bu bölüm sadece forum seçeneklerinde aktivasyon onaylı üyeliği seçtiyseniz görüntülenebilir olacaktır. Bu bölümde henüz
+                        hesaplarını aktifleştirmemiş üyelerin tümünü görebilirsiniz. Bu bölümde isterseniz üyenin hesabını aktifleştirebilir,
+			silebilir veya br hatırlatma maili yollayabilirsiniz. Ayrıca isterseniz kararınızdan bu üyeyi haberdar edebilirsiniz.<br /><br />
 		</li>
 	</ul>';
 
@@ -514,11 +513,11 @@ $txt['help_show_group_key'] = 'In the Who\'s Online area of the Info Center, onl
 $txt['help_maintenance_rot'] = 'This allows you to <strong>completely</strong> and <strong>irrevocably</strong> remove old topics. It is recommended that you try to make a backup first, just in case you remove something you didn\'t mean to.<br><br>Use this option with care.';
 $txt['help_maintenance_members'] = 'This allows you to <strong>completely</strong> and <strong>irrevocably</strong> remove member accounts from your forum. It is <strong>highly</strong> recommended that you try to make a backup first, just in case you remove something you didn\'t mean to.<br><br>Use this option with care.';
 
-$txt['help_avatar_server_stored'] = 'This allows your members to pick from avatars stored on your server itself. They are, generally, in the same place as Wedge under the avatars folder.<br>As a tip, if you create directories in that folder, you can make "categories" of avatars.';
-$txt['help_avatar_external'] = 'With this enabled, your members can type in a URL to their own avatar. The downside of this is that, in some cases, they may use avatars that are overly large or portray images you don\'t want on your forum.';
-$txt['help_avatar_download_external'] = 'With this option enabled, the URL given by the user is accessed to download the avatar at that location. On success, the avatar will be treated as uploadable avatar.';
-$txt['help_avatar_upload'] = 'This option is much like "Allow members to select an external avatar", except that you have better control over the avatars, a better time resizing them, and your members do not have to have somewhere to put avatars.<br><br>However, the downside is that it can take a lot of space on your server.';
-$txt['help_avatar_download_png'] = 'PNGs are larger, but offer better quality compression. If this is unchecked, JPEG will be used instead - which is often smaller, but also of lesser or blurry quality.';
+$txt['help_avatar_server_stored'] = 'Kullanıcıların avatarlarını sizin serverınızdan almasını sağlar<br />Eğer Wedge nin avatarlar klasörü içine dizinler oluşturursanız avatar &quot;kategorisi&quot; yapabilirsiniz.';
+$txt['help_avatar_external'] = 'Başka adreslerden link verilmesini ve avatarlarda kullanılabilmeyi sağlar.';
+$txt['help_avatar_download_external'] = 'Bu özellik seçilirse, karşı bir sunucudan avatar bu sunucuya transfer edilir ve öntanımlı boyuta küçültülür.';
+$txt['help_avatar_upload'] = 'Bu seçenek üyelerinizin avatlarını sizin sunucunuza yüklemelerine olanak tanır. Bu sayede avatarları yeniden boyutlandırabilirsiniz.<br /><br />Bu seçeneğin kötü bir etkisi ise sunucunuzdaki yer kullanımını artıracak olmasıdır.';
+$txt['help_avatar_download_png'] = 'PNG dosyaları daha büyük boyutlu ancak daha kaliteli resim formatıdır. Bu seçenek seçilmediği takdirde JPEG- daha küçük ancak daha az kaliteli- resimler kullanılacaktır.';
 $txt['help_gravatar_settings'] = 'Gravatars are a form of global avatar managed by <a href="http://www.gravatar.com/">Gravatar.com</a>, where you add your avatar once and it will be used in a variety of places automatically - particularly common for WordPress blogs, for example.';
 $txt['help_gravatarEnabled'] = 'If this option is checked, Gravatars will be available for users - if unchecked, the option will not be available for any user.';
 $txt['help_gravatarOverride'] = 'If this option is checked, users will not be able to upload or use other avatars in the forum, but will automatically use their Gravatar in its place.';
@@ -529,11 +528,11 @@ $txt['help_avatar_banned_hide'] = 'This will hide the avatar of banned users, as
 
 $txt['help_disableHostnameLookup'] = 'This disables host name lookups, which on some servers are very slow. Note that this will make banning less effective.';
 
-$txt['help_search_weight_frequency'] = 'Weight factors are used to determine the relevancy of a search result. Change these weight factors to match the things that are specifically important for your forum. For instance, a forum of a news site, might want a relatively high value for \'age of last matching message\'. All values are relative in relation to each other and should be positive integers.<br><br>This factor counts the amount of matching messages and divides them by the total number of messages within a topic.';
-$txt['help_search_weight_age'] = 'Weight factors are used to determine the relevancy of a search result. Change these weight factors to match the things that are specifically important for your forum. For instance, a forum of a news site, might want a relatively high value for \'age of last matching message\'. All values are relative in relation to each other and should be positive integers.<br><br>This factor rates the age of the last matching message within a topic. The more recent this message is, the higher the score.';
-$txt['help_search_weight_length'] = 'Weight factors are used to determine the relevancy of a search result. Change these weight factors to match the things that are specifically important for your forum. For instance, a forum of a news site, might want a relatively high value for \'age of last matching message\'. All values are relative in relation to each other and should be positive integers.<br><br>This factor is based on the topic size. The more messages are within the topic, the higher the score.';
-$txt['help_search_weight_subject'] = 'Weight factors are used to determine the relevancy of a search result. Change these weight factors to match the things that are specifically important for your forum. For instance, a forum of a news site, might want a relatively high value for \'age of last matching message\'. All values are relative in relation to each other and should be positive integers.<br><br>This factor looks whether a search term can be found within the subject of a topic.';
-$txt['help_search_weight_first_message'] = 'Weight factors are used to determine the relevancy of a search result. Change these weight factors to match the things that are specifically important for your forum. For instance, a forum of a news site, might want a relatively high value for \'age of last matching message\'. All values are relative in relation to each other and should be positive integers.<br><br>This factor looks whether a match can be found in the first message of a topic.';
+$txt['help_search_weight_frequency'] = 'Önemli unsurlar arama sonuçlarının yararlılığı için kullanılır. Önemli unsurları forumunuzun yapısına göre değiştiriniz. Örneğin bir haber forumu yapılacak aramada \'en son uyuştuğu iletiyi göster\' özelliğinin değerinin daha yüksek olması yararlı olacaktır. Tüm rakamlar birbirleri ile belli bir şekilde bağlantılı ve pozitif olmak zorundadırlar.<br /><br />Bu unsur bulunan arama sonuçlarının sayısını toplam ileti sayısına böler.';
+$txt['help_search_weight_age'] = 'Önemli unsurlar arama sonuçlarının yararlılığı için kullanılır. Önemli unsurları forumunuzun yapısına göre değiştiriniz. Örneğin bir haber forumu yapılacak aramada \'en son uyuştuğu iletiyi göster\' özelliğinin değerinin daha yüksek olması yararlı olacaktır. Tüm rakamlar birbirleri ile belli bir şekilde bağlantılı ve pozitif olmak zorundadırlar.<br /><br />Bu unsur bulunan ileti süresine dayalıdır. Daha fazla sonuç, daha fazla kazancı gösterir.';
+$txt['help_search_weight_length'] = 'Önemli unsurlar arama sonuçlarının yararlılığı için kullanılır. Önemli unsurları forumunuzun yapısına göre değiştiriniz. Örneğin bir haber forumu yapılacak aramada \'en son uyuştuğu iletiyi göster\' özelliğinin değerinin daha yüksek olması yararlı olacaktır. Tüm rakamlar birbirleri ile belli bir şekilde bağlantılı ve pozitif olmak zorundadırlar.<br /><br />Bu unsur konu büyüklüğüne dayalıdır. Konularda bulunan fazla iletiler, daha fazla kazancı gösterir.';
+$txt['help_search_weight_subject'] = 'Önemli unsurlar arama sonuçlarının yararlılığı için kullanılır. Önemli unsurları forumunuzun yapısına göre değiştiriniz. Örneğin bir haber forumu yapılacak aramada \'en son uyuştuğu iletiyi göster\' özelliğinin değerinin daha yüksek olması yararlı olacaktır. Tüm rakamlar birbirleri ile belli bir şekilde bağlantılı ve pozitif olmak zorundadırlar.<br /><br />Bu unsur konuların başlığında bulunabilmeye dayalıdır..';
+$txt['help_search_weight_first_message'] = 'Önemli unsurlar arama sonuçlarının yararlılığı için kullanılır. Önemli unsurları forumunuzun yapısına göre değiştiriniz. Örneğin bir haber forumu yapılacak aramada \'en son uyuştuğu iletiyi göster\' özelliğinin değerinin daha yüksek olması yararlı olacaktır. Tüm rakamlar birbirleri ile belli bir şekilde bağlantılı ve pozitif olmak zorundadırlar.<br /><br />Bu unsur konuların ilk iletilerinde bulunabilmeye dayalıdır..';
 $txt['help_search_weight_pinned'] = 'Weight factors are used to determine the relevancy of a search result. Change these weight factors to match the things that are specifically important for your forum. For instance, a forum of a news site, might want a relatively high value for \'age of last matching message\'. All values are relative in relation to each other and should be positive integers.<br><br>This factor looks whether a topic is pinned and increases the relevancy score if it is.';
 $txt['help_search'] = 'Adjust all settings for the search function here.';
 $txt['help_search_why_use_index'] = 'A search index can greatly improve the performance of searches on your forum. Especially when the number of messages on a forum grows bigger, searching without an index can take a long time and increase the pressure on your database. If your forum is bigger than 50.000 messages, you might want to consider creating a search index to assure peak performance of your forum.<br><br>Note that a search index can take up quite some space. The custom index is often quite large (depending on your configuration it can be up to 3 times the size of the messages table), but the performance gain on searching is worth the extra data.';
