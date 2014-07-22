@@ -130,7 +130,7 @@ $txt['cannot_view_attachments'] = 'Bu bölümde dosya indirme veya eklentileri g
 $txt['cannot_view_mlist'] = 'Üye Listesini görüntülemek için yetkiniz yok.';
 $txt['cannot_view_stats'] = 'İstatistikleri görüntüleme yetkiniz yok.';
 $txt['cannot_who_view'] = 'Kimler Online\'ı görüntülemek için gerekli yetkilere sahip değilsiniz.';
-$txt['stats_not_available'] = 'The forum statistics are not available.';
+$txt['stats_not_available'] = 'Forum istatistikleri mevcut değil.';
 
 $txt['registration_disabled'] = 'Kayıt olma işlemleri aktif değil.';
 $txt['registration_no_secret_question'] = 'Gizli soru için cevap belirtilmemiş.';
@@ -154,46 +154,46 @@ $txt['moveto_noboards'] = 'There are no boards to move this topic to!';
 $txt['already_activated'] = 'Hesabınız aktif hale getirildi.';
 $txt['still_awaiting_approval'] = 'Hesabınız hala adminin onaylamasını bekliyor.';
 
-$txt['invalid_tracking_ip'] = 'Invalid IP / IP range.<br>Example of a valid IP address: 127.0.0.1<br>Example of a valid IP range: 127.0.0.*';
+$txt['invalid_tracking_ip'] = 'Geçersiz IP / IP Alanı.<br />Doğru bir IP adresine örnek: 127.0.0.1<br />Doğru bir IP alanına örnek: 127.0.0.*';
 
-$txt['recycle_no_valid_board'] = 'No valid board selected for recycled topics';
+$txt['recycle_no_valid_board'] = 'Silinecek başlıklar için geçersiz bölüm';
 
 $txt['login_threshold_fail'] = 'Şu an giriş yapamıyorsunuz. Lütfen daha sonra tekrar deneyin.';
 $txt['login_threshold_brute_fail'] = 'Üzgünüz fakat kullanıcı başına izin verilen giriş yapma sınırını aşmış bulunuyorsunuz. Lütfen 30 saniye bekleyin ve tekrar deneyin.';
-$txt['under_age_registration_prohibited'] = 'Sorry, but users under the age of %1$d are not allowed to register on this forum.';
+$txt['under_age_registration_prohibited'] = 'Üzgünüz, %1$d yaşın altındaki kullanıcıların bu foruma üye olmalarına izin verilmiyor';
 
-$txt['who_off'] = 'You cannot access Who\'s Online right now because it is disabled.';
+$txt['who_off'] = 'Çevrimiçi üyeler sayfasına yönetici tarafından devre dışı bırakıldığı için erişemezsiniz.';
 
 $txt['unsupported_browser'] = 'The browser you\'re currently using to visit this website, %s, is very old, slow and insecure. We encourage you to upgrade to a newer version, or switch to a better, more modern alternative such as Google Chrome, Opera or Mozilla Firefox.';
 
 $txt['merge_create_topic_failed'] = 'Yeni bir konu oluşturmada hata var.';
 $txt['merge_need_more_topics'] = 'Birleştirme yapmak için en az 2 konuya ihtiyacınız var.';
 
-$txt['postWaitTime_broken'] = 'The last posting from your IP was less than %1$d seconds ago. Please try again later.';
-$txt['registerWaitTime_broken'] = 'You already registered just %1$d seconds ago!';
-$txt['loginWaitTime_broken'] = 'You will have to wait about %1$d seconds to login again, sorry.';
-$txt['pmWaitTime_broken'] = 'The last personal message from your IP was less than %1$d seconds ago. Please try again later.';
-$txt['reportWaitTime_broken'] = 'The last topic report from your IP was less than %1$d seconds ago. Please try again later.';
-$txt['sendtopcWaitTime_broken'] = 'The last topic sent from your IP was less than %1$d seconds ago. Please try again later.';
-$txt['sendmailWaitTime_broken'] = 'The last email sent from your IP was less than %1$d seconds ago. Please try again later.';
-$txt['searchWaitTime_broken'] = 'Your last search was less than %1$d seconds ago. Please try again later.';
+$txt['postWaitTime_broken'] = 'En son gönderdiğiniz ileti üzerinden %1$d saniye geçmeden yenisini gönderemezsiniz. Daha sonra tekrar deneyin.';
+$txt['registerWaitTime_broken'] = '%1$d saniye önce zaten kayıt yaptırdınız!';
+$txt['loginWaitTime_broken'] = 'Giriş yapabilmeniz için %1$d saniye beklemelisiniz.';
+$txt['pmWaitTime_broken'] = 'En son gönderdiğiniz kişisel ileti üzerinden %1$d saniye geçmeden yenisini gönderemezsiniz. Daha sonra tekrar deneyin.';
+$txt['reportWaitTime_broken'] = 'En son gönderdiğiniz konu raporu üzerinden %1$d saniye geçmeden yenisini gönderemezsiniz. Daha sonra tekrar deneyin.';
+$txt['sendtopcWaitTime_broken'] = 'En son gönderdiğiniz konu üzerinden %1$d saniye geçmeden yenisini gönderemezsiniz. Daha sonra tekrar deneyin.';
+$txt['sendmailWaitTime_broken'] = 'En son gönderdiğiniz e-posta üzerinden %1$d saniye geçmeden yenisini gönderemezsiniz. Daha sonra tekrar deneyin.';
+$txt['searchWaitTime_broken'] = 'En son aramanız %1$d saniyeden önce idi. Lütfen daha sonra tekrar deneyiniz.';
 
-$txt['email_missing_data'] = 'You must enter something in both the subject and message boxes.';
+$txt['email_missing_data'] = 'Başlık ve ileti kutuları boş bırakılamaz, lütfen ilgili bilgiyi giriniz.';
 
-$txt['topic_gone'] = 'The topic or board you are looking for appears to be either missing or off limits to you.';
-$txt['theme_edit_missing'] = 'The file you are trying to edit... can\'t even be found!';
+$txt['topic_gone'] = 'Baktığınız konu veya bölüm silinmiş veya size sınırlandırılmıştır.';
+$txt['theme_edit_missing'] = 'Düzenlemeye çalıştığınız dosya bulunamadı!';
 
-$txt['attachments_no_write'] = 'The attachments upload directory is not writable. Your attachment or avatar cannot be saved.';
-$txt['attachments_limit_per_post'] = 'You may not upload more than %1$d attachments per post';
+$txt['attachments_no_write'] = 'Eklentilerin yükleneceği yer yazılabilir değil. Eklentiniz veya avatarınızı kaydedilemedi.';
+$txt['attachments_limit_per_post'] = 'Bir ileti içerisinde en fazla %1$d eklenti gönderebilirsiniz';
 
-$txt['pm_not_yours'] = 'The personal message you\'re trying to quote is not your own or does not exist, please go back and try again.';
-$txt['mangled_post'] = 'Mangled form data - please go back and try again.';
-$txt['quoted_post_deleted'] = 'The post you are trying to quote either does not exist, was deleted, or is no longer viewable by you.';
-$txt['pm_too_many_per_hour'] = 'You have exceeded the limit of %1$d personal messages per hour.';
-$txt['labels_too_many'] = 'Sorry, %1$s messages already had the maximum amount of labels allowed!';
+$txt['pm_not_yours'] = 'Kişisel ileti size ait değil. Lütfen tekrar deneyin.';
+$txt['mangled_post'] = 'Formdaki veriler sıkıştırıldı - lütfen tekrar deneyin.';
+$txt['quoted_post_deleted'] = 'Alıntı yapmaya çalıştığınız ileti ya var olmayan bir ileti yada silinmiş veya sizin erişimizinize kapatılmış.';
+$txt['pm_too_many_per_hour'] = 'Saat başına en fazla %1$d kişisel ileti gönderebilirsiniz.';
+$txt['labels_too_many'] = 'Üzgünüz %1$d ileti izin verilen en yüksek etiket sayısına ulaşmış!';
 
-$txt['register_only_once'] = 'Sorry, but you\'re not allowed to register multiple accounts at the same time from the same computer.';
-$txt['admin_setting_coppa_require_contact'] = 'You must enter either a postal or fax contact if parent/guardian approval is required.';
+$txt['register_only_once'] = 'Üzgünüm, ama aynı bilgisayardan başka hesap kayıt etmenize izin verilmiyor.';
+$txt['admin_setting_coppa_require_contact'] = 'Veli onayı için en azından faks veya posta adres seçeneklerinden birini girmeniz gerekmektedir.';
 
 $txt['error_long_name'] = 'Üye adınız çok uzun.';
 $txt['error_no_name'] = 'İsim belirtilmedi.';
@@ -239,12 +239,12 @@ $txt['unable_to_create_temporary'] = 'Arama işlemi geçici tablolar yaratamadı
 
 $txt['only_on_wedge'] = 'Sorry, this kind of asset can only be downloaded from an official source.';
 
-$txt['no_membergroup_selected'] = 'No membergroup selected';
-$txt['membergroup_does_not_exist'] = 'The membergroup doesn\'t exist or is invalid.';
+$txt['no_membergroup_selected'] = 'Seçili üye grubu yok';
+$txt['membergroup_does_not_exist'] = 'Böyle bir üye grubu bulunmamaktadır.';
 
-$txt['at_least_one_admin'] = 'There must be at least one administrator on a forum!';
+$txt['at_least_one_admin'] = 'Bu forumda en azından bir yönetici olmalı!';
 
-$txt['error_functionality_not_windows'] = 'Sorry, this functionality is currently not available for servers running Windows.';
+$txt['error_functionality_not_windows'] = 'Üzgünüm, bu fonksiyon Windows sunucu kullananlar için kullanılabilir değil.';
 
 // Don't use entities in the below string.
 $txt['attachment_not_found'] = 'Dosya eki bulunamadı';
@@ -276,24 +276,24 @@ $txt['profile_error_password_chars'] = 'Şifreniz hem büyük hem küçük harfl
 $txt['profile_error_already_requested_group'] = 'Bu gruba katılmak için zaten bir isteğiniz bulunmakta!';
 
 // Use numeric entities in the below string, as it's to be used in emails.
-$txt['database_error'] = 'Database Error';
+$txt['database_error'] = 'Veritabanı Hatası';
 // Use numeric entities in the below string, as it's to be used in emails.
 $txt['tried_to_repair'] = 'Wedge has detected and automatically tried to repair an error in your database. If you continue to have problems, or continue to receive these emails, please contact your host.';
 
 // Database errors (Class-DB.php)
-$txt['mysql_error_space'] = ' - check database storage space or contact the server administrator.';
+$txt['mysql_error_space'] = ' - veritabanı büyüklüğünü kontrol edin veya sistem yöneticiniz ile iletişime geçin.';
 $txt['try_again'] = 'Please try again. If you come back to this error screen, report the error to an administrator.';
 // Line number in a file.
 $txt['line'] = 'Line';
 
 // Skin parsing errors
-$txt['template_parse_error'] = 'Template Parse Error!';
+$txt['template_parse_error'] = 'Tema Ayrıştırma Hatası!';
 $txt['template_parse_error_message'] = 'It seems something has gone sour on the forum with the template system. This problem should only be temporary, so please come back later and try again. If you continue to see this message, please contact the administrator.<br><br>You can also try <a href="javascript:location.reload();">refreshing this page</a>.';
 $txt['template_parse_error_details'] = 'There was a problem loading the <tt><strong>%1$s</strong></tt> template or language file. Please check the syntax and try again - remember, single quotes (<tt>\'</tt>) often have to be escaped with a slash (<tt>\\</tt>). To see more specific error information from PHP, try <a href="{board_url}%1$s">accessing the file directly</a>.<br><br>You may want to try to <a href="javascript:location.reload();">refresh this page</a> or <a href="<URL>?theme=1">use the default theme</a>.';
 
-$txt['security_risk'] = 'MAJOR SECURITY RISK:';
-$txt['cache_writable_head'] = 'Performance Warning';
-$txt['cache_writable'] = 'The cache directory is not writable - this will adversely affect the performance of your forum.';
+$txt['security_risk'] = 'ÖNEMLİ GÜVENLİK RİSKİ:';
+$txt['cache_writable_head'] = 'Performans uyarısı';
+$txt['cache_writable'] = 'Önbellek dizini yazılabilir değildir - bu durum forum\'unuzun performansını kötü yönde etkileyecektir';
 $txt['not_removed'] = 'You haven\'t removed <strong>%1$s</strong>!';
 $txt['not_removed_extra'] = '%1$s is a backup of %2$s that was not generated by Wedge. It can be accessed directly and used to gain unauthorized access to your forum. You should delete it immediately.';
 
@@ -330,7 +330,7 @@ $txt['admin_file_not_found'] = 'Dosya bulunamadı: %1$s.';
 $txt['themes_none_selectable'] = 'En azından bir tema seçilebilir olmalıdır.';
 $txt['themes_default_selectable'] = 'Varsayılan forum teması seçilebilir olmalıdır.';
 $txt['ignoreboards_disallowed'] = 'Bölümleri yoksayma seçeneği devre dışıdır.';
-$txt['ignoretopics_disallowed'] = 'The option to ignore topics has not been enabled.';
+$txt['ignoretopics_disallowed'] = 'Konuları yoksayma seçeneği devre dışıdır..';
 
 $txt['mboards_delete_error'] = 'Hiç kategori seçilmedi!';
 $txt['mboards_delete_board_error'] = 'Hiç bölüm seçilmedi!';
@@ -346,19 +346,19 @@ $txt['resend_email_success'] = 'Yeni bir aktivasyon iletisi başarıyla yolland�
 $txt['custom_option_need_name'] = 'Profil alanının bir ismi olmalıdır!';
 $txt['custom_option_not_unique'] = 'Alan adı eşsiz olmalıdır!';
 
-$txt['movetopic_no_reason'] = 'You must enter a reason for moving the topic, or uncheck the option to \'post a redirection topic\'.';
+$txt['movetopic_no_reason'] = 'Konuyu taşımak için bir neden girmelisiniz, veya \\\'yönlendirme gönder\\\' seçeneğini kaldırın.';
 $txt['movetopic_no_pm'] = 'You must enter a personal message to send when moving this topic, or uncheck the option to \'send the topic starter a message\'.';
 
-$txt['error_custom_field_too_long'] = 'The &quot;%1$s&quot; field cannot be greater than %2$d characters in length.';
-$txt['error_custom_field_invalid_email'] = 'The &quot;%1$s&quot; field must be a valid email address.';
-$txt['error_custom_field_not_number'] = 'The &quot;%1$s&quot; field must be numeric.';
-$txt['error_custom_field_inproper_format'] = 'The &quot;%1$s&quot; field is an invalid format.';
-$txt['error_custom_field_empty'] = 'The &quot;%1$s&quot; field cannot be left blank.';
+$txt['error_custom_field_too_long'] = '&quot;%1$s&quot; adlı alan %2$d karakterden büyük olamaz.';
+$txt['error_custom_field_invalid_email'] = '&quot;%1$s&quot; adlı alan e-posta adresi olmalıdır.';
+$txt['error_custom_field_not_number'] = '&quot;%1$s&quot; adlı alan rakamlardan oluşmalıdır.';
+$txt['error_custom_field_inproper_format'] = '&quot;%1$s&quot; yanlış biçimdedir.';
+$txt['error_custom_field_empty'] = '&quot;%1$s&quot; adlı alan boş bırakılamaz.';
 
-$txt['email_no_template'] = 'The email template &quot;%1$s&quot; could not be found.';
+$txt['email_no_template'] = '&quot;%1$s&quot; E-Posta görünümü bulunamadı.';
 
-$txt['search_api_missing'] = 'The search API could not be found! Please contact the admin to check they have uploaded the correct files.';
-$txt['search_api_not_compatible'] = 'The selected search API the forum is using is out of date - falling back to standard search. Please check file %1$s.';
+$txt['search_api_missing'] = 'Arama arabirimi bulunamadı, lütfen yüklemiş olduğunuz dosyaları tekrar kontrol ediniz.';
+$txt['search_api_not_compatible'] = 'Forum\'unuz kullandığı arama arabirimi eskidir. Klasik arama arabirimine geçiliyor. Lütfen şu dosyayı kontrol ediniz: %1$s.';
 
 // Restore topic/posts
 $txt['cannot_restore_first_post'] = 'Bir konuya ait ilk iletiyi geri yükleyemezsiniz.';
@@ -369,7 +369,7 @@ $txt['restore_not_found'] = 'Şu iletiler geri yüklenemedi; ait oldukları konu
 $txt['error_invalid_dir'] = 'Girmiş olduğunuz klasör yanlıştır.';
 
 // Merge double posts
-$txt['merge_error_dbpo'] = 'You are not allowed to perform this action.';
+$txt['merge_error_dbpo'] = 'Bu eylemi gerçekleştirmek için yetkiniz yok';
 $txt['merge_error_notf'] = 'Sorry, couldn\'t find any message to merge.';
 $txt['merge_error_noid'] = 'Post ID or topic ID can\'t be found!';
 $txt['merge_error_length'] = 'The resulting merged post would be larger than the maximum allowed size!';
