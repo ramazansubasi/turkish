@@ -197,25 +197,19 @@ Bu bölüm forumunuza kayıt yaptırmak isteyenler için olan seçekleri düzenl
 $txt['help_login_type'] = 'This setting enables you to configure whether users have to use their username, their email address or either to log into the forum. It is important to note that when using usernames, the password is generally encrypted in the browser before sending, while it is never done if an email address is supplied instead.';
 
 $txt['help_modlog'] = '
-	This section allows members of the moderation team to track all the moderation actions that the forum moderators have performed. To ensure that
-	moderators cannot remove references to the actions they have performed, entries may not be deleted until 24 hours after the action was taken.';
+	Bu bölüm moderatörlerin tüm moderasyon kayıtlarını ve işlemlerini takip etmelerini sağlar. Burada bulunan kayıtlar 24 saat geçmeden silinemezler.';
 $txt['help_adminlog'] = '
-	This section allows members of the admin team to track some of the administrative actions that have occurred on the forum. To ensure that
-	admins cannot remove references to the actions they have performed, entries may not be deleted until 24 hours after the action was taken.';
+	Bu bölümde yöneticilerin yaptığı bazı etkinlikleri,değişiklikleri takip etmenizi ve kaydını tutmanızı sağlar. Yaptıkları olayları hemen kaldırmadıklarından emin olmak için girdiler olay gerçekleştikten 24 saat sonrasında ancak silinebilir.';
 $txt['help_error_log'] = '
-	The error log tracks logs every serious error encountered by users using your forum. It lists all of these errors by date which can be sorted
-	by clicking the black arrow next to each date. Additionally you can filter the errors by clicking the picture next to each error statistic. This
-	allows you to filter, for example, by member. When a filter is active the only results that will be displayed will be those that match that filter.';
+Hata kaydı forum içerisinde herhangi bir kullanıcının karşılaştığı önemli hataları saniye saniye kayıt eder. Tarih başlığındaki ok işaretini tıklayarak kayıtları zamana göre sıralayabilirsiniz. Ek olarak kayıtlara belirli filtrelere göre sıralayabilirsiniz, örneğin üyeye göre. Filtre aktif edildiğinde sadece o filtreye uyan kayıtlar gösterilir.';
 $txt['help_smileys'] = '
-	Here you can add and remove smileys, and smiley sets. Note importantly that if a smiley is in one set, it\'s in all sets - otherwise, it might
-	get confusing for your users using different sets.<br><br>
-
-	You are also able to edit message icons from here, if you have them enabled on the settings page.';
+	Bu bölümde forumunuzda kullanmak istediğiniz gülümseme resimlerinin dizinlerini belirleyebilir ve isteğinize göre değiştirebilirsiniz.<br /><br />
+	Buradan ileti ikonlarını düzenleyebilirsiniz,eğer ayarlar sayfasından aktifleştirirseniz.';
 
 $txt['help_serversettings'] = '
-	Here you can perform the core configuration for your forum. This section includes the database and url settings, as well as other
-	important configuration items such as mail settings and caching. Think carefully whenever editing these settings as an error may
-	render the forum inaccessible';
+	Burada forum\'unuzun çekirdek ayarlarını yapabilirsiniz. Bu bölüm veritabanı ayarlarının yanı sıra
+	önbellek ve mail ayarları gibi daha birçok ayarı içermektedir. Burada düzenleme yaparken dikkatli olun
+	çünkü yapacağınız değişiklikler forum\'unuzun erişilememez olmasına neden olabilir.';
 $txt['help_manage_files'] = '
 	<ul class="list">
 	<li>
@@ -233,18 +227,18 @@ $txt['help_manage_files'] = '
 		</li>
 	</ul>';
 
-$txt['help_topicSummaryPosts'] = 'This allows you to set the number of previous posts shown in the topic summary at the post reply screen, right below the text area.';
-$txt['help_enableAllMessages'] = 'Set this to the <em>maximum</em> number of posts a topic can have to show the all link. Setting this lower than "Maximum messages to display in a topic page" will simply mean it never gets shown, and setting it too high could slow down your forum.';
+$txt['help_topicSummaryPosts'] = 'Yanıtlama ekranında yer alacak önceki iletilerin sayısını belirlemenizi sağlar.';
+$txt['help_enableAllMessages'] = 'Bunu hepsini göster tuşu görüntülenmeden önce gösterilecek <em>maksimum</em> ileti sayısını ayarlayabilirsiniz.';
 $txt['help_pruneSavedDrafts'] = 'Drafts saved on the server do not have any normal limits, but the administrator can use this option to automatically clean out old drafts of users to keep the database smaller. If this is set to a number, any drafts older than the number of days given will be removed. If set to 0, drafts are always kept until the author decides to publish them or delete them from their profile.';
-$txt['help_allow_guestAccess'] = 'Unchecking this box will stop guests from doing anything but very basic actions - login, register, password reminder, etc. - on your forum. This is not the same as disallowing guest access to boards.';
-$txt['help_userLanguage'] = 'Turning this option on will allow users to select which language file they use. It will not affect the
-		default selection.';
+$txt['help_allow_guestAccess'] = 'Bu kutuyu işaretlememek, ziyaretçilerin basit işlemler dışında neredeyse hiçbir şey yapamamalarına neden olacaktır. Bu ziyaretçilerin bölümlere erişememesi ile aynı şey değildir.';
+$txt['help_userLanguage'] = 'Bu seçeneği kullanıma açtığınız takdirde her üye forumu desteklenen her dilde görüntüleyebilecektir. Bu
+		forumun varsayılan dilini değiştirmez.';
 $txt['help_availableLanguage'] = 'This option controls whether languages are given as choices to users; they may be installed but not available as options.';
-$txt['help_trackStats'] = 'Stats:<br>This will allow users to see the latest posts and the most popular topics on your forum.
-		It will also show several statistics, like the most members online, new members and new topics.<hr>
-		Page views:<br>Adds another column to the stats page with the number of pageviews on your forum.';
-$txt['help_titlesEnable'] = 'Switching Custom Titles on will allow members with the relevant permission to create a special title for themselves.
-		This will be shown underneath the name.<br><em>For example:</em><br>Pete<br>Cool Guy';
+$txt['help_trackStats'] = 'İstatistikler:<br />Bu üyelerin forumdaki en son iletileri ve en popüler konuları görmelerini sağlar.
+		En fazla online olan üye,en yeni üye vs.. gibi değişik alanda istatistiklerde bulunmaktadır.<hr />
+		Hit:<br />Sayfaların görüntülenme sayısını belirler.';
+$txt['help_titlesEnable'] = 'Bu özellik sayesinde kullanıcılar kendileri için özel başlık seçebilecekler açabileceklerdir. Bu kullanıcı adının altında gözükecektir.
+		<br /><em>Örneğin:</em><br />Ali<br />Karizma';
 $txt['help_todayMod'] = 'This will show "Today" or "Yesterday" instead of the date.<br><br>
 		<strong>Examples:</strong><br><br>
 		<dt>
@@ -255,8 +249,8 @@ $txt['help_todayMod'] = 'This will show "Today" or "Yesterday" instead of the da
 			<dt>Today &amp; Yesterday</dt>
 			<dd>Yesterday at 09:36:55 pm</dd>
 		</dt>';
-$txt['help_disableCustomPerPage'] = 'Check this option to stop users from customizing the amount of messages and topics to display per page on the Message Index and Topic Display page respectively.';
-$txt['help_enablePreviousNext'] = 'This will show a link to the next and previous topic.';
+$txt['help_disableCustomPerPage'] = 'Üyelerin ileti listesi ve ileti görünümündeki sayfa başına gösterilecek öğe sayısını özelleştirmelerini engeller.';
+$txt['help_enablePreviousNext'] = 'Bir önceki ve sonraki konuya link verir.';
 $txt['help_ignoreMoveVsNew'] = 'By default, when moving topics between boards, the user will be presented with a list of the
 		boards that they could normally create topics in (so that they can\'t move topics into announcement boards, for example).
 		<br><br>Enabling this will present them with a list of any board they could normally see as a possible destination
