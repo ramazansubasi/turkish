@@ -26,7 +26,7 @@ $txt['enableParticipation'] = 'Katılım ikonlarına izin ver';
 $txt['correctExclamations'] = 'Correct too many exclamations in the subject';
 $txt['correctShouting'] = 'Maximum % of capital letters in the subject';
 
-$txt['oldTopicDays'] = 'Time before topic is warned as old on reply';
+$txt['oldTopicDays'] = 'Bir konuya yanıt verilebilecek maksimum süre';
 $txt['oldTopicDays_zero'] = '0 devredışı';
 $txt['defaultMaxTopics'] = 'Bir sayfada gösterilecek en fazla konu';
 $txt['defaultMaxMessages'] = 'Bir konuda gösterilecek en fazla ileti';
@@ -73,12 +73,12 @@ $txt['masterAutoSaveDraftsDelay'] = 'How often should posts be autosaved?';
 $txt['pruneSaveDrafts'] = 'Prune drafts after how many days?';
 
 // Merging
-$txt['merge_post_header'] = 'Merging double posts';
-$txt['merge_post_auto'] = 'Merge double posts automatically';
+$txt['merge_post_header'] = 'Ard arda gönderilen iletileri birleştir';
+$txt['merge_post_auto'] = 'Çift mesajları otomatik birleştir';
 $txt['merge_post_auto_time'] = 'Delay after which posts are no longer merged automatically.';
-$txt['merge_post_auto_time_subtext'] = '(In seconds; set to 0 to always merge)';
+$txt['merge_post_auto_time_subtext'] = '(Saniye içinde; her zaman birleştirmek için 0 olarak ayarlayın)';
 
-$txt['merge_post_admin_double_post'] = 'Merge double posts sent by administrators';
+$txt['merge_post_admin_double_post'] = 'Yöneticiler tarafından gönderilen çift mesajları birleştirme';
 
 $txt['merge_post_no_time'] = 'Don\'t show the older post\'s date before the separator';
 $txt['merge_post_no_sep'] = 'Show neither the separator, nor the older post\'s date.';
@@ -87,4 +87,4 @@ $txt['merge_post_separator_subtext'] = 'You may use BBCode. You can get the olde
 $txt['merge_post_custom_separator'] = 'Use a custom separator between merged posts.';
 $txt['merge_post_custom_separator_subtext'] = 'The settings above will be disabled.';
 
-$txt['merge_post_ignore_length'] = 'Ignore posts\' maximum length';
+$txt['merge_post_ignore_length'] = 'Birleştirmede yazı boyutu sınırını yoksay;
