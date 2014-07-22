@@ -4,8 +4,8 @@
 $txt['groups'] = 'Gruplar';
 $txt['members_list'] = 'Üye Listesi';
 $txt['viewing_groups'] = 'Üye Grupları Görüntüleniyor';
-$txt['visible_to_all'] = '(already viewable by all)';
-$txt['viewing_members'] = 'Viewing Members %1$s to %2$s';
+$txt['visible_to_all'] = '(zaten herkes tarafından görüntülenebilir)';
+$txt['viewing_members'] = 'Üyeler %1$s to %2$s';
 $txt['of_total_members'] = ' %1$s toplam üye';
 $txt['view_all_members'] = 'Tüm Üyeleri Görüntüle';
 
@@ -31,7 +31,7 @@ $txt['membergroups_can_edit_later'] = 'Daha sonra düzenleyebilirsiniz.';
 $txt['membergroups_view_enter_same'] = 'Boards this group can see, they can enter as well';
 $txt['membergroups_need_deny_perm'] = 'I need to deny this group from some boards';
 $txt['group_boards_never'] = 'Asla';
-$txt['group_boards_everything'] = 'Everything';
+$txt['group_boards_everything'] = 'Her şey';
 $txt['group_boards_everything_desc'] = 'Use this option to quickly select all the boards below.';
 
 $txt['membergroups_edit_group'] = 'Üye Grubunu Düzenle';
