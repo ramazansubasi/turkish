@@ -143,7 +143,7 @@ $txt['ip_address'] = 'IP Adresi';
 $txt['member_id'] = 'ID';
 
 $txt['unknown'] = 'bilinmeyen';
-$txt['security_wrong'] = 'Yönetici giriş girişimi!' . "\n" . 'Yönlendiren: %1$s' . "\n" . 'Tarayıcı: %2$s' . "\n" . 'IP: %3$s;
+$txt['security_wrong'] = 'Yönetici giriş girişimi!' . "\n" . 'Yönlendiren: %1$s' . "\n" . 'Tarayıcı: %2$s' . "\n" . 'IP: %3$s';
 
 $txt['email_as_html'] = 'HTML formatında gönder. (bu seçenek sayesinde iletilerde normal HTML kodları kullanabilirsiniz).';
 $txt['email_parsed_html'] = '&lt;br&gt;s ve &amp;nbsp;s etiketlerini bu iletiye ekle';
