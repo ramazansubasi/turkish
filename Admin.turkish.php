@@ -348,7 +348,7 @@ $txt['avatar_server_stored'] = 'Sunucuda Kayıtlı Avatarlar';
 $txt['avatar_server_stored_groups'] = 'Sunucuda bulunan avatar\'ları kullanmaya yetkili üye grupları ';
 $txt['avatar_upload_groups'] = 'Membergroups allowed to upload an avatar to the server';
 $txt['avatar_external_url_groups'] = 'Başka bir sunucuda bulunan avatar\'ları kullanmaya yetkili üye grupları ';
-$txt['gravatar_settings'] = 'Gravatars (Globally Recognized Avatars)';
+$txt['gravatar_settings'] = 'Gravatars (Dünya çapında tanınan avatar)';
 $txt['gravatarEnabled'] = 'Enable Gravatars for forum users?';
 $txt['gravatarOverride'] = 'Force Gravatars to be used instead of normal avatars?';
 $txt['gravatarAllowExtraEmail'] = 'Allow storing an extra email address for Gravatars?';
@@ -361,9 +361,9 @@ $txt['avatar_defaults'] = 'Default avatars';
 $txt['avatar_select_permission'] = 'Yetkili Grupları, izinleri Belirlemek İçin Tıklayınız';
 $txt['avatar_download_external'] = 'Verilmiş adresteki avatar\'ı sunucuya yükle?';
 $txt['custom_avatar_enabled'] = 'Yükleme Dizini...';
-$txt['option_attachment_dir'] = 'Attachment directory';
+$txt['option_attachment_dir'] = 'Dosya eki dizini';
 $txt['option_specified_dir'] = 'Specific directory...';
-$txt['custom_avatar_dir'] = 'Upload directory';
+$txt['custom_avatar_dir'] = 'Yükleme dizini';
 $txt['custom_avatar_dir_desc'] = 'Bu klasör sunucuların avatarları bulunduruduğu klasör ile aynı olmamalı.';
 $txt['custom_avatar_url'] = 'Yükleme Adresi';
 $txt['custom_avatar_check_empty'] = 'The custom avatar directory you have specified may be empty or invalid. Please ensure these settings are correct.';
@@ -457,7 +457,7 @@ $txt['masterAutoSavePmDrafts'] = 'Kişisel iletilerin otomatik taslak olarak kay
 
 $txt['not_done_title'] = 'Not done yet!';
 $txt['not_done_reason'] = 'To avoid overloading your server, the process has been temporarily paused. It should automatically continue in a few seconds. If it doesn\'t, please click continue below.';
-$txt['not_done_continue'] = 'Continue';
+$txt['not_done_continue'] = 'Devam et';
 
 $txt['general_settings'] = 'Genel';
 $txt['database_settings'] = 'Veritabanı';
@@ -512,11 +512,11 @@ $txt['antispam_title'] = 'Spam Koruması';
 $txt['infractions_title'] = 'Uyarılar';
 $txt['preset_infractions'] = 'Pre-set Infractions';
 $txt['infraction_levels'] = 'Infraction Levels';
-$txt['member_options_title'] = 'Member Options';
-$txt['look_layout_title'] = 'Look and Layout';
-$txt['signature_settings_short'] = 'Signatures';
-$txt['custom_profile_shorttitle'] = 'Profile Fields';
-$txt['admin_member_defaults'] = 'Default options';
+$txt['member_options_title'] = 'Üye Seçenekleri';
+$txt['look_layout_title'] = 'Görünüm ve Tasarım';
+$txt['signature_settings_short'] = 'İmzalar';
+$txt['custom_profile_shorttitle'] = 'Profil Alanları';
+$txt['admin_member_defaults'] = 'Varsayılan Ayarlar';
 $txt['admin_whos_online'] = 'Who\'s Online';
 $txt['admin_likes'] = 'Beğeniler';
 $txt['admin_personal_messages'] = 'Kişisel İletiler';
@@ -553,7 +553,7 @@ $txt['spider_stats'] = 'İstatistikler';
 $txt['paid_subscriptions'] = 'Ücretli Abonelikler';
 $txt['paid_subs_view'] = 'View Subscriptions';
 
-$txt['allow_ignore_topics'] = 'Enable members to ignore topics';
+$txt['allow_ignore_topics'] = 'Üyelerin konuları yok saymasını etkinleştir';
 
 // Pretty URLs
 $txt['pretty_urls'] = 'Pretty URLs';
@@ -619,9 +619,9 @@ $txt['media_admin_maintenance_prune'] = 'Prune';
 $txt['media_admin_maintenance_browse'] = 'Dosyalara gözat';
 $txt['media_admin_maintenance_checkfiles'] = 'Check for extra files';
 $txt['media_admin_banning'] = 'Member to ban';
-$txt['media_admin_bans_add'] = 'Add ban';
-$txt['media_cf'] = 'Custom fields';
-$txt['media_cf_add'] = 'Create a new field';
+$txt['media_admin_bans_add'] = 'Yasaklama ekle';
+$txt['media_cf'] = 'Özel Alanlar';
+$txt['media_cf_add'] = 'Yeni özel alan oluştur';
 
 // Homepage
 $txt['homepage'] = 'Anasayfa';
