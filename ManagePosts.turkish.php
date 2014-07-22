@@ -87,4 +87,4 @@ $txt['merge_post_separator_subtext'] = 'You may use BBCode. You can get the olde
 $txt['merge_post_custom_separator'] = 'Use a custom separator between merged posts.';
 $txt['merge_post_custom_separator_subtext'] = 'The settings above will be disabled.';
 
-$txt['merge_post_ignore_length'] = 'Birleştirmede yazı boyutu sınırını yoksay;
+$txt['merge_post_ignore_length'] = 'Birleştirmede yazı boyutu sınırını yoksay';
