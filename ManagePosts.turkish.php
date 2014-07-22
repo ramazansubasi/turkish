@@ -5,7 +5,7 @@
 $txt['removeNestedQuotes'] = 'Alıntı yaparken içiçe olan alıntıları kaldır';
 $txt['enableEmbeddedFlash'] = 'İletilerin içinde Flash\'e izin ver';
 $txt['enableEmbeddedFlash_warning'] = 'Güvenlik riski oluşturabilir!';
-$txt['additional_options_collapsable'] = 'Enable collapsible additional post options';
+$txt['additional_options_collapsable'] = 'Açılır kapanır ek yazı seçeneklerini etkinleştir';
 
 $txt['max_messageLength'] = 'İletilerde izin verilen en fazla karakter';
 $txt['max_messageLength_zero'] = '0 sınırsız';
@@ -14,7 +14,7 @@ $txt['topicSummaryPosts'] = 'Konu özetinde gösterilecek en fazla ileti';
 $txt['max_image_width'] = 'Gönderilen resimlerin maks. genişliği (0 = sınırsız)';
 $txt['max_image_height'] = 'Gönderilen resimlerin maks. yüksekliği (0 = sınırsız)';
 
-$txt['spamWaitTime'] = 'Time required between posts from the same IP';
+$txt['spamWaitTime'] = 'Aynı IP adresinden gönderilecek iki ileti arasındaki zaman limiti';
 $txt['edit_wait_time'] = 'Düzenleme yapılabilmesi için beklenecek süre';
 $txt['edit_disable_time'] = 'İleti gönderildikten sonra düzenleme yapılabilecek maksimum süre';
 $txt['edit_disable_time_zero'] = '0 kapalı';
@@ -27,14 +27,14 @@ $txt['correctExclamations'] = 'Correct too many exclamations in the subject';
 $txt['correctShouting'] = 'Maximum % of capital letters in the subject';
 
 $txt['oldTopicDays'] = 'Time before topic is warned as old on reply';
-$txt['oldTopicDays_zero'] = '0 to disable';
-$txt['defaultMaxTopics'] = 'Number of topics per page in the message index';
-$txt['defaultMaxMessages'] = 'Number of posts per page in a topic page';
+$txt['oldTopicDays_zero'] = '0 devredışı';
+$txt['defaultMaxTopics'] = 'Bir sayfada gösterilecek en fazla konu';
+$txt['defaultMaxMessages'] = 'Bir konuda gösterilecek en fazla ileti';
 
-$txt['enableAllMessages'] = 'Max topic size to show &quot;All&quot; posts';
-$txt['enableAllMessages_zero'] = '0 to never show &quot;All&quot;';
-$txt['disableCustomPerPage'] = 'Disable user-defined topic/message count per page';
-$txt['enablePreviousNext'] = 'Enable previous/next topic links';
+$txt['enableAllMessages'] = 'Gösterilecek en çok yanıt sayısı';
+$txt['enableAllMessages_zero'] = '0 yaparsanız "Tümü" gözükmeyecektir';
+$txt['disableCustomPerPage'] = 'Sayfa başına özel konu/ileti seçeneğini devre dışı bırak';
+$txt['enablePreviousNext'] = 'Önceki/Sonraki konu bağlantıları aktif';
 
 $txt['ignoreMoveVsNew'] = 'When moving topics, allow moving to any board by default';
 
@@ -65,9 +65,9 @@ $txt['censor_test'] = 'Sansürlenen Kelimeleri Deneyin';
 $txt['censor_test_save'] = 'Dene';
 
 // Draft Settings
-$txt['masterSavePostDrafts'] = 'Enable saving of post drafts';
+$txt['masterSavePostDrafts'] = 'İletileri taslak olarak kaydetmeyi etkinleştir';
 $txt['draftsave_subnote'] = 'Note that the user must still have permission in the Permissions area.';
-$txt['masterAutoSavePostDrafts'] = 'Enable automatic saving of post drafts';
+$txt['masterAutoSavePostDrafts'] = 'İletileri otomatik taslak olarak kaydetmeyi etkinleştir';
 $txt['draftautosave_subnote'] = 'This does not override the above option, merely extending it. Also, user must have permission.';
 $txt['masterAutoSaveDraftsDelay'] = 'How often should posts be autosaved?';
 $txt['pruneSaveDrafts'] = 'Prune drafts after how many days?';
