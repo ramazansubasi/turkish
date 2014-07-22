@@ -2,7 +2,7 @@
 // Version: 2.0; Errors
 
 $txt['no_access'] = 'Bu bölüme erişme yetkiniz bulunmamaktadır.';
-$txt['moved_no_access'] = 'This topic has been moved to a board that you cannot access.';
+$txt['moved_no_access'] = 'Bu konu erişim izninizin olmadığı bir bölüme taşındı.';
 
 $txt['no_name'] = 'İsim bölümünü boş bıraktınız.';
 $txt['no_email'] = 'E-posta bölümünü boş bıraktınız.';
@@ -27,8 +27,8 @@ $txt['didnt_select_vote'] = 'Oylama seçeneği seçmediniz.';
 $txt['poll_error'] = 'Ya böyle bir anket yok, ya anket kilitli, ya da 2 kez oy vermeye çalıştınız.';
 $txt['members_only'] = 'Bu özellik kayıtlı kullanıcılara özeldir.';
 $txt['locked_by_admin'] = 'Bu konu Yöneticiler tarafından kilitlenmiştir. Tekrar açamazsınız.';
-$txt['feature_disabled'] = 'Sorry, this feature is disabled.';
-$txt['cant_access_upload_path'] = 'Cannot access attachments upload path!';
+$txt['feature_disabled'] = 'Üzgünüz, bu özellik devre dışıdır.';
+$txt['cant_access_upload_path'] = 'Eklentinin adresine ulaşılamıyor!';
 $txt['file_too_big'] = 'Dosyanızın boyutu çok büyük. İzin verilen maksimum eklenti büyüklüğü: %1$d KB.';
 $txt['attach_timeout'] = 'Eklentinizi kaydetmede bir sorun var yükleme uzun sürüyor, lütfen tekrar deneyin.';
 $txt['filename_exists'] = 'Üzgünüz! Yüklemek istediğiniz dosya eki ile aynı adda başka bir tane daha bulundu. Lütfen dosya ismini değiştirip tekrar deneyiniz.';
