@@ -67,23 +67,23 @@ $txt['font_face'] = 'Metin Tipi';
 $txt['toggle_view'] = 'Görünümü Değiştir';
 $txt['unformat_text'] = 'Formatlamayı Sıfırla';
 
-$txt['icon_smiley'] = 'Smile';
-$txt['icon_angry'] = 'Angry';
-$txt['icon_cheesy'] = 'Cheesy';
-$txt['icon_sad'] = 'Sad';
-$txt['icon_wink'] = 'Wink';
-$txt['icon_grin'] = 'Grin';
-$txt['icon_shocked'] = 'Shocked';
-$txt['icon_cool'] = 'Cool!';
-$txt['icon_huh'] = 'Huh?';
-$txt['icon_rolleyes'] = 'Roll eyes';
-$txt['icon_tongue'] = 'Tongue';
-$txt['icon_embarrassed'] = 'Embarrassed';
-$txt['icon_lips'] = 'Lips sealed';
-$txt['icon_undecided'] = 'Undecided';
-$txt['icon_kiss'] = 'Kiss';
-$txt['icon_cry'] = 'Cry';
-$txt['icon_edit'] = 'Edited';
+$txt['icon_smiley'] = 'Gülümseme';
+$txt['icon_angry'] = 'Kızgın';
+$txt['icon_cheesy'] = 'Şımarık';
+$txt['icon_sad'] = 'Üzgün';
+$txt['icon_wink'] = 'Göz kırp';
+$txt['icon_grin'] = 'Sırıtma';
+$txt['icon_shocked'] = 'Şaşırmış';
+$txt['icon_cool'] = 'Karizmatik';
+$txt['icon_huh'] = 'Kafası karışmış';
+$txt['icon_rolleyes'] = 'Masum';
+$txt['icon_tongue'] = 'Dil çıkartıyor';
+$txt['icon_embarrassed'] = 'Utanmış';
+$txt['icon_lips'] = 'Suskun';
+$txt['icon_undecided'] = 'Kararsız';
+$txt['icon_kiss'] = 'Öpücük';
+$txt['icon_cry'] = 'Ağlayıyor';
+$txt['icon_edit'] = 'Düzenlendi';
 
 // Editor prompt.
 $txt['prompt_text_email'] = 'Please enter the email address.';
@@ -127,7 +127,7 @@ $txt['approve_this_post'] = 'Bu İletiyi Onayla';
 $txt['post_visual_verification_label'] = 'Doğrulama';
 $txt['post_visual_verification_desc'] = 'Bu iletiyi gönderebilmek için lütfen yukarıdaki resimdeki kodu giriniz.';
 
-$txt['poll_question'] = 'Question';
+$txt['poll_question'] = 'Soru';
 $txt['poll_options'] = 'Anket Seçenekleri';
 $txt['poll_run'] = 'Anketi';
 $txt['poll_run_limit'] = '(Limitsiz olması için boş bırakın)';
@@ -141,13 +141,13 @@ $txt['poll_too_many_votes'] = 'Çok fazla seçenek seçtiniz. Bu anket için en 
 $txt['poll_add_option'] = 'Seçenek Ekle';
 $txt['poll_guest_vote'] = 'Ziyaretçilerin oy vermesine izin ver.';
 
-$txt['poll_voters_visibility'] = 'Voter visibility';
-$txt['poll_voters_visibility_admin'] = 'Only forum administrators can see who voted for what';
-$txt['poll_voters_visibility_creator'] = 'The forum administrators, and the poll creator, can see who voted for what';
-$txt['poll_voters_visibility_members'] = 'Any signed-in member of the forum can see who voted for what';
-$txt['poll_voters_visibility_anyone'] = 'Anyone, even guests, can see who voted for what';
-$txt['poll_voters_no_change_future'] = 'You will not be able to change this later.';
-$txt['poll_voters_no_change_now'] = 'You cannot change this.';
+$txt['poll_voters_visibility'] = 'Oylama Görünümü';
+$txt['poll_voters_visibility_admin'] = 'Sadece forum yöneticileri oy verenleri göebilir';
+$txt['poll_voters_visibility_creator'] = 'Sadece forum yöneticileri ve anketi ekleyen oy verenleri göebilir';
+$txt['poll_voters_visibility_members'] = 'Giriş yapmış tüm üyeler oy verenleri görebilir';
+$txt['poll_voters_visibility_anyone'] = 'Herhangi biri oy verenleri görebilir.';
+$txt['poll_voters_no_change_future'] = 'Daha sonra değiştirmek mümkün olmayacaktır.';
+$txt['poll_voters_no_change_now'] = 'Bunu değiştiremezsiniz.';
 
 $txt['cannot_attach_ext'] = 'The type of file you have tried to attach ({ext}) is not allowed here. The allowed types of file are: {attach_exts}';
 
@@ -164,17 +164,17 @@ $txt['pm_draft_saved'] = 'Mesajınız taslak olarak kaydedildi. <a href="{draft_
 $txt['save_draft_warning'] = 'Bu iletinin sadece metni (başlık, konu içeriği vb.) taslak olarak kayıt edilir, ancak dosya ekleri, aanket seçenekleri veya başka şeyler kayıt edilmez';
 $txt['empty_draft'] = 'Tamamen boş bir taslak olamaz.';
 
-$txt['report_sent'] = 'Your report has been sent successfully.';
+$txt['report_sent'] = 'Raporunuz gönderildi.';
 
-$txt['deleted_thought'] = '(Deleted)';
+$txt['deleted_thought'] = '(Silindi)';
 
 $txt['error_new_reply'] = array(
-	1 => 'Warning - while you were typing, a new reply has been posted. You may wish to review your post.',
-	'n' => 'Warning - while you were typing, %1$d new replies have been posted. You may wish to review your post.',
+	1 => 'Uyarı: Siz iletinizi yazarken yeni bir ileti daha gönderildi. Gönderilen iletiyi incelemeniz önerilir.',
+	'n' => 'Uyarı: Siz iletinizi yazarken yeni %1$d ileti daha gönderildi. Gönderilen iletiyi incelemeniz önerilir.',
 );
 $txt['error_new_reply_reading'] = array(
-	1 => 'Warning - while you were reading, a new reply has been posted. You may wish to review it before posting.',
-	'n' => 'Warning - while you were reading, %1$d new replies have been posted. You may wish to review them before posting.',
+	1 => 'Uyarı: Siz iletinizi okurken yeni bir ileti daha gönderildi. Gönderilen iletiyi incelemeniz önerilir.',
+	'n' => 'Uyarı: Siz iletinizi okurken yeni %1$d ileti daha gönderildi. Gönderilen iletiyi incelemeniz önerilir.',
 );
 
 $txt['announce_this_topic'] = 'Üyelere bu konu hakkında duyuru gönder:';
