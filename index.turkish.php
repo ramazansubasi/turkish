@@ -501,8 +501,8 @@ $txt['user'] = 'Üye';
 $txt['users'] = 'Üye';
 $txt['hidden'] = 'Gizli';
 
-$txt['buddy'] = 'Contact';
-$txt['buddies'] = 'Contacts';
+$txt['buddy'] = 'Kişiler';
+$txt['buddies'] = 'Kişilerim';
 $txt['contacts_friends'] = 'Arkadaşlar';
 $txt['contacts_known'] = 'Eş, Dost';
 $txt['contacts_work'] = 'Meslektaşlar';
