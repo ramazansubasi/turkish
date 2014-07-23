@@ -331,9 +331,9 @@ $txt['showPermissions_restricted_boards_desc'] = 'Aşağıdaki bölümler bu kul
 $txt['local_time'] = 'Yerel Zaman';
 $txt['posts_per_day'] = 'gün başına';
 
-$txt['pm_settings_desc'] = 'From this page you can change a variety of personal messaging options, including how messages are displayed and who may send them to you.';
+$txt['pm_settings_desc'] = 'Bu sayfayı kullanarak kişisel iletiler ile ilgili birçok seçenekte değişiklik yapabilirsiniz. Ayrıca belli kişileri engelleyebilir, bu sayede o kişilerden kişisel ileti alımını devre dışı bırakabilirsiniz.';
 
-$txt['edit_contacts_desc'] = 'This area allows you to manage your contact lists for this forum. Add members to list to control how they can access your content.';
+$txt['edit_contacts_desc'] = 'Bu alanda kişilerinizi ve engellediğiniz kişlerin listesini görebilirsiniz. Buraya eklediğiniz üyeler, diğer avantajlar dışında, e-posta ve özel mesaj trafiğini de düzenlediğiniz seçeneklere göre etkileyecektir.';
 
 $txt['buddy_add'] = 'Arkadaş Listeme Ekle';
 $txt['buddy_remove'] = 'Arkadaş Listemden Kaldır';
