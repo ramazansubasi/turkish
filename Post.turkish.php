@@ -110,7 +110,7 @@ $txt['topic_locked_no_reply'] = 'Uyarı: Konu şu anda kilitlidir!<br />Sadece y
 $txt['error_temp_attachments'] = 'Daha önceden eklediğiniz fakat iletmediğiniz ekler bulundu. Bu ekler şimdi bu iletiye eklenecektir. Eğer onları bu iletiye eklemek istemezseniz, <a href="#postAttachment">buraya</a> tıklayarak kaldırabilirsiniz.';
 $txt['js_post_will_require_approval'] = 'Hatırlatma: Bu ileti bir moderatör tarafından onaylanana dek görüntülenmeyecektir.';
 
-$txt['switch_mode'] = 'Switch to full editor';
+$txt['switch_mode'] = 'Tam Editöre Geç';
 $txt['enter_comment'] = 'Yorum ekle';
 
 $txt['attach_restrict_attachmentPostLimit'] = 'Toplam Boyut ( En Fazla ) %1$dKB';
