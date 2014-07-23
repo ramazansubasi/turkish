@@ -368,7 +368,7 @@ $txt['one_day'] = '1 Gün';
 $txt['one_week'] = '1 Hafta';
 $txt['one_month'] = '1 Ay';
 $txt['forever'] = 'Her zaman';
-$txt['quick_login_desc'] = 'Login with username, password and session length';
+$txt['quick_login_desc'] = 'Kullanıcı adınızı, parolanızı ve aktif kalma süresini giriniz';
 $txt['one_hour'] = '1 Saat';
 $txt['board'] = 'Forumun';
 $txt['in'] = ' ';
@@ -409,11 +409,11 @@ $txt['site_credits'] = 'Website credits';
 $txt['copyright'] = 'Powered by <a href="http://wedge.org/" target="_blank" class="new_win">Wedge</a>';
 $txt['dynamic_replacements'] = '<abbr title="Dynamic Replacements">DR</abbr>';
 
-$txt['template_block_error'] = 'Unable to find the "%1$s" template block.';
-$txt['theme_template_error'] = 'Unable to load the "%1$s" template.';
-$txt['theme_language_error'] = 'Unable to load the "%1$s" language file.';
+$txt['template_block_error'] = '"%1$s" şablon bloğu bulunamıyor.';
+$txt['theme_template_error'] = '"%1$s" şablonu yüklenemiyor.';
+$txt['theme_language_error'] = '"%1$s" dil dosyası yüklenemiyor.';
 
-$txt['sub_boards'] = 'Sub-Boards';
+$txt['sub_boards'] = 'Alt Bölümler';
 
 $txt['smtp_no_connect'] = 'Could not connect to SMTP host';
 $txt['smtp_port_ssl'] = 'SMTP port setting incorrect; it should be 465 for SSL servers.';
@@ -554,11 +554,11 @@ $txt['unapproved_posts'] = 'Onaylanmamış Mesajlar (Konular: %1$d, İletiler: %
 
 $txt['ajax_in_progress'] = 'Yükleniyor...';
 
-$txt['verification'] = 'Verification';
-$txt['visual_verification_description'] = 'Type the letters shown in the picture';
-$txt['visual_verification_sound'] = 'Listen to the letters';
-$txt['visual_verification_request_new'] = 'Request another image';
-$txt['visual_verification_hidden'] = 'This box must be left blank';
+$txt['verification'] = 'Doğrulama';
+$txt['visual_verification_description'] = 'Resimde gösterilen harfleri giriniz';
+$txt['visual_verification_sound'] = 'Harfleri dinle';
+$txt['visual_verification_request_new'] = 'Başka bir resim isteyin';
+$txt['visual_verification_hidden'] = 'Bu kutu boş bırakılmalı';
 
 // Sub menu labels
 $txt['summary'] = 'Özet';
@@ -580,7 +580,7 @@ $txt['modlog_view'] = 'Moderasyon Kayıtları';
 $txt['unapproved_members'] = 'Onaylanmamış Üyeler';
 $txt['admin_uncache'] = 'Önbelleği Temizle';
 
-$txt['ignoring_user'] = 'You are ignoring this user. Click here to see or hide the post.';
+$txt['ignoring_user'] = 'Bu kullanıcı göz ardı edilir. Mesajı görmek veya gizlemek için buraya tıklayın..';
 
 $txt['spider'] = 'Örümcek';
 $txt['spiders'] = 'Örümcek';
