@@ -7,7 +7,7 @@ $txt['pm_add'] = 'Ekle';
 $txt['make_bcc'] = 'Alıcı Ekle';
 $txt['pm_to'] = 'Kime';
 $txt['pm_bcc'] = 'Bilgi';
-$txt['pm_contact_list'] = 'Contact List';
+$txt['pm_contact_list'] = 'İletişim Listesi';
 $txt['inbox'] = 'Gelen Kutusu';
 $txt['conversation'] = 'Sohbet ';
 $txt['messages'] = 'İletiler';
@@ -20,13 +20,13 @@ $txt['delete_all_confirm'] = 'Tüm iletilerinizi silmek istediğinize emin misin
 $txt['recipient'] = 'Alıcı';
 $txt['pm_multiple'] = '(Çoklu alıcı: \'üye1, üye2\')';
 
-$txt['delete_selected_confirm'] = 'Are you sure you want to delete all selected personal messages?';
+$txt['delete_selected_confirm'] = 'Seçilen tüm iletilerinizi silmek istediğinize emin misiniz?';
 
-$txt['pm_view'] = 'View';
-$txt['pm_display_mode'] = 'Display personal messages';
-$txt['pm_display_mode_all'] = 'All at once';
-$txt['pm_display_mode_one'] = 'One at a time';
-$txt['pm_display_mode_linked'] = 'As a conversation';
+$txt['pm_view'] = 'Görünüm';
+$txt['pm_display_mode'] = 'Kişisel ileti görüntüleme';
+$txt['pm_display_mode_all'] = 'Hepsi bir arada';
+$txt['pm_display_mode_one'] = 'Bir seferde bir tane';
+$txt['pm_display_mode_linked'] = 'Sohbet tarzında';
 
 $txt['sent_to'] = 'Alıcı';
 $txt['reply_to_all'] = 'Hepsini Yanıtla';
@@ -36,12 +36,12 @@ $txt['pm_capacity'] = 'Kapasite';
 $txt['pm_currently_using'] = '%1$s ileti, %2$s%% dolu.';
 $txt['pm_sent'] = 'Mesajınız başarılı bir şekilde gönderilmiştir.';
 
-$txt['pm_receive_from'] = 'Receive personal messages from:';
-$txt['pm_receive_from_everyone'] = 'All members';
-$txt['pm_receive_from_ignore'] = 'All members, except those on my ignore list';
-$txt['pm_receive_from_admins'] = 'Administrators only';
-$txt['pm_receive_from_buddies'] = 'Contacts and Administrators only';
-$txt['pm_remove_inbox_label'] = 'Remove the inbox label when applying another label';
+$txt['pm_receive_from'] = 'Bu kişilerden özel mesaj al:';
+$txt['pm_receive_from_everyone'] = 'Tüm Üyeler';
+$txt['pm_receive_from_ignore'] = 'Engelli listesindeki hariç tüm üyeler';
+$txt['pm_receive_from_admins'] = 'Sadece Adminler';
+$txt['pm_receive_from_buddies'] = 'Sadece Arkadaşlar ve Adminler';
+$txt['pm_remove_inbox_label'] = 'Başka bir etiket atandığında, gelen kutusu etiketi kaldırılsın.';
 
 $txt['pm_error_user_not_found'] = '\'%1$s\' adlı üye bulunamadı.';
 $txt['pm_error_ignored_by_user'] = 'Kullanıcı \'%1$s\' sizi engellemiştir.';
@@ -50,24 +50,24 @@ $txt['pm_error_user_cannot_read'] = '\'%1$s\' adlı üye kişisel ileti alamaz.'
 $txt['pm_successfully_sent'] = 'Kişisel iletiniz \'%1$s\' adlı üyeye başarıyla gönderildi!';
 $txt['pm_send_report'] = 'Rapor gönder';
 $txt['pm_undisclosed_recipients'] = 'Gizli alıcılar';
-$txt['pm_too_many_recipients'] = array(1 => 'You may not send personal messages to more than %1$s recipient at once.', 'n' => 'You may not send personal messages to more than %1$s recipients at once.');
+$txt['pm_too_many_recipients'] = array(1 => 'Aynı anda %1$d alıcıdan fazla kişiye kişisel ileti gönderemezsiniz.', 'n' => 'Aynı anda %1$d alıcıdan fazla kişiye kişisel ileti gönderemezsiniz.');
 
 $txt['pm_read'] = 'Oku';
 $txt['pm_replied'] = 'Cevap Verilmiş';
 
 // Drafts.
-$txt['pm_menu_drafts'] = 'Draft messages';
-$txt['showDrafts'] = 'Show Drafts';
-$txt['showDrafts_desc'] = 'This section shows you all the draft messages you have saved, or were saved on your behalf.';
-$txt['show_drafts_none'] = 'You have no draft messages saved at this time.';
-$txt['edit_draft'] = 'Edit draft';
+$txt['pm_menu_drafts'] = 'Taslak mesajlar';
+$txt['showDrafts'] = 'Taslakları görüntüle';
+$txt['showDrafts_desc'] = 'Bu bölümde taslak olarak kaydettiğiniz veya sizin adınıza kayıtlı olan tüm taslak mesajlar görüntülenir.';
+$txt['show_drafts_none'] = 'Şu anda kayıtlı hiçbir taslak yok.';
+$txt['edit_draft'] = 'Taslağı düzenle';
 $txt['draftAutoPurge'] = array(
-	1 => 'Drafts are stored on the server for up to a day, and if not posted or modified in that time, they will be removed.',
-	'n' => 'Drafts are stored on the server for up to %s days, and if not posted or modified in that time, they will be removed.',
+	1 => 'Taslaklar bir süre sunucuda saklanır bu süre sonunda yayınlanmayan taslaklar otomatik olarak silinir.',
+	'n' => 'Taslaklar %s gün boyunca sunucuda saklanır bu süre sonunda yayınlanmayan taslaklar otomatik olarak silinir.',
 );
-$txt['remove_all_drafts'] = 'Remove all drafts';
-$txt['remove_all_drafts_confirm'] = 'Are you sure you want to remove all of your draft messages? (This operation is not reversible.)';
-$txt['no_recipients'] = '(no recipients)';
+$txt['remove_all_drafts'] = 'Tüm taslakları sil';
+$txt['remove_all_drafts_confirm'] = 'Taslakları gerçekten silmek istiyor musunuz? (bu işlem geri alınamaz.)';
+$txt['no_recipients'] = '(alıcı yok)';
 
 // Message Pruning.
 $txt['pm_prune'] = 'İletileri Temizle';
@@ -103,8 +103,8 @@ $txt['pm_messages'] = 'İletiler';
 $txt['pm_actions'] = 'Eylemler';
 $txt['pm_preferences'] = 'Seçenekler';
 
-$txt['pm_is_replied_to'] = 'You have responded to this message.';
-$txt['pm_is_replied_to_sent'] = array(1 => 'This message was replied to.', 'n' => '%s responses to this message were sent.');
+$txt['pm_is_replied_to'] = 'Bu iletiyi yanıtladınız veya başka bir üyeye ilettiniz.';
+$txt['pm_is_replied_to_sent'] = array(1 => 'Bu ileti yanıtlandı.', 'n' => '%s iletisi için yanıt gönderildi.');
 
 // Reporting messages.
 $txt['pm_report_to_admin'] = 'Yöneticiye Rapor Et';
@@ -142,8 +142,8 @@ $txt['pm_search_choose_label'] = 'Aranılacak etiketleri seçin yada tüm iletil
 $txt['pm_search_results'] = 'Arama Sonuçları';
 $txt['pm_search_none_found'] = 'Hiç İleti Bulunamadı';
 
-$txt['pm_visual_verification_label'] = 'Verification';
-$txt['pm_visual_verification_desc'] = 'Please enter the code in the image above to send this pm.';
+$txt['pm_visual_verification_label'] = 'Doğrulama';
+$txt['pm_visual_verification_desc'] = 'Lütfen yukarıdaki resimdeki kodu giriniz.';
 
 $txt['pm_settings'] = 'Ayarları Değiştir';
 $txt['pm_change_view'] = 'Görünümü Değiştir';
@@ -199,4 +199,4 @@ $txt['pm_readable_buddy'] = 'gönderen arkadaşsa';
 $txt['pm_readable_label'] = '&quot;{LABEL}&quot; etiketini uygula';
 $txt['pm_readable_delete'] = 'iletiyi kaldır';
 $txt['pm_readable_then'] = '<strong>sonra</strong>';
-$txt['pm_not_found'] = 'Sorry, the requested message could not be found.';
+$txt['pm_not_found'] = 'Üzgünüz, istenen mesaj bulunamadı.';
