@@ -43,21 +43,21 @@ $txt['enableErrorLogging'] = 'Hata günlüğüne izin ver';
 $txt['enableErrorPasswordLogging'] = 'Üyelerin yanlış şifre giriş kayıtlarını tut';
 $txt['enableError404Logging'] = '404 (bulunamadı) hata kayıtlarını tut';
 $txt['enableErrorQueryLogging'] = 'Günlük kaydında veritabanı sorgusunuda bulundur';
-$txt['logPruning'] = 'Log Pruning';
+$txt['logPruning'] = 'Kayıt Temizleme';
 $txt['log_enabled_moderate'] = 'Moderasyon eylemlerini kayıt et';
-$txt['log_enabled_moderate_subtext'] = 'This includes deleting posts, moving topics and so on.';
-$txt['log_enabled_admin'] = 'Enable logging of administrative actions';
+$txt['log_enabled_moderate_subtext'] = 'Moderatörlerinizin uyguladığı işlemlerin kaydını tutar';
+$txt['log_enabled_admin'] = 'Yönetici eylemlerini kayıt et';
 $txt['log_enabled_admin_subtext'] = 'This includes things like creating new boards.';
-$txt['log_enabled_profile'] = 'Enable logging of edits made to members\' profiles';
-$txt['log_enabled_profile_subtext'] = 'This includes changes to display name and other fields.';
-$txt['pruningOptions'] = 'Enable pruning of log entries';
-$txt['pruneZeroDisable'] = '(0 to disable)';
-$txt['pruneErrorLog'] = 'Remove error log entries older than';
-$txt['pruneModLog'] = 'Remove moderation log entries older than';
-$txt['pruneReportLog'] = 'Remove report to moderator log entries older than';
-$txt['pruneScheduledTaskLog'] = 'Remove scheduled task log entries older than';
-$txt['pruneSpiderHitLog'] = 'Remove search engine hit logs older than';
-$txt['cookieTime'] = 'Default login cookies length (in minutes)';
+$txt['log_enabled_profile'] = 'Üyelerin profil düzenlemelerini kayıt et';
+$txt['log_enabled_profile_subtext'] = 'İsim ve diğer bölüm değişiklikleri';
+$txt['pruningOptions'] = 'Kayıtlarının temizlenmesine izin ver';
+$txt['pruneZeroDisable'] = '(0 kapatır)';
+$txt['pruneErrorLog'] = 'Şu süreden eski hata kaydını temizle';
+$txt['pruneModLog'] = 'Şu süreden eski moderasyon kaydını temizle';
+$txt['pruneReportLog'] = 'Şu süreden eski moderatör rapor kayıtlarını temizle';
+$txt['pruneScheduledTaskLog'] = 'Şu süreden eski zamanlanmış görevlere ait kayıtları temizle';
+$txt['pruneSpiderHitLog'] = 'Şu süreden eski arama motoru kayıtlarını temizle';
+$txt['cookieTime'] = 'Varsayılan oturum çerezi süresi (dakika)';
 $txt['localCookies'] = 'Yerel çerezlerin depolanmasına izin ver';
 $txt['localCookies_subtext'] = '(SSI çalışmayacaktır)';
 $txt['globalCookies'] = 'Alt alan adından bağımsız çerez kullan';
@@ -82,9 +82,9 @@ $txt['home_url_subtext'] = 'If your forum is part of a larger site, put the addr
 $txt['home_link'] = 'Link the title to the home page';
 $txt['home_link_subtext'] = 'The forum title at the top of the page is also a link back to the forum front page. Ticking this box will make it link back to the overall site address you provided above.';
 $txt['site_slogan'] = 'Site sloganı';
-$txt['site_slogan_desc'] = 'Add your own text for a slogan here. Leave empty to show an empty #logo, which you can customize via CSS.';
-$txt['header_logo_url'] = 'Logo image URL';
-$txt['header_logo_url_desc'] = 'Leave blank to show forum name or default logo.';
+$txt['site_slogan_desc'] = 'Kendi forum sloganınızı ekleyin. Logonun yerine geçecek. CSS aracılığıyla özelleştirebilirsiniz. ';
+$txt['header_logo_url'] = 'Logo resim adresi';
+$txt['header_logo_url_desc'] = 'Boş bırakırsanız varsayılan logo veya forum ismi görüntülenecektir.';
 $txt['todayMod'] = 'Bugün özelliğini etkinleştir';
 $txt['today_disabled'] = 'Kapalı';
 $txt['today_only'] = 'Sadece Bugün';
@@ -96,26 +96,26 @@ $txt['display_who_viewing'] = 'Bölüm indeksi ve konulara bakanları göster';
 $txt['who_display_viewing_off'] = 'Gösterme';
 $txt['who_display_viewing_numbers'] = 'Üye sayısını göster';
 $txt['who_display_viewing_names'] = 'Üye isimlerini göster';
-$txt['show_stats_index'] = 'Show statistics on board index';
-$txt['show_latest_member'] = 'Show latest member on board index';
+$txt['show_stats_index'] = 'Forum anasayfasında istatistikleri göster';
+$txt['show_latest_member'] = 'Forum anasayfasında son üyeyi göster';
 $txt['show_avatars'] = 'İletilerde kullanıcı avatarını göster';
 $txt['show_signatures'] = 'İletilerde kullanıcı imzalarını göster';
 $txt['show_blurb'] = 'Kişisel başlıklara izin ver';
 $txt['show_gender'] = 'İletilerde cinsiyet göstergesi göster';
 $txt['show_board_desc'] = 'Bölüm içinde açıklamasını göster';
-$txt['show_children'] = 'Show sub-boards on every page inside boards, not just the first.';
+$txt['show_children'] = 'Alt kategorileri bölüm içinde sadece ilk sayfada göster.';
 
-$txt['pm_enabled'] = 'Enable personal messages between members';
+$txt['pm_enabled'] = 'Üyeler arası kişisel ileti gönderimini etkinleştir';
 $txt['pm_read'] = 'Groups allowed to read their messages';
 $txt['pm_send'] = 'Groups allowed to send messages';
 $txt['save_pm_draft'] = 'Groups allowed to save drafts';
 $txt['auto_save_pm_draft'] = 'Groups whose drafts will automatically save';
 $txt['pm_draft_other_settings'] = 'You can also set how often drafts are saved and whether old drafts are removed from the <a href="<URL>?action=admin;area=postsettings;sa=drafts">Draft Settings</a> page.';
 
-$txt['likes_enabled'] = 'Enable likes system';
-$txt['likes_own_posts'] = 'Users can like their own posts';
+$txt['likes_enabled'] = 'Beğeni Sistemi Aç';
+$txt['likes_own_posts'] = 'Kullanıcılar kendi iletilerini beğenebilir';
 
-$txt['boardurl'] = 'Forum URL';
+$txt['boardurl'] = 'Forum Adresi';
 
 $txt['caching_information'] = '<div class="center" style="font-weight: bold; text-decoration: underline">Önemli! Bu özellikleri kullanmadan önce mutlaka burayı okuyunuz.</div><br>
 	Wedge hızlandırıcılar yolu ile önbelleklemeyi desteklemektedir. Kullanabileceğiniz hızlandırıcılar şunlardır:<br>
@@ -125,16 +125,14 @@ $txt['caching_information'] = '<div class="center" style="font-weight: bold; tex
 		<li>Zend Platform/Performance Suite (Zend Optimizer Değil!)</li>
 		<li>XCache</li>
 	</ul>
-	Caching will work best if you have PHP compiled with one of the above optimizers, or have a Memcached server available (along with the associated PHP extension.)
-	If you do not have any optimizer installed, Wedge will do file-based caching.<br><br>
-	Wedge performs caching at a variety of levels. The higher the level of caching enabled, the more CPU time will be spent
-	retrieving cached information. If caching is available on your machine, it is recommended that you try caching at level 1 first.
+	Önbellekleme sadece sisteminizde yukarıdaki PHP hızlandırıcılar yüklü ise çalışacaktır.<br />
+	Wedge birçok önbellekleme aşaması desteklemektedir, aşama arttıkça, işlemcinize binen yükte aynı oranda artacaktır.
+	Eğer sisteminizde önbellekleme kullanılabilir ise size şiddetle seviye 1 önbelleklemeyi kullanmanızı öneririz.
 	<br><br>
-	Note that if you use Memcached, you need to provide the server details in the setting below. Wedge will perform random load balancing across the servers.
-	They should be entered as a comma-separated list as shown in the example below:<br>
-	&quot;localhost,server2,server3:port,127.0.0.1&quot;<br><br>
-	If you do not specify a port, the default port (11211) will be used.
-	<br><br>
+	Unutmayın eğer memcahce kullanacaksanız sunucunuz ile ilgili detayları aşağıda belirtmeniz gerekecektir.
+	Bu detaylar şu şekilde girilmelidir: &quot;server1,server2,server3:port,127.0.0.1&quot;<br><br>
+	Eğer bir port belirtilmezse, SMF varsayılan olarak port 11211 i kullancaktır.
+	<br /><br />
 	%1$s';
 
 $txt['detected_no_caching'] = '<strong class="alert">Wedge sunucunuzda her hangi bir hızlandırıcı tespit edemedi.</strong>';
@@ -164,9 +162,9 @@ $txt['loadavg_forum'] = 'Tüm forumu <strong>tamamen</strong> kullanıma kapatma
 $txt['loadavg_disabled_conf'] = '<span class="error">Yükleme dengeleme desteği sunucunuzun ayarları tarafından iptal edilmiştir.</span>';
 
 $txt['news_settings_submit'] = 'Kaydet';
-$txt['xmlnews_enable'] = 'Enable Atom feeds';
-$txt['xmlnews_maxlen'] = 'Maximum message length:';
-$txt['xmlnews_maxlen_subtext'] = '(0 to disable, bad idea.)';
+$txt['xmlnews_enable'] = 'Atom beslemesini etkinleştir';
+$txt['xmlnews_maxlen'] = 'Max. mesaj uzunluğu:';
+$txt['xmlnews_maxlen_subtext'] = '(0 kapalı, kötü seçim olur.)';
 $txt['xmlnews_sidebar'] = 'Show the "Latest Posts Feed" block in the sidebar';
 $txt['enable_news'] = 'Show a random news line on all pages';
 $txt['show_newsfader'] = 'Show news fader on board index';
@@ -177,10 +175,10 @@ $txt['reverse_proxy_header'] = 'Proxy HTTP header with IP address';
 $txt['reverse_proxy_ips'] = 'IP or CIDR block addresses of proxy servers';
 $txt['reverse_proxy_one_per_line'] = 'Specify one address per line';
 
-$txt['login_type'] = 'What is allowed for a user to log in with?';
-$txt['login_username_or_email'] = 'Either their username or their email address';
-$txt['login_username_only'] = 'Their username only';
-$txt['login_email_only'] = 'Their email address only';
+$txt['login_type'] = 'Oturum açmak için hangi yöntem kullanılsın?';
+$txt['login_username_or_email'] = 'Kullanıcı adı veya eposta adresi';
+$txt['login_username_only'] = 'Sadece kullanıcı adı';
+$txt['login_email_only'] = 'Sadece eposta adresi';
 
 $txt['setting_password_strength'] = 'Kullanıcı şifrelerinin güvenilirliği';
 $txt['setting_password_strength_low'] = 'Düşük - en az 4 karakter';
@@ -197,11 +195,11 @@ $txt['setting_guests_require_captcha'] = 'Ziyaretçilerin ileti gönderiminde do
 $txt['setting_guests_require_captcha_desc'] = '(Aşağıda minimum bir ileti sayısı belirlediyseniz, otomatik devreye girer)';
 $txt['guests_report_require_captcha'] = 'Ziyaretçiler bir ileti rapor ederken doğrulamayı geçmek zorundadır';
 
-$txt['configure_captcha'] = 'Configure CAPTCHA images';
+$txt['configure_captcha'] = 'Doğrulama CAPTCHA resimini Yapılandır';
 $txt['configure_captcha_desc'] = '<span class="smalltext">A CAPTCHA is a form of anti-bot protection to help guard against automated robots posting nonsense on your forum.</span>';
-$txt['use_captcha_images'] = 'Enable using CAPTCHA images?';
-$txt['use_animated_captcha'] = 'Use the animated CAPTCHA images?';
-$txt['use_animated_captcha_desc'] = 'Animated CAPTCHAs are particularly tricky for bots to beat, but they may be harder for normal users to solve, too.';
+$txt['use_captcha_images'] = 'Doğrulama için CAPTCHA resimini etkinleştir';
+$txt['use_animated_captcha'] = 'Hareketli resimler kullan';
+$txt['use_animated_captcha_desc'] = 'Hareketli görnütüleri botlar\'ın çözmesi çok zor ama normal kullanıcılar için de çözmek zor olabilir.';
 
 $txt['setting_qa_verification_number'] = 'Kullanıcının yanıtlaması gerekli doğrulama soruları';
 $txt['setting_qa_verification_number_desc'] = '(0 -  kapatır, sorular aşağıdadır)';
