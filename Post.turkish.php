@@ -154,15 +154,15 @@ $txt['cannot_attach_ext'] = 'The type of file you have tried to attach ({ext}) i
 // Don't use entities in the below string.
 $txt['more_attachments_error'] = 'Sorry, you aren\'t allowed to post any more attachments.';
 
-$txt['more_smileys'] = 'more';
-$txt['more_smileys_pick'] = 'Show available smileys';
+$txt['more_smileys'] = 'daha fazla';
+$txt['more_smileys_pick'] = 'Mevcut gülümsemeleri göster';
 
-$txt['save_draft'] = 'Save as Draft';
-$txt['last_saved_on'] = 'Last saved';
-$txt['draft_saved'] = 'Your post has been saved as a draft. You can access it from <a href="{draft_link}">your profile</a>.';
-$txt['pm_draft_saved'] = 'Your message has been saved as a draft. You can access it from <a href="{draft_link}">your drafts area</a>.';
-$txt['save_draft_warning'] = 'Saving a draft will retain the basic post details (title, text, icon), but not attachments, poll options or anything else. Are you happy to proceed with saving this draft?';
-$txt['empty_draft'] = 'You cannot have a draft that is completely empty.';
+$txt['save_draft'] = 'Taslak olarak kaydet';
+$txt['last_saved_on'] = 'Son kayıt';
+$txt['draft_saved'] = 'İletiniz taslak olarak kayıt edildi <a href="{draft_link}">Profilinizden</a> erişebilirsiniz.';
+$txt['pm_draft_saved'] = 'Mesajınız taslak olarak kaydedildi. <a href="{draft_link}">Taslaklar sayfanızdan</a> erişebilirsiniz.';
+$txt['save_draft_warning'] = 'Bu iletinin sadece metni (başlık, konu içeriği vb.) taslak olarak kayıt edilir, ancak dosya ekleri, aanket seçenekleri veya başka şeyler kayıt edilmez';
+$txt['empty_draft'] = 'Tamamen boş bir taslak olamaz.';
 
 $txt['report_sent'] = 'Your report has been sent successfully.';
 
