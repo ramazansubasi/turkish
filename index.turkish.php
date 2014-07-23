@@ -117,7 +117,7 @@ $txt['position'] = 'Konum';
 $txt['total'] = 'Toplam';
 $txt['posts_made'] = 'İleti';
 $txt['website'] = 'Website';
-$txt['register'] = 'Register';
+$txt['register'] = 'Kayıt Ol';
 $txt['warning_status'] = 'Uyarı Durumu';
 $txt['user_warn_warned'] = 'Kullanıcı uyarıldı';
 $txt['user_warn_moderate'] = 'Üyenin iletileri onaydan geçmektedir';
@@ -139,14 +139,14 @@ $txt['usermenu_sendpm'] = 'Message';
 $txt['usermenu_sendpm_desc'] = 'Kişisel İleti Gönder';
 $txt['usermenu_showposts'] = 'İletileri göster';
 $txt['usermenu_showposts_desc'] = 'View user\'s latest contributions';
-$txt['usermenu_addbuddy'] = '+ Contacts';
-$txt['usermenu_addbuddy_desc'] = 'Add user to my contacts';
-$txt['usermenu_removebuddy'] = '- Contacts';
-$txt['usermenu_removebuddy_desc'] = 'Remove user from my contacts';
-$txt['usermenu_ignore'] = 'Ignore';
-$txt['usermenu_ignore_desc'] = 'Ignore this user';
-$txt['usermenu_unignore'] = 'Unignore';
-$txt['usermenu_unignore_desc'] = 'Unignore this user';
+$txt['usermenu_addbuddy'] = '+ Listeme ekle';
+$txt['usermenu_addbuddy_desc'] = 'İletişim listeme ekle';
+$txt['usermenu_removebuddy'] = '- Listemden çıkart';
+$txt['usermenu_removebuddy_desc'] = 'Üyeyi iletişim listemden sil';
+$txt['usermenu_ignore'] = 'Engelle';
+$txt['usermenu_ignore_desc'] = 'Bu üyeyi engelle';
+$txt['usermenu_unignore'] = 'Engelle';
+$txt['usermenu_unignore_desc'] = 'Bu üyeyi engelle';
 $txt['usermenu_seeip'] = '<span style="color: #aaa">IP: %2%</span>';
 $txt['usermenu_seeip_desc'] = 'Posted from this IP address';
 $txt['usermenu_trackip'] = '<span style="color: #aaa">IP: %2%</span>';
@@ -162,7 +162,7 @@ $txt['acme_quote_desc'] = 'Reply to this post';
 $txt['acme_modify'] = 'Düzenle';
 $txt['acme_modify_desc'] = 'Edit this post';
 $txt['acme_report'] = 'Rapor et';
-$txt['acme_report_desc'] = 'Report this post to a moderator';
+$txt['acme_report_desc'] = 'Bu iletiyi moderatöre rapor et';
 $txt['acme_restore'] = 'Restore';
 $txt['acme_restore_desc'] = 'Restore this post\'s visibility';
 $txt['acme_merge'] = 'Birleştir';
@@ -223,9 +223,9 @@ $txt['there_are_unapproved_topics'] = 'Bu bölüme ait onaylanmamış %1$s konu 
 $txt['msg_alert_none'] = 'Mesaj yok...';
 // SSI - The {new} construct is used to add the (x new) area in a language-dependent manner, using unread_pms, as below.
 $txt['you_have_msg'] = array(
-	0 => 'you have no messages',
-	1 => 'you have <a href="<URL>?action=pm">1</a> message {new}',
-	'n' => 'you have <a href="<URL>?action=pm">%s</a> messages {new}',
+	0 => 'hiç mesajınız yok',
+	1 => '<a href="<URL>?action=pm">1</a> mesaj {new}',
+	'n' => '<a href="<URL>?action=pm">%s</a> mesaj {new}',
 );
 $txt['unread_pms'] = array(0 => '(none new)', 1 => '(1 new)', 'n' => '(%s new)');
 
