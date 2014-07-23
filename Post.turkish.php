@@ -4,7 +4,7 @@
 $txt['post_reply'] = 'Yanıt gönder';
 $txt['enter_verification_details'] = 'Doğrulama detaylarını tamamlayın';
 $txt['message_icon'] = 'İleti Simgesi';
-$txt['current_icon'] = 'Current Icon';
+$txt['current_icon'] = 'İleti Simgesi';
 $txt['subject_not_filled'] = 'İletinin konu başlığı boş bırakılamaz.';
 $txt['message_body_not_filled'] = 'İleti bölümü boş bırakılamaz.';
 
@@ -86,11 +86,11 @@ $txt['icon_cry'] = 'Ağlayıyor';
 $txt['icon_edit'] = 'Düzenlendi';
 
 // Editor prompt.
-$txt['prompt_text_email'] = 'Please enter the email address.';
-$txt['prompt_text_ftp'] = 'Please enter the ftp address.';
-$txt['prompt_text_url'] = 'Please enter the URL you wish to link to.';
-$txt['prompt_text_img'] = 'Enter image location';
-$txt['prompt_text_desc'] = 'Please enter what text the link should say. Leave blank to show the URL.';
+$txt['prompt_text_email'] = 'Eposta adresini giriniz.';
+$txt['prompt_text_ftp'] = 'FTP adresini giriniz.';
+$txt['prompt_text_url'] = 'Bağlanmak istediğiniz adresi giriniz.';
+$txt['prompt_text_img'] = 'Resim adresini giriniz.';
+$txt['prompt_text_desc'] = 'Lütfen bağlantı metni girin. Sadece URL görünmesi için boş bırakın.';
 
 $txt['lock_after_post'] = 'Gönderdikten sonra kilitle';
 $txt['notify_replies'] = 'Yanıt gönderildiğinde haberdar et.';
