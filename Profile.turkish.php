@@ -268,15 +268,15 @@ $txt['show_online'] = 'Diğer üyelere çevrimiçi durumumu göster';
 
 $txt['return_to_post'] = 'İleti gönderdikten sonra konuya geri dön.';
 $txt['posts_apply_ignore_list'] = 'Engelli listemdekilerin gönderdiği iletileri gizle.';
-$txt['view_newest_first'] = 'Show most recent posts at the top.';
-$txt['view_newest_pm_first'] = 'Show most recent personal messages at top.';
+$txt['view_newest_first'] = 'En son gönderilen mesajları üstte göster.';
+$txt['view_newest_pm_first'] = 'En son gönderilen kişisel iletileri üstte göster.';
 $txt['wysiwyg_default'] = 'İletilerde WYSIWYG editörü varsayılan olarak göster';
 
-$txt['timeformat_default'] = '(Forum Default)';
-$txt['timeformat_easy1'] = 'Month Day, Year, HH:MM:SS am/pm';
-$txt['timeformat_easy2'] = 'Month Day, Year, HH:MM:SS (24 hour)';
+$txt['timeformat_default'] = '(Forum Varsayılanı)';
+$txt['timeformat_easy1'] = 'Ay Gün, Yıl, HH:MM:SS am/pm';
+$txt['timeformat_easy2'] = 'Ay Gün, Yıl, HH:MM:SS (24 saat)';
 $txt['timeformat_easy3'] = 'YYYY-MM-DD, HH:MM:SS';
-$txt['timeformat_easy4'] = 'DD Month YYYY, HH:MM:SS';
+$txt['timeformat_easy4'] = 'DD Ay YYYY, HH:MM:SS';
 $txt['timeformat_easy5'] = 'DD-MM-YYYY, HH:MM:SS';
 
 $txt['poster'] = 'Gönderen';
