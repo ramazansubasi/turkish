@@ -629,7 +629,7 @@ $txt['privacy_default'] = 'Varsayılan';
 $txt['privacy_public'] = 'Herkes';
 $txt['privacy_members'] = 'Üyeler';
 $txt['privacy_group'] = 'Üye Grupları';
-$txt['privacy_list'] = 'Contacts';
+$txt['privacy_list'] = 'Kişilerim';
 $txt['privacy_author'] = 'Sadece ben';
 
 // Do not use double quotes in the form_* text strings. (Why would you?)
