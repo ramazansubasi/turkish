@@ -527,12 +527,12 @@ $txt['approve_members_waiting'] = array(
 $txt['notifyboard_turnon'] = 'Bu bölümde yeni konu açıldığında e-posta ile uyarı alacaksınız. Devam etmek istiyor musunuz?';
 $txt['notifyboard_turnoff'] = 'Artık bu bölüme yeni konular eklendiğinde e-posta ile uyarı almayacaksınız. Devam etmek istiyor musunuz?';
 
-$txt['show_unread'] = 'Unread posts';
-$txt['show_unread_replies'] = 'Unread replies';
+$txt['show_unread'] = 'Okunmamış İletiler';
+$txt['show_unread_replies'] = 'Okunmamış Yanıtlar';
 
 $txt['quickmod_delete_selected'] = 'Seçileni Sil';
 
-$txt['show_personal_messages'] = 'You have received one or more new personal messages.<br><br>Would you like to open a new window to view them?';
+$txt['show_personal_messages'] = 'Bir veya daha fazla kişisel ileti aldınız.<br><br>Yeni pencerede Görüntülemek istiyor musunuz??';
 
 $txt['previous_next_back'] = '&laquo; geri';
 $txt['previous_next_forward'] = 'ileri &raquo;';
@@ -541,8 +541,8 @@ $txt['upshrink_description'] = 'Alanı gizle/göster';
 
 $txt['mark_unread'] = '	Okunmadı Say';
 
-$txt['error_while_submitting'] = 'The following error or errors occurred while posting this message:';
-$txt['error_old_topic'] = 'Warning: this topic has not been posted in for at least %1$d days.<br>Unless you\'re sure you want to reply, please consider starting a new topic.';
+$txt['error_while_submitting'] = 'İleti gönderilirken şu hatalar oluştu:';
+$txt['error_old_topic'] = 'Uyarı: bu konuya en az %1$d gündür yanıt gönderilmemiş.<br />Yanıt vermek yerine yeni bir konu açmanız önerilir.';
 
 $txt['mark_read_short'] = 'Okunmuş Say';
 
@@ -606,11 +606,11 @@ $txt['b_type'] = array('blog' => 'blog', 'forum' => 'forum', 'media' => 'gallery
 $txt['b_item'] = array('blog' => 'post', 'forum' => 'topic', 'media' => 'item', 'site' => 'article');
 
 // Indicates the date of the first post when merging two posts.
-$txt['search_date_posted'] = 'Posted:';
+$txt['search_date_posted'] = 'Gönderen:';
 
 // Spoiler tags. But you're smart, so you don't need me telling.
 $txt['spoiler'] = 'Spoiler';
-$txt['click_for_spoiler'] = '(click to show/hide)';
+$txt['click_for_spoiler'] = '(göstermek/gizlemek için tıklayın)';
 
 $txt['readmore'] = '(%1$d daha fazla karakter)';
 $txt['thoughts'] = 'Düşünceler';
@@ -637,12 +637,12 @@ $txt['form_submit'] = 'Gönder';
 $txt['form_cancel'] = 'İptal';
 
 // Media Gallery
-$txt['media_gallery'] = 'Media Gallery';
-$txt['media_home'] = 'Home';
+$txt['media_gallery'] = 'Medya Galerisi';
+$txt['media_home'] = 'Anasayfa';
 $txt['media_unseen'] = 'Unseen';
 $txt['media_profile_sum'] = 'Summary';
 $txt['media_view_items'] = 'View items';
-$txt['media_view_coms'] = 'View comments';
-$txt['media_view_votes'] = 'View votes';
-$txt['media_gotolink'] = 'Details';
-$txt['media_zoom'] = 'Zoom';
+$txt['media_view_coms'] = 'Yorumları görüntüle';
+$txt['media_view_votes'] = 'Oyları görüntüle';
+$txt['media_gotolink'] = 'Detaylar';
+$txt['media_zoom'] = 'Yakınlaştır';
