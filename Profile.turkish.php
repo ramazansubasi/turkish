@@ -83,7 +83,7 @@ $txt['profileConfirm'] = 'Bu üyeyi gerçekten silmek istiyor musunuz?';
 
 $txt['custom_title'] = 'Özel Başlık';
 
-$txt['current_action'] = 'User is currently';
+$txt['current_action'] = 'Üye şu anda';
 
 $txt['lastLoggedIn'] = 'Son Aktif Olma Zamanı';
 
