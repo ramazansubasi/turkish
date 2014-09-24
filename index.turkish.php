@@ -194,6 +194,7 @@ $txt['error_occurred'] = 'Bir Hata Meydana Geldi!';
 $txt['logout'] = 'Çıkış';
 $txt['started_by'] = 'Başlatan:';
 $txt['last_post_author_link_time'] = '<strong>Son İleti:</strong> Gönderen: {author}  {link} {time}';
+$txt['last_post_time_link'] = '{time} - {link}';
 $txt['last_post_time_author'] = '{time} gönderen {author}';
 $txt['board_off_limits'] = 'This board is off-limits to you.';
 
