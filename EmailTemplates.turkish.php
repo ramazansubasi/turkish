@@ -360,7 +360,7 @@ You may change it after you login by going to the profile page, or by visiting t
 $txt['emailtemplate_register_activate'] = array(
 	'desc' => 'The email sent to users when registering and need to activate their email address.',
 	'subject' => 'Welcome to {FORUMNAME}',
-	'body' => '{FORUMNAME}\'a Kayit oldugunuz icin tesekkurler. Kullanici Adiniz: {USERNAME}. Sifrenizi unutursaniz eger, asagidaki linke tiklayarak sifiralayabilirsiniz.
+	'body' => '{FORUMNAME}\'a Kayit oldugunuz icin tesekkurler. Kullanici Adiniz: {USERNAME}. Sifrenizi unutursaniz eger, asagidaki linke tiklayarak sifirlayabilirsiniz.
 
 {FORGOTPASSWORDLINK}.
 
@@ -376,7 +376,7 @@ Aktivasyon ile ilgili sorun yasarsaniz eger, burayi ziyaret ederek; {ACTIVATIONL
 $txt['emailtemplate_register_activate_approve'] = array(
 	'desc' => 'The email sent to users to activate their account, but when the administrator then has to approve their account.',
 	'subject' => '{FORUMNAME}: Hosgeldiniz!',
-	'body' => '{FORUMNAME}\'a Kayit oldugunuz icin tesekkurler. Kullanici Adiniz: {USERNAME}. Sifrenizi unutursaniz eger, asagidaki linke tiklayarak sifiralayabilirsiniz.
+	'body' => '{FORUMNAME}\'a Kayit oldugunuz icin tesekkurler. Kullanici Adiniz: {USERNAME}. Sifrenizi unutursaniz eger, asagidaki linke tiklayarak sifirlayabilirsiniz.
 
 {FORGOTPASSWORDLINK}.
 
@@ -394,7 +394,7 @@ Once that has taken place, the administrator will review your application and de
 $txt['emailtemplate_register_coppa'] = array(
 	'desc' => 'The email sent to users when registering but then need to fill out the COPPA form for parental consent.',
 	'subject' => 'Welcome to {FORUMNAME}',
-	'body' => '{FORUMNAME}\'a Kayit oldugunuz icin tesekkurler.Kullanici Adiniz: {USERNAME}. Sifrenizi unutursaniz eger, asagidaki linke tiklayarak sifiralayabilirsiniz.
+	'body' => '{FORUMNAME}\'a Kayit oldugunuz icin tesekkurler.Kullanici Adiniz: {USERNAME}. Sifrenizi unutursaniz eger, asagidaki linke tiklayarak sifirlayabilirsiniz.
 
 {FORGOTPASSWORDLINK}.
 
@@ -412,7 +412,7 @@ $txt['emailtemplate_register_immediate'] = array(
 
 Kullanici Adiniz {USERNAME}.
 
-Sifrenizi unutursaniz eger, asagidaki linke tiklayarak sifiralayabilirsiniz.
+Sifrenizi unutursaniz eger, asagidaki linke tiklayarak sifirlayabilirsiniz.
 
 {FORGOTPASSWORDLINK}.
 
