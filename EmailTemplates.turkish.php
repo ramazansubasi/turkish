@@ -15,7 +15,7 @@ $txt['scheduled_approval_email_msg'] = 'Asagidaki iletiler onaylanmayi bekliyor:
 $txt['emailtemplate_resend_activate_message'] = array(
 	'desc' => 'The email sent to a user when they have registered and their account needs activating through email (as the second or later email)',
 	'subject' => '{FORUMNAME}: Hosgeldiniz!',
-	'body' => 'Thank you for registering at {FORUMNAME}. Your username is {USERNAME}. If you forget your password, you can reset it by visiting {FORGOTPASSWORDLINK}.
+	'body' => '{FORUMNAME}\'e kayit oldugunuz icin tesekkurler. Kullanici adiniz {USERNAME}. Sifrenizi unutursaniz asagidaki linke tiklayabilirsiniz {FORGOTPASSWORDLINK}.
 
 Giris yapmadan once hesabinizi aktiflestirmeniz gerekmektedir. Uyeliginizi tamamlamak icin lUtfen bu adrese tiklayiniz:
 
