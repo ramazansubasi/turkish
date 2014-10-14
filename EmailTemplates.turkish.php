@@ -1,5 +1,5 @@
 <?php
-// Version: 2.0; EmailTemplates
+// Version: 2.0; EmailTemplatesf
 
 // Since all of these strings are being used in emails, numeric entities should be used.
 
@@ -15,7 +15,7 @@ $txt['scheduled_approval_email_msg'] = 'Asagidaki iletiler onaylanmayi bekliyor:
 $txt['emailtemplate_resend_activate_message'] = array(
 	'desc' => 'The email sent to a user when they have registered and their account needs activating through email (as the second or later email)',
 	'subject' => '{FORUMNAME}: Hosgeldiniz!',
-	'body' => '{FORUMNAME}\'e kayit oldugunuz icin tesekkurler. Kullanici adiniz {USERNAME}. Sifrenizi unutursaniz asagidaki linke tiklayabilirsiniz {FORGOTPASSWORDLINK}.
+	'body' => '{FORUMNAME}\'e kayit oldugunuz icin tesekkurler. Kullanici adiniz: {USERNAME}. Sifrenizi unutursaniz asagidaki linke tiklayabilirsiniz {FORGOTPASSWORDLINK}.
 
 Giris yapmadan once hesabinizi aktiflestirmeniz gerekmektedir. Uyeliginizi tamamlamak icin lUtfen bu adrese tiklayiniz:
 
@@ -119,7 +119,7 @@ Should you have any problems with the activation, please visit {ACTIVATIONLINKWI
 
 $txt['emailtemplate_admin_register_activate'] = array(
 	'desc' => 'The email sent to users who have been registered in the administration panel, and it requires email validation.',
-	'subject' => 'Welcome to {FORUMNAME}',
+	'subject' => '{FORUMNAME}\'a Hos Geldiniz!',
 	'body' => 'A member account was created for you at {FORUMNAME}. Your username is {USERNAME} and your password is {PASSWORD}.
 
 Before you can login, you must first activate your account by selecting the following link:
@@ -133,7 +133,7 @@ Should you have any problems with the activation, please visit {ACTIVATIONLINKWI
 
 $txt['emailtemplate_admin_register_immediate'] = array(
 	'desc' => 'The email sent to users who have been registered in the administration panel and no further action is required.',
-	'subject' => 'Welcome to {FORUMNAME}',
+	'subject' => '{FORUMNAME}\'a Hos Geldiniz!',
 	'body' => 'A member account was created for you at {FORUMNAME}. Your username is {USERNAME} and your password is {PASSWORD}.
 
 You can reach {FORUMNAME} by visiting {SCRIPTURL} in your browser.
@@ -156,7 +156,7 @@ You can view the full announcement by following this link:
 
 $txt['emailtemplate_notify_boards_once_body'] = array(
 	'desc' => 'The email sent to users who have requested notifications on a given board, including the body, for the first new topic in that board (until they log in and read).',
-	'subject' => 'New Topic: {TOPICSUBJECT}',
+	'subject' => 'Yeni Konu: {TOPICSUBJECT}',
 	'body' => 'A new topic, \'{TOPICSUBJECT}\', has been made on a board you are watching.
 
 You can see it at
@@ -191,7 +191,7 @@ Bu bolUmden daha fazla duyuru almak istemiyorsaniz, asagidaki baglantiya tiklayi
 
 $txt['emailtemplate_notify_boards_body'] = array(
 	'desc' => 'The email sent to users who have requested notifications on a given board, including the body.',
-	'subject' => 'New Topic: {TOPICSUBJECT}',
+	'subject' => 'Yeni Konu: {TOPICSUBJECT}',
 	'body' => 'A new topic, \'{TOPICSUBJECT}\', has been made on a board you are watching.
 
 You can see it at
@@ -208,7 +208,7 @@ Unsubscribe to new topics from this board by using this link:
 
 $txt['emailtemplate_notify_boards'] = array(
 	'desc' => 'The email sent to users who have requested notifications on a given board.',
-	'subject' => 'New Topic: {TOPICSUBJECT}',
+	'subject' => 'Yeni Konu: {TOPICSUBJECT}',
 	'body' => 'A new topic, \'{TOPICSUBJECT}\', has been made on a board you are watching.
 
 You can see it at
@@ -254,7 +254,7 @@ To edit your subscriptions visit the following URL:
 
 $txt['emailtemplate_activate_reactivate'] = array(
 	'desc' => 'The email sent to a user that has changed their email address and requires it be re-validated.',
-	'subject' => 'Welcome back to {FORUMNAME}',
+	'subject' => '{FORUMNAME}\'a Tekrar Hos Geldiniz!',
 	'body' => 'In order to re-validate your email address, your account has been deactivated. Click the following link to activate it again:
 {ACTIVATIONLINK}
 
@@ -359,7 +359,7 @@ You may change it after you login by going to the profile page, or by visiting t
 
 $txt['emailtemplate_register_activate'] = array(
 	'desc' => 'The email sent to users when registering and need to activate their email address.',
-	'subject' => 'Welcome to {FORUMNAME}',
+	'subject' => '{FORUMNAME}\'a Hos Geldiniz!',
 	'body' => '{FORUMNAME}\'a Kayit oldugunuz icin tesekkurler. Kullanici Adiniz: {USERNAME}. Sifrenizi unutursaniz eger, asagidaki linke tiklayarak sifirlayabilirsiniz.
 
 {FORGOTPASSWORDLINK}.
@@ -393,7 +393,7 @@ Once that has taken place, the administrator will review your application and de
 
 $txt['emailtemplate_register_coppa'] = array(
 	'desc' => 'The email sent to users when registering but then need to fill out the COPPA form for parental consent.',
-	'subject' => 'Welcome to {FORUMNAME}',
+	'subject' => '{FORUMNAME}\'a Hos Geldiniz!',
 	'body' => '{FORUMNAME}\'a Kayit oldugunuz icin tesekkurler.Kullanici Adiniz: {USERNAME}. Sifrenizi unutursaniz eger, asagidaki linke tiklayarak sifirlayabilirsiniz.
 
 {FORGOTPASSWORDLINK}.
@@ -407,10 +407,10 @@ Before you can login, the admin requires consent from your parent/guardian for y
 
 $txt['emailtemplate_register_immediate'] = array(
 	'desc' => 'The email sent to users when registering and their account is immediately active.',
-	'subject' => 'Welcome to {FORUMNAME}',
+	'subject' => '{FORUMNAME}\'a Hos Geldiniz!',
 	'body' => '{FORUMNAME}\'a Kayit oldugunuz icin tesekkurler.
 
-Kullanici Adiniz {USERNAME}.
+Kullanici Adiniz: {USERNAME}.
 
 Sifrenizi unutursaniz eger, asagidaki linke tiklayarak sifirlayabilirsiniz.
 
@@ -421,7 +421,7 @@ Sifrenizi unutursaniz eger, asagidaki linke tiklayarak sifirlayabilirsiniz.
 
 $txt['emailtemplate_register_pending'] = array(
 	'desc' => 'The email sent to users when they have registered and their account is awaiting administrator approval.',
-	'subject' => 'Welcome to {FORUMNAME}',
+	'subject' => '{FORUMNAME}\'a Hos Geldiniz!',
 	'body' => 'Your registration request at {FORUMNAME} has been received, {REALNAME}.
 
 The username you registered with was {USERNAME}. If you forget your password, you can change it at {FORGOTPASSWORDLINK}.
@@ -473,8 +473,7 @@ Yorumu goruntuleyin;
 Konuyu takip etmeyi birakmak icin tiklayin;
 {UNSUBSCRIBELINK}
 
-
-More replies may be posted, but you won\'t receive any more notifications until you read the topic.
+Konuya gelen yorumlari okuyana kadar tekrar bildirim gelmeyecektir.
 
 {REGARDS}',
 );
